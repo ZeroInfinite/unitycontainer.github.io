@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Interface IContainerRegistration
    ">
-    <meta name="generator" content="docfx 2.28.1.0">
+    <meta name="generator" content="docfx 2.28.3.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -73,7 +73,7 @@
   
   <h1 id="Unity_Registration_IContainerRegistration" data-uid="Unity.Registration.IContainerRegistration" class="text-break">Interface IContainerRegistration
   </h1>
-  <div class="markdown level0 summary"><p>Class that returns information about the types registered in a container.</p>
+  <div class="markdown level0 summary"><p>Information about the types registered in a container.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Unity.Registration.html">Unity.Registration</a></h6>
@@ -89,7 +89,7 @@
     <a href="https://github.com/unitycontainer/abstractions/new/master/apiSpec/new?filename=Unity_Registration_IContainerRegistration_LifetimeManager.md&amp;value=---%0Auid%3A%20Unity.Registration.IContainerRegistration.LifetimeManager%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/unitycontainer/abstractions/blob/master/src/Registration/IContainerRegistration.cs/#L35">View Source</a>
+    <a href="https://github.com/unitycontainer/abstractions/blob/master/src/Registration/IContainerRegistration.cs/#L34">View Source</a>
   </span>
   <a id="Unity_Registration_IContainerRegistration_LifetimeManager_" data-uid="Unity.Registration.IContainerRegistration.LifetimeManager*"></a>
   <h4 id="Unity_Registration_IContainerRegistration_LifetimeManager" data-uid="Unity.Registration.IContainerRegistration.LifetimeManager">LifetimeManager</h4>
@@ -123,12 +123,12 @@
     <a href="https://github.com/unitycontainer/abstractions/new/master/apiSpec/new?filename=Unity_Registration_IContainerRegistration_MappedToType.md&amp;value=---%0Auid%3A%20Unity.Registration.IContainerRegistration.MappedToType%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/unitycontainer/abstractions/blob/master/src/Registration/IContainerRegistration.cs/#L23">View Source</a>
+    <a href="https://github.com/unitycontainer/abstractions/blob/master/src/Registration/IContainerRegistration.cs/#L27">View Source</a>
   </span>
   <a id="Unity_Registration_IContainerRegistration_MappedToType_" data-uid="Unity.Registration.IContainerRegistration.MappedToType*"></a>
   <h4 id="Unity_Registration_IContainerRegistration_MappedToType" data-uid="Unity.Registration.IContainerRegistration.MappedToType">MappedToType</h4>
   <div class="markdown level1 summary"><p>The type that this registration is mapped to. If no type mapping was done, the
-<a class="xref" href="Unity.Registration.IContainerRegistration.html#Unity_Registration_IContainerRegistration_RegisteredType">RegisteredType</a> property and this one will have the same value.</p>
+<see cref="!:INamedType.RegisteredType"></see> property and this one will have the same value.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -155,11 +155,11 @@
     <a href="https://github.com/unitycontainer/abstractions/new/master/apiSpec/new?filename=Unity_Registration_IContainerRegistration_Name.md&amp;value=---%0Auid%3A%20Unity.Registration.IContainerRegistration.Name%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/unitycontainer/abstractions/blob/master/src/Registration/IContainerRegistration.cs/#L28">View Source</a>
+    <a href="https://github.com/unitycontainer/abstractions/blob/master/src/Registration/IContainerRegistration.cs/#L21">View Source</a>
   </span>
   <a id="Unity_Registration_IContainerRegistration_Name_" data-uid="Unity.Registration.IContainerRegistration.Name*"></a>
   <h4 id="Unity_Registration_IContainerRegistration_Name" data-uid="Unity.Registration.IContainerRegistration.Name">Name</h4>
-  <div class="markdown level1 summary"><p>Name the type was registered under. Null for default registration.</p>
+  <div class="markdown level1 summary"><p>Name the registered type. Null for default registration.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -186,12 +186,11 @@
     <a href="https://github.com/unitycontainer/abstractions/new/master/apiSpec/new?filename=Unity_Registration_IContainerRegistration_RegisteredType.md&amp;value=---%0Auid%3A%20Unity.Registration.IContainerRegistration.RegisteredType%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/unitycontainer/abstractions/blob/master/src/Registration/IContainerRegistration.cs/#L17">View Source</a>
+    <a href="https://github.com/unitycontainer/abstractions/blob/master/src/Registration/IContainerRegistration.cs/#L16">View Source</a>
   </span>
   <a id="Unity_Registration_IContainerRegistration_RegisteredType_" data-uid="Unity.Registration.IContainerRegistration.RegisteredType*"></a>
   <h4 id="Unity_Registration_IContainerRegistration_RegisteredType" data-uid="Unity.Registration.IContainerRegistration.RegisteredType">RegisteredType</h4>
-  <div class="markdown level1 summary"><p>The type that was passed to the <a class="xref" href="Unity.IUnityContainer.html#Unity_IUnityContainer_RegisterType_System_Type_System_Type_System_String_Unity_Lifetime_LifetimeManager_Unity_Registration_InjectionMember___">RegisterType(Type, Type, String, LifetimeManager, InjectionMember[])</a> method
-as the &quot;from&quot; type, or the only type if type mapping wasn&apos;t done.</p>
+  <div class="markdown level1 summary"><p>Type of the registration.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>

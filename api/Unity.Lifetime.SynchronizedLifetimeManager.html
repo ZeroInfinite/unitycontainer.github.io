@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Class SynchronizedLifetimeManager
    ">
-    <meta name="generator" content="docfx 2.28.1.0">
+    <meta name="generator" content="docfx 2.28.3.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -89,6 +89,7 @@
   <div classs="implements">
     <h5>Implements</h5>
     <div><a class="xref" href="Unity.Lifetime.ILifetimePolicy.html">ILifetimePolicy</a></div>
+    <div><a class="xref" href="Unity.Lifetime.ILifetimeFactoryPolicy.html">ILifetimeFactoryPolicy</a></div>
     <div><a class="xref" href="Unity.Policy.IBuilderPolicy.html">IBuilderPolicy</a></div>
     <div><a class="xref" href="Unity.Exceptions.IRequiresRecovery.html">IRequiresRecovery</a></div>
     <div><span class="xref">System.IDisposable</span></div>
@@ -100,6 +101,15 @@
     </div>
     <div>
       <a class="xref" href="Unity.Lifetime.LifetimeManager.html#Unity_Lifetime_LifetimeManager_RemoveValue_Unity_Lifetime_ILifetimeContainer_">LifetimeManager.RemoveValue(ILifetimeContainer)</a>
+    </div>
+    <div>
+      <a class="xref" href="Unity.Lifetime.LifetimeManager.html#Unity_Lifetime_LifetimeManager_CreateLifetimePolicy">LifetimeManager.CreateLifetimePolicy()</a>
+    </div>
+    <div>
+      <a class="xref" href="Unity.Lifetime.LifetimeManager.html#Unity_Lifetime_LifetimeManager_LifetimeType">LifetimeManager.LifetimeType</a>
+    </div>
+    <div>
+      <a class="xref" href="Unity.Lifetime.LifetimeManager.html#Unity_Lifetime_LifetimeManager_OnCreateLifetimeManager">LifetimeManager.OnCreateLifetimeManager()</a>
     </div>
     <div>
       <span class="xref">System.Object.Equals(System.Object)</span>
@@ -127,7 +137,7 @@
   <h6><strong>Assembly</strong>: Unity.Abstractions.dll</h6>
   <h5 id="Unity_Lifetime_SynchronizedLifetimeManager_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public abstract class SynchronizedLifetimeManager : LifetimeManager, ILifetimePolicy, IBuilderPolicy, IRequiresRecovery, IDisposable</code></pre>
+    <pre><code class="lang-csharp hljs">public abstract class SynchronizedLifetimeManager : LifetimeManager, ILifetimePolicy, ILifetimeFactoryPolicy, IBuilderPolicy, IRequiresRecovery, IDisposable</code></pre>
   </div>
   <h5 id="Unity_Lifetime_SynchronizedLifetimeManager_remarks"><strong>Remarks</strong></h5>
   <div class="markdown level0 remarks"><p>
@@ -430,6 +440,9 @@ before releasing its lock.</p>
   <h3 id="implements">Implements</h3>
   <div>
       <a class="xref" href="Unity.Lifetime.ILifetimePolicy.html">ILifetimePolicy</a>
+  </div>
+  <div>
+      <a class="xref" href="Unity.Lifetime.ILifetimeFactoryPolicy.html">ILifetimeFactoryPolicy</a>
   </div>
   <div>
       <a class="xref" href="Unity.Policy.IBuilderPolicy.html">IBuilderPolicy</a>

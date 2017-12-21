@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Class InjectionParameter
    ">
-    <meta name="generator" content="docfx 2.28.1.0">
+    <meta name="generator" content="docfx 2.28.3.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -74,7 +74,7 @@
   <h1 id="Unity_Injection_InjectionParameter" data-uid="Unity.Injection.InjectionParameter" class="text-break">Class InjectionParameter
   </h1>
   <div class="markdown level0 summary"><p>A class that holds on to the given value and provides
-the required <a class="xref" href="Unity.Policy.IDependencyResolverPolicy.html">IDependencyResolverPolicy</a>
+the required <a class="xref" href="Unity.Policy.IResolverPolicy.html">IResolverPolicy</a>
 when the container is configured.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
@@ -224,13 +224,13 @@ the given value, associated with the given type.</p>
   </span>
   <a id="Unity_Injection_InjectionParameter_GetResolverPolicy_" data-uid="Unity.Injection.InjectionParameter.GetResolverPolicy*"></a>
   <h4 id="Unity_Injection_InjectionParameter_GetResolverPolicy_System_Type_" data-uid="Unity.Injection.InjectionParameter.GetResolverPolicy(System.Type)">GetResolverPolicy(Type)</h4>
-  <div class="markdown level1 summary"><p>Return a <a class="xref" href="Unity.Policy.IDependencyResolverPolicy.html">IDependencyResolverPolicy</a> instance that will
+  <div class="markdown level1 summary"><p>Return a <a class="xref" href="Unity.Policy.IResolverPolicy.html">IResolverPolicy</a> instance that will
 return this types value for the parameter.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public override IDependencyResolverPolicy GetResolverPolicy(Type typeToBuild)</code></pre>
+    <pre><code class="lang-csharp hljs">public override IResolverPolicy GetResolverPolicy(Type typeToBuild)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -261,8 +261,8 @@ to resolve open generic parameters.</p>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Unity.Policy.IDependencyResolverPolicy.html">IDependencyResolverPolicy</a></td>
-        <td><p>The <a class="xref" href="Unity.Policy.IDependencyResolverPolicy.html">IDependencyResolverPolicy</a>.</p>
+        <td><a class="xref" href="Unity.Policy.IResolverPolicy.html">IResolverPolicy</a></td>
+        <td><p>The <a class="xref" href="Unity.Policy.IResolverPolicy.html">IResolverPolicy</a>.</p>
 </td>
       </tr>
     </tbody>

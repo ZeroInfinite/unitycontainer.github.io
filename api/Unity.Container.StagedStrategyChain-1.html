@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Class StagedStrategyChain&lt;TStageEnum&gt;
    ">
-    <meta name="generator" content="docfx 2.28.1.0">
+    <meta name="generator" content="docfx 2.28.3.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -83,8 +83,7 @@
   </div>
   <div classs="implements">
     <h5>Implements</h5>
-    <div><a class="xref" href="Unity.Strategy.IStagedStrategyChain-1.html">IStagedStrategyChain</a>&lt;TStageEnum&gt;</div>
-    <div><a class="xref" href="Unity.Strategy.IStagedStrategyChain.html">IStagedStrategyChain</a></div>
+    <div><a class="xref" href="Unity.Strategy.IStagedStrategyChain-2.html">IStagedStrategyChain</a>&lt;<a class="xref" href="Unity.Builder.Strategy.IBuilderStrategy.html">IBuilderStrategy</a>, TStageEnum&gt;</div>
     <div><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<a class="xref" href="Unity.Builder.Strategy.IBuilderStrategy.html">IBuilderStrategy</a>&gt;</div>
     <div><span class="xref">System.Collections.IEnumerable</span></div>
     <div><span class="xref">System.IDisposable</span></div>
@@ -117,7 +116,7 @@
   <h6><strong>Assembly</strong>: Unity.Container.dll</h6>
   <h5 id="Unity_Container_StagedStrategyChain_1_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class StagedStrategyChain&lt;TStageEnum&gt; : IStagedStrategyChain&lt;TStageEnum&gt;, IStagedStrategyChain, IEnumerable&lt;IBuilderStrategy&gt;, IEnumerable, IDisposable</code></pre>
+    <pre><code class="lang-csharp hljs">public class StagedStrategyChain&lt;TStageEnum&gt; : IStagedStrategyChain&lt;IBuilderStrategy, TStageEnum&gt;, IEnumerable&lt;IBuilderStrategy&gt;, IEnumerable, IDisposable</code></pre>
   </div>
   <h5 class="typeParameters">Type Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -231,10 +230,60 @@
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
+    <a href="https://github.com/unitycontainer/container/new/v5.x/apiSpec/new?filename=Unity_Container_StagedStrategyChain_1_AddNew__1__0_.md&amp;value=---%0Auid%3A%20Unity.Container.StagedStrategyChain%601.AddNew%60%601(%600)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/unitycontainer/container/blob/v5.x/src/Container/StagedStrategyChain.cs/#L114">View Source</a>
+  </span>
+  <a id="Unity_Container_StagedStrategyChain_1_AddNew_" data-uid="Unity.Container.StagedStrategyChain`1.AddNew*"></a>
+  <h4 id="Unity_Container_StagedStrategyChain_1_AddNew__1__0_" data-uid="Unity.Container.StagedStrategyChain`1.AddNew``1(`0)">AddNew&lt;TStrategy&gt;(TStageEnum)</h4>
+  <div class="markdown level1 summary"><p>Add a new strategy for the <code data-dev-comment-type="paramref" class="paramref">stage</code>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void AddNew&lt;TStrategy&gt;(TStageEnum stage)where TStrategy : IBuilderStrategy, new ()</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">TStageEnum</span></td>
+        <td><span class="parametername">stage</span></td>
+        <td><p>The stage to add the strategy to.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">TStrategy</span></td>
+        <td><p>The <span class="xref">System.Type</span> of strategy</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
     <a href="https://github.com/unitycontainer/container/new/v5.x/apiSpec/new?filename=Unity_Container_StagedStrategyChain_1_Clear.md&amp;value=---%0Auid%3A%20Unity.Container.StagedStrategyChain%601.Clear%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/unitycontainer/container/blob/v5.x/src/Container/StagedStrategyChain.cs/#L113">View Source</a>
+    <a href="https://github.com/unitycontainer/container/blob/v5.x/src/Container/StagedStrategyChain.cs/#L126">View Source</a>
   </span>
   <a id="Unity_Container_StagedStrategyChain_1_Clear_" data-uid="Unity.Container.StagedStrategyChain`1.Clear*"></a>
   <h4 id="Unity_Container_StagedStrategyChain_1_Clear" data-uid="Unity.Container.StagedStrategyChain`1.Clear">Clear()</h4>
@@ -253,7 +302,7 @@
     <a href="https://github.com/unitycontainer/container/new/v5.x/apiSpec/new?filename=Unity_Container_StagedStrategyChain_1_Dispose.md&amp;value=---%0Auid%3A%20Unity.Container.StagedStrategyChain%601.Dispose%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/unitycontainer/container/blob/v5.x/src/Container/StagedStrategyChain.cs/#L166">View Source</a>
+    <a href="https://github.com/unitycontainer/container/blob/v5.x/src/Container/StagedStrategyChain.cs/#L179">View Source</a>
   </span>
   <a id="Unity_Container_StagedStrategyChain_1_Dispose_" data-uid="Unity.Container.StagedStrategyChain`1.Dispose*"></a>
   <h4 id="Unity_Container_StagedStrategyChain_1_Dispose" data-uid="Unity.Container.StagedStrategyChain`1.Dispose">Dispose()</h4>
@@ -268,7 +317,7 @@
     <a href="https://github.com/unitycontainer/container/new/v5.x/apiSpec/new?filename=Unity_Container_StagedStrategyChain_1_GetEnumerator.md&amp;value=---%0Auid%3A%20Unity.Container.StagedStrategyChain%601.GetEnumerator%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/unitycontainer/container/blob/v5.x/src/Container/StagedStrategyChain.cs/#L149">View Source</a>
+    <a href="https://github.com/unitycontainer/container/blob/v5.x/src/Container/StagedStrategyChain.cs/#L162">View Source</a>
   </span>
   <a id="Unity_Container_StagedStrategyChain_1_GetEnumerator_" data-uid="Unity.Container.StagedStrategyChain`1.GetEnumerator*"></a>
   <h4 id="Unity_Container_StagedStrategyChain_1_GetEnumerator" data-uid="Unity.Container.StagedStrategyChain`1.GetEnumerator">GetEnumerator()</h4>
@@ -298,7 +347,7 @@
     <a href="https://github.com/unitycontainer/container/new/v5.x/apiSpec/new?filename=Unity_Container_StagedStrategyChain_1_MakeStrategyChain.md&amp;value=---%0Auid%3A%20Unity.Container.StagedStrategyChain%601.MakeStrategyChain%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/unitycontainer/container/blob/v5.x/src/Container/StagedStrategyChain.cs/#L130">View Source</a>
+    <a href="https://github.com/unitycontainer/container/blob/v5.x/src/Container/StagedStrategyChain.cs/#L143">View Source</a>
   </span>
   <a id="Unity_Container_StagedStrategyChain_1_MakeStrategyChain_" data-uid="Unity.Container.StagedStrategyChain`1.MakeStrategyChain*"></a>
   <h4 id="Unity_Container_StagedStrategyChain_1_MakeStrategyChain" data-uid="Unity.Container.StagedStrategyChain`1.MakeStrategyChain">MakeStrategyChain()</h4>
@@ -364,7 +413,7 @@
     <a href="https://github.com/unitycontainer/container/new/v5.x/apiSpec/new?filename=Unity_Container_StagedStrategyChain_1_System_Collections_IEnumerable_GetEnumerator.md&amp;value=---%0Auid%3A%20Unity.Container.StagedStrategyChain%601.System%23Collections%23IEnumerable%23GetEnumerator%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/unitycontainer/container/blob/v5.x/src/Container/StagedStrategyChain.cs/#L156">View Source</a>
+    <a href="https://github.com/unitycontainer/container/blob/v5.x/src/Container/StagedStrategyChain.cs/#L169">View Source</a>
   </span>
   <a id="Unity_Container_StagedStrategyChain_1_System_Collections_IEnumerable_GetEnumerator_" data-uid="Unity.Container.StagedStrategyChain`1.System#Collections#IEnumerable#GetEnumerator*"></a>
   <h4 id="Unity_Container_StagedStrategyChain_1_System_Collections_IEnumerable_GetEnumerator" data-uid="Unity.Container.StagedStrategyChain`1.System#Collections#IEnumerable#GetEnumerator">IEnumerable.GetEnumerator()</h4>
@@ -391,10 +440,7 @@
   </table>
   <h3 id="implements">Implements</h3>
   <div>
-      <a class="xref" href="Unity.Strategy.IStagedStrategyChain-1.html">IStagedStrategyChain&lt;TStageEnum&gt;</a>
-  </div>
-  <div>
-      <a class="xref" href="Unity.Strategy.IStagedStrategyChain.html">IStagedStrategyChain</a>
+      <a class="xref" href="Unity.Strategy.IStagedStrategyChain-2.html">IStagedStrategyChain&lt;TStrategyType, TStageEnum&gt;</a>
   </div>
   <div>
       <span class="xref">System.Collections.Generic.IEnumerable&lt;T&gt;</span>

@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Class ResolvedArrayWithElementsResolverPolicy
    ">
-    <meta name="generator" content="docfx 2.28.1.0">
+    <meta name="generator" content="docfx 2.28.3.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -73,9 +73,9 @@
   
   <h1 id="Unity_ResolverPolicy_ResolvedArrayWithElementsResolverPolicy" data-uid="Unity.ResolverPolicy.ResolvedArrayWithElementsResolverPolicy" class="text-break">Class ResolvedArrayWithElementsResolverPolicy
   </h1>
-  <div class="markdown level0 summary"><p>An implementation of <a class="xref" href="Unity.Policy.IDependencyResolverPolicy.html">IDependencyResolverPolicy</a> that resolves to
+  <div class="markdown level0 summary"><p>An implementation of <a class="xref" href="Unity.Policy.IResolverPolicy.html">IResolverPolicy</a> that resolves to
 to an array populated with the values that result from resolving other instances
-of <a class="xref" href="Unity.Policy.IDependencyResolverPolicy.html">IDependencyResolverPolicy</a>.</p>
+of <a class="xref" href="Unity.Policy.IResolverPolicy.html">IResolverPolicy</a>.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
@@ -85,7 +85,7 @@ of <a class="xref" href="Unity.Policy.IDependencyResolverPolicy.html">IDependenc
   </div>
   <div classs="implements">
     <h5>Implements</h5>
-    <div><a class="xref" href="Unity.Policy.IDependencyResolverPolicy.html">IDependencyResolverPolicy</a></div>
+    <div><a class="xref" href="Unity.Policy.IResolverPolicy.html">IResolverPolicy</a></div>
     <div><a class="xref" href="Unity.Policy.IBuilderPolicy.html">IBuilderPolicy</a></div>
   </div>
   <div class="inheritedMembers">
@@ -116,27 +116,27 @@ of <a class="xref" href="Unity.Policy.IDependencyResolverPolicy.html">IDependenc
   <h6><strong>Assembly</strong>: Unity.Abstractions.dll</h6>
   <h5 id="Unity_ResolverPolicy_ResolvedArrayWithElementsResolverPolicy_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class ResolvedArrayWithElementsResolverPolicy : IDependencyResolverPolicy, IBuilderPolicy</code></pre>
+    <pre><code class="lang-csharp hljs">public class ResolvedArrayWithElementsResolverPolicy : IResolverPolicy, IBuilderPolicy</code></pre>
   </div>
   <h3 id="constructors">Constructors
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/unitycontainer/abstractions/new/master/apiSpec/new?filename=Unity_ResolverPolicy_ResolvedArrayWithElementsResolverPolicy__ctor_System_Type_Unity_Policy_IDependencyResolverPolicy___.md&amp;value=---%0Auid%3A%20Unity.ResolverPolicy.ResolvedArrayWithElementsResolverPolicy.%23ctor(System.Type%2CUnity.Policy.IDependencyResolverPolicy%5B%5D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/unitycontainer/abstractions/new/master/apiSpec/new?filename=Unity_ResolverPolicy_ResolvedArrayWithElementsResolverPolicy__ctor_System_Type_Unity_Policy_IResolverPolicy___.md&amp;value=---%0Auid%3A%20Unity.ResolverPolicy.ResolvedArrayWithElementsResolverPolicy.%23ctor(System.Type%2CUnity.Policy.IResolverPolicy%5B%5D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
     <a href="https://github.com/unitycontainer/abstractions/blob/master/src/ResolverPolicy/ResolvedArrayWithElementsResolverPolicy.cs/#L28">View Source</a>
   </span>
   <a id="Unity_ResolverPolicy_ResolvedArrayWithElementsResolverPolicy__ctor_" data-uid="Unity.ResolverPolicy.ResolvedArrayWithElementsResolverPolicy.#ctor*"></a>
-  <h4 id="Unity_ResolverPolicy_ResolvedArrayWithElementsResolverPolicy__ctor_System_Type_Unity_Policy_IDependencyResolverPolicy___" data-uid="Unity.ResolverPolicy.ResolvedArrayWithElementsResolverPolicy.#ctor(System.Type,Unity.Policy.IDependencyResolverPolicy[])">ResolvedArrayWithElementsResolverPolicy(Type, IDependencyResolverPolicy[])</h4>
+  <h4 id="Unity_ResolverPolicy_ResolvedArrayWithElementsResolverPolicy__ctor_System_Type_Unity_Policy_IResolverPolicy___" data-uid="Unity.ResolverPolicy.ResolvedArrayWithElementsResolverPolicy.#ctor(System.Type,Unity.Policy.IResolverPolicy[])">ResolvedArrayWithElementsResolverPolicy(Type, IResolverPolicy[])</h4>
   <div class="markdown level1 summary"><p>Create an instance of <a class="xref" href="Unity.ResolverPolicy.ResolvedArrayWithElementsResolverPolicy.html">ResolvedArrayWithElementsResolverPolicy</a>
-with the given type and a collection of <a class="xref" href="Unity.Policy.IDependencyResolverPolicy.html">IDependencyResolverPolicy</a>
+with the given type and a collection of <a class="xref" href="Unity.Policy.IResolverPolicy.html">IResolverPolicy</a>
 instances to use when populating the result.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public ResolvedArrayWithElementsResolverPolicy(Type elementType, params IDependencyResolverPolicy[] elementPolicies)</code></pre>
+    <pre><code class="lang-csharp hljs">public ResolvedArrayWithElementsResolverPolicy(Type elementType, params IResolverPolicy[] elementPolicies)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -155,7 +155,7 @@ instances to use when populating the result.</p>
 </td>
       </tr>
       <tr>
-        <td><a class="xref" href="Unity.Policy.IDependencyResolverPolicy.html">IDependencyResolverPolicy</a>[]</td>
+        <td><a class="xref" href="Unity.Policy.IResolverPolicy.html">IResolverPolicy</a>[]</td>
         <td><span class="parametername">elementPolicies</span></td>
         <td><p>The resolver policies to use when populating an array.</p>
 </td>
@@ -216,7 +216,7 @@ instances to use when populating the result.</p>
   </table>
   <h3 id="implements">Implements</h3>
   <div>
-      <a class="xref" href="Unity.Policy.IDependencyResolverPolicy.html">IDependencyResolverPolicy</a>
+      <a class="xref" href="Unity.Policy.IResolverPolicy.html">IResolverPolicy</a>
   </div>
   <div>
       <a class="xref" href="Unity.Policy.IBuilderPolicy.html">IBuilderPolicy</a>

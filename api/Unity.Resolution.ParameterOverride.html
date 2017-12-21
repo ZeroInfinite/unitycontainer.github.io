@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Class ParameterOverride
    ">
-    <meta name="generator" content="docfx 2.28.1.0">
+    <meta name="generator" content="docfx 2.28.3.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -180,13 +180,13 @@ value.</p>
   </span>
   <a id="Unity_Resolution_ParameterOverride_GetResolver_" data-uid="Unity.Resolution.ParameterOverride.GetResolver*"></a>
   <h4 id="Unity_Resolution_ParameterOverride_GetResolver_Unity_Builder_IBuilderContext_System_Type_" data-uid="Unity.Resolution.ParameterOverride.GetResolver(Unity.Builder.IBuilderContext,System.Type)">GetResolver(IBuilderContext, Type)</h4>
-  <div class="markdown level1 summary"><p>Return a <a class="xref" href="Unity.Policy.IDependencyResolverPolicy.html">IDependencyResolverPolicy</a> that can be used to give a value
+  <div class="markdown level1 summary"><p>Return a <a class="xref" href="Unity.Policy.IResolverPolicy.html">IResolverPolicy</a> that can be used to give a value
 for the given desired dependency.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public override IDependencyResolverPolicy GetResolver(IBuilderContext context, Type dependencyType)</code></pre>
+    <pre><code class="lang-csharp hljs">public override IResolverPolicy GetResolver(IBuilderContext context, Type dependencyType)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -222,8 +222,8 @@ for the given desired dependency.</p>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Unity.Policy.IDependencyResolverPolicy.html">IDependencyResolverPolicy</a></td>
-        <td><p>a <a class="xref" href="Unity.Policy.IDependencyResolverPolicy.html">IDependencyResolverPolicy</a> object if this override applies, null if not.</p>
+        <td><a class="xref" href="Unity.Policy.IResolverPolicy.html">IResolverPolicy</a></td>
+        <td><p>a <a class="xref" href="Unity.Policy.IResolverPolicy.html">IResolverPolicy</a> object if this override applies, null if not.</p>
 </td>
       </tr>
     </tbody>

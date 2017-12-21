@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Interface IBuilderContext
    ">
-    <meta name="generator" content="docfx 2.28.1.0">
+    <meta name="generator" content="docfx 2.28.3.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -131,7 +131,7 @@ strategies, false means continue to the next strategy.</p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">NamedTypeBuildKey BuildKey { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">INamedType BuildKey { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -143,7 +143,7 @@ strategies, false means continue to the next strategy.</p>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Unity.Builder.NamedTypeBuildKey.html">NamedTypeBuildKey</a></td>
+        <td><a class="xref" href="Unity.Builder.INamedType.html">INamedType</a></td>
         <td></td>
       </tr>
     </tbody>
@@ -157,7 +157,7 @@ strategies, false means continue to the next strategy.</p>
   </span>
   <a id="Unity_Builder_IBuilderContext_ChildContext_" data-uid="Unity.Builder.IBuilderContext.ChildContext*"></a>
   <h4 id="Unity_Builder_IBuilderContext_ChildContext" data-uid="Unity.Builder.IBuilderContext.ChildContext">ChildContext</h4>
-  <div class="markdown level1 summary"><p>The build context used to resolve a dependency during the build operation represented by this context.</p>
+  <div class="markdown level1 summary"><p>The child build context.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -322,7 +322,7 @@ be null if the object hasn&apos;t been created yet.</p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">NamedTypeBuildKey OriginalBuildKey { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">INamedType OriginalBuildKey { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -334,9 +334,40 @@ be null if the object hasn&apos;t been created yet.</p>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Unity.Builder.NamedTypeBuildKey.html">NamedTypeBuildKey</a></td>
+        <td><a class="xref" href="Unity.Builder.INamedType.html">INamedType</a></td>
         <td><p>The original build key for the build operation.</p>
 </td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/unitycontainer/abstractions/new/master/apiSpec/new?filename=Unity_Builder_IBuilderContext_ParentContext.md&amp;value=---%0Auid%3A%20Unity.Builder.IBuilderContext.ParentContext%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/unitycontainer/abstractions/blob/master/src/Builder/IBuilderContext.cs/#L109">View Source</a>
+  </span>
+  <a id="Unity_Builder_IBuilderContext_ParentContext_" data-uid="Unity.Builder.IBuilderContext.ParentContext*"></a>
+  <h4 id="Unity_Builder_IBuilderContext_ParentContext" data-uid="Unity.Builder.IBuilderContext.ParentContext">ParentContext</h4>
+  <div class="markdown level1 summary"><p>The parent build context.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IBuilderContext ParentContext { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Unity.Builder.IBuilderContext.html">IBuilderContext</a></td>
+        <td></td>
       </tr>
     </tbody>
   </table>
@@ -484,7 +515,7 @@ strategies in the chain.</p>
     <a href="https://github.com/unitycontainer/abstractions/new/master/apiSpec/new?filename=Unity_Builder_IBuilderContext_AddResolverOverrides_System_Collections_Generic_IEnumerable_Unity_Resolution_ResolverOverride__.md&amp;value=---%0Auid%3A%20Unity.Builder.IBuilderContext.AddResolverOverrides(System.Collections.Generic.IEnumerable%7BUnity.Resolution.ResolverOverride%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/unitycontainer/abstractions/blob/master/src/Builder/IBuilderContext.cs/#L110">View Source</a>
+    <a href="https://github.com/unitycontainer/abstractions/blob/master/src/Builder/IBuilderContext.cs/#L115">View Source</a>
   </span>
   <a id="Unity_Builder_IBuilderContext_AddResolverOverrides_" data-uid="Unity.Builder.IBuilderContext.AddResolverOverrides*"></a>
   <h4 id="Unity_Builder_IBuilderContext_AddResolverOverrides_System_Collections_Generic_IEnumerable_Unity_Resolution_ResolverOverride__" data-uid="Unity.Builder.IBuilderContext.AddResolverOverrides(System.Collections.Generic.IEnumerable{Unity.Resolution.ResolverOverride})">AddResolverOverrides(IEnumerable&lt;ResolverOverride&gt;)</h4>
@@ -518,17 +549,17 @@ strategies in the chain.</p>
     <a href="https://github.com/unitycontainer/abstractions/new/master/apiSpec/new?filename=Unity_Builder_IBuilderContext_GetOverriddenResolver_System_Type_.md&amp;value=---%0Auid%3A%20Unity.Builder.IBuilderContext.GetOverriddenResolver(System.Type)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/unitycontainer/abstractions/blob/master/src/Builder/IBuilderContext.cs/#L118">View Source</a>
+    <a href="https://github.com/unitycontainer/abstractions/blob/master/src/Builder/IBuilderContext.cs/#L123">View Source</a>
   </span>
   <a id="Unity_Builder_IBuilderContext_GetOverriddenResolver_" data-uid="Unity.Builder.IBuilderContext.GetOverriddenResolver*"></a>
   <h4 id="Unity_Builder_IBuilderContext_GetOverriddenResolver_System_Type_" data-uid="Unity.Builder.IBuilderContext.GetOverriddenResolver(System.Type)">GetOverriddenResolver(Type)</h4>
-  <div class="markdown level1 summary"><p>GetOrDefault a <a class="xref" href="Unity.Policy.IDependencyResolverPolicy.html">IDependencyResolverPolicy</a> object for the given <code data-dev-comment-type="paramref" class="paramref">dependencyType</code>
+  <div class="markdown level1 summary"><p>GetOrDefault a <a class="xref" href="Unity.Policy.IResolverPolicy.html">IResolverPolicy</a> object for the given <code data-dev-comment-type="paramref" class="paramref">dependencyType</code>
 or null if that dependency hasn&apos;t been overridden.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">IDependencyResolverPolicy GetOverriddenResolver(Type dependencyType)</code></pre>
+    <pre><code class="lang-csharp hljs">IResolverPolicy GetOverriddenResolver(Type dependencyType)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -558,7 +589,7 @@ or null if that dependency hasn&apos;t been overridden.</p>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Unity.Policy.IDependencyResolverPolicy.html">IDependencyResolverPolicy</a></td>
+        <td><a class="xref" href="Unity.Policy.IResolverPolicy.html">IResolverPolicy</a></td>
         <td><p>Resolver to use, or null if no override matches for the current operation.</p>
 </td>
       </tr>
@@ -566,21 +597,19 @@ or null if that dependency hasn&apos;t been overridden.</p>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/unitycontainer/abstractions/new/master/apiSpec/new?filename=Unity_Builder_IBuilderContext_NewBuildUp_Unity_Builder_NamedTypeBuildKey_System_Action_Unity_Builder_IBuilderContext__.md&amp;value=---%0Auid%3A%20Unity.Builder.IBuilderContext.NewBuildUp(Unity.Builder.NamedTypeBuildKey%2CSystem.Action%7BUnity.Builder.IBuilderContext%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/unitycontainer/abstractions/new/master/apiSpec/new?filename=Unity_Builder_IBuilderContext_NewBuildUp_System_Type_System_String_System_Action_Unity_Builder_IBuilderContext__.md&amp;value=---%0Auid%3A%20Unity.Builder.IBuilderContext.NewBuildUp(System.Type%2CSystem.String%2CSystem.Action%7BUnity.Builder.IBuilderContext%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/unitycontainer/abstractions/blob/master/src/Builder/IBuilderContext.cs/#L130">View Source</a>
+    <a href="https://github.com/unitycontainer/abstractions/blob/master/src/Builder/IBuilderContext.cs/#L134">View Source</a>
   </span>
   <a id="Unity_Builder_IBuilderContext_NewBuildUp_" data-uid="Unity.Builder.IBuilderContext.NewBuildUp*"></a>
-  <h4 id="Unity_Builder_IBuilderContext_NewBuildUp_Unity_Builder_NamedTypeBuildKey_System_Action_Unity_Builder_IBuilderContext__" data-uid="Unity.Builder.IBuilderContext.NewBuildUp(Unity.Builder.NamedTypeBuildKey,System.Action{Unity.Builder.IBuilderContext})">NewBuildUp(NamedTypeBuildKey, Action&lt;IBuilderContext&gt;)</h4>
-  <div class="markdown level1 summary"><p>A convenience method to do a new buildup operation on an existing context. This
-overload allows you to specify extra policies which will be in effect for the duration
-of the build.</p>
+  <h4 id="Unity_Builder_IBuilderContext_NewBuildUp_System_Type_System_String_System_Action_Unity_Builder_IBuilderContext__" data-uid="Unity.Builder.IBuilderContext.NewBuildUp(System.Type,System.String,System.Action{Unity.Builder.IBuilderContext})">NewBuildUp(Type, String, Action&lt;IBuilderContext&gt;)</h4>
+  <div class="markdown level1 summary"><p>A method to do a new buildup operation on an existing context.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">object NewBuildUp(NamedTypeBuildKey newBuildKey, Action&lt;IBuilderContext&gt; childCustomizationBlock = null)</code></pre>
+    <pre><code class="lang-csharp hljs">object NewBuildUp(Type type, string name, Action&lt;IBuilderContext&gt; childCustomizationBlock = null)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -593,9 +622,15 @@ of the build.</p>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Unity.Builder.NamedTypeBuildKey.html">NamedTypeBuildKey</a></td>
-        <td><span class="parametername">newBuildKey</span></td>
-        <td><p>Key defining what to build up.</p>
+        <td><span class="xref">System.Type</span></td>
+        <td><span class="parametername">type</span></td>
+        <td><p>Type of to build</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">name</span></td>
+        <td><p>Name of the type to build</p>
 </td>
       </tr>
       <tr>
@@ -619,12 +654,15 @@ the opportunity to customize the context for the build process.</p>
     <tbody>
       <tr>
         <td><span class="xref">System.Object</span></td>
-        <td><p>Created object.</p>
+        <td><p>Resolved object</p>
 </td>
       </tr>
     </tbody>
   </table>
   <h3 id="extensionmethods">Extension Methods</h3>
+  <div>
+      <a class="xref" href="Unity.Builder.BuilderContextExtensions.html#Unity_Builder_BuilderContextExtensions_NewBuildUp_Unity_Builder_IBuilderContext_Unity_Builder_INamedType_System_Action_Unity_Builder_IBuilderContext__">BuilderContextExtensions.NewBuildUp(IBuilderContext, INamedType, Action&lt;IBuilderContext&gt;)</a>
+  </div>
   <div>
       <a class="xref" href="Unity.Builder.BuilderContextExtensions.html#Unity_Builder_BuilderContextExtensions_NewBuildUp__1_Unity_Builder_IBuilderContext_">BuilderContextExtensions.NewBuildUp&lt;TResult&gt;(IBuilderContext)</a>
   </div>

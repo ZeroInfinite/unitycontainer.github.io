@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class StagedStrategyChainExtensions
+    <title>Interface IStagedStrategyChain&lt;TStrategyType, TStageEnum&gt;
    </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class StagedStrategyChainExtensions
+    <meta name="title" content="Interface IStagedStrategyChain&lt;TStrategyType, TStageEnum&gt;
    ">
     <meta name="generator" content="docfx 2.28.3.0">
     
@@ -68,65 +68,64 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="Unity.Strategy.StagedStrategyChainExtensions">
+            <article class="content wrap" id="_content" data-uid="Unity.Strategy.IStagedStrategyChain`2">
   
   
-  <h1 id="Unity_Strategy_StagedStrategyChainExtensions" data-uid="Unity.Strategy.StagedStrategyChainExtensions" class="text-break">Class StagedStrategyChainExtensions
+  <h1 id="Unity_Strategy_IStagedStrategyChain_2" data-uid="Unity.Strategy.IStagedStrategyChain`2" class="text-break">Interface IStagedStrategyChain&lt;TStrategyType, TStageEnum&gt;
   </h1>
-  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 summary"><p>This interface defines a standard method to create multy staged strategy chain.</p>
+</div>
   <div class="markdown level0 conceptual"></div>
-  <div class="inheritance">
-    <h5>Inheritance</h5>
-    <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><span class="xref">StagedStrategyChainExtensions</span></div>
-  </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
     <div>
-      <span class="xref">System.Object.Equals(System.Object)</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.GetHashCode()</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.GetType()</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.MemberwiseClone()</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.ToString()</span>
+      <span class="xref">System.Collections.Generic.IEnumerable&lt;TStrategyType&gt;.GetEnumerator()</span>
     </div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Unity.Strategy.html">Unity.Strategy</a></h6>
   <h6><strong>Assembly</strong>: Unity.Abstractions.dll</h6>
-  <h5 id="Unity_Strategy_StagedStrategyChainExtensions_syntax">Syntax</h5>
+  <h5 id="Unity_Strategy_IStagedStrategyChain_2_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static class StagedStrategyChainExtensions</code></pre>
+    <pre><code class="lang-csharp hljs">public interface IStagedStrategyChain&lt;TStrategyType, TStageEnum&gt; : IEnumerable&lt;TStrategyType&gt;, IEnumerable</code></pre>
   </div>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">TStrategyType</span></td>
+        <td><p>The <span class="xref">System.Type</span> of strategy</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">TStageEnum</span></td>
+        <td><p>The stage enum</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
   <h3 id="methods">Methods
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/unitycontainer/abstractions/new/master/apiSpec/new?filename=Unity_Strategy_StagedStrategyChainExtensions_AddNew__2_Unity_Strategy_IStagedStrategyChain___0___1____1_.md&amp;value=---%0Auid%3A%20Unity.Strategy.StagedStrategyChainExtensions.AddNew%60%602(Unity.Strategy.IStagedStrategyChain%7B%60%600%2C%60%601%7D%2C%60%601)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/unitycontainer/abstractions/new/master/apiSpec/new?filename=Unity_Strategy_IStagedStrategyChain_2_Add__0__1_.md&amp;value=---%0Auid%3A%20Unity.Strategy.IStagedStrategyChain%602.Add(%600%2C%601)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/unitycontainer/abstractions/blob/master/src/Strategy/IStagedStrategyChain.cs/#L37">View Source</a>
+    <a href="https://github.com/unitycontainer/abstractions/blob/master/src/Strategy/IStagedStrategyChain.cs/#L19">View Source</a>
   </span>
-  <a id="Unity_Strategy_StagedStrategyChainExtensions_AddNew_" data-uid="Unity.Strategy.StagedStrategyChainExtensions.AddNew*"></a>
-  <h4 id="Unity_Strategy_StagedStrategyChainExtensions_AddNew__2_Unity_Strategy_IStagedStrategyChain___0___1____1_" data-uid="Unity.Strategy.StagedStrategyChainExtensions.AddNew``2(Unity.Strategy.IStagedStrategyChain{``0,``1},``1)">AddNew&lt;TStrategy, TStageEnum&gt;(IStagedStrategyChain&lt;TStrategy, TStageEnum&gt;, TStageEnum)</h4>
-  <div class="markdown level1 summary"><p>Add a new strategy for the <code data-dev-comment-type="paramref" class="paramref">stage</code>.</p>
+  <a id="Unity_Strategy_IStagedStrategyChain_2_Add_" data-uid="Unity.Strategy.IStagedStrategyChain`2.Add*"></a>
+  <h4 id="Unity_Strategy_IStagedStrategyChain_2_Add__0__1_" data-uid="Unity.Strategy.IStagedStrategyChain`2.Add(`0,`1)">Add(TStrategyType, TStageEnum)</h4>
+  <div class="markdown level1 summary"><p>Adds a strategy to the chain at a particular stage.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void AddNew&lt;TStrategy, TStageEnum&gt;(this IStagedStrategyChain&lt;TStrategy, TStageEnum&gt; chain, TStageEnum stage)where TStrategy : new ()</code></pre>
+    <pre><code class="lang-csharp hljs">void Add(TStrategyType strategy, TStageEnum stage)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -139,37 +138,48 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Unity.Strategy.IStagedStrategyChain-2.html">IStagedStrategyChain</a>&lt;TStrategy, TStageEnum&gt;</td>
-        <td><span class="parametername">chain</span></td>
-        <td><p>The chain this strategy is added to.</p>
+        <td><span class="xref">TStrategyType</span></td>
+        <td><span class="parametername">strategy</span></td>
+        <td><p>The strategy to add to the chain.</p>
 </td>
       </tr>
       <tr>
         <td><span class="xref">TStageEnum</span></td>
         <td><span class="parametername">stage</span></td>
-        <td><p>The stage to add the strategy to.</p>
+        <td><p>The stage to add the strategy.</p>
 </td>
       </tr>
     </tbody>
   </table>
-  <h5 class="typeParameters">Type Parameters</h5>
+  <h3 id="events">Events
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/unitycontainer/abstractions/new/master/apiSpec/new?filename=Unity_Strategy_IStagedStrategyChain_2_Invalidated.md&amp;value=---%0Auid%3A%20Unity.Strategy.IStagedStrategyChain%602.Invalidated%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/unitycontainer/abstractions/blob/master/src/Strategy/IStagedStrategyChain.cs/#L24">View Source</a>
+  </span>
+  <h4 id="Unity_Strategy_IStagedStrategyChain_2_Invalidated" data-uid="Unity.Strategy.IStagedStrategyChain`2.Invalidated">Invalidated</h4>
+  <div class="markdown level1 summary"><p>Signals that chain has been changed</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">event EventHandler&lt;EventArgs&gt; Invalidated</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
-        <th>Name</th>
+        <th>Type</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="parametername">TStrategy</span></td>
-        <td><p>The <span class="xref">System.Type</span> of strategy</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="parametername">TStageEnum</span></td>
-        <td><p>The stage enum</p>
-</td>
+        <td><span class="xref">System.EventHandler</span>&lt;<span class="xref">System.EventArgs</span>&gt;</td>
+        <td></td>
       </tr>
     </tbody>
   </table>
@@ -181,10 +191,10 @@
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/unitycontainer/abstractions/new/master/apiSpec/new?filename=Unity_Strategy_StagedStrategyChainExtensions.md&amp;value=---%0Auid%3A%20Unity.Strategy.StagedStrategyChainExtensions%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/unitycontainer/abstractions/new/master/apiSpec/new?filename=Unity_Strategy_IStagedStrategyChain_2.md&amp;value=---%0Auid%3A%20Unity.Strategy.IStagedStrategyChain%602%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
                   </li>
                   <li>
-                    <a href="https://github.com/unitycontainer/abstractions/blob/master/src/Strategy/IStagedStrategyChain.cs/#L28" class="contribution-link">View Source</a>
+                    <a href="https://github.com/unitycontainer/abstractions/blob/master/src/Strategy/IStagedStrategyChain.cs/#L11" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>

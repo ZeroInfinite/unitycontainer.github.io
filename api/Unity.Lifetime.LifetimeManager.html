@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Class LifetimeManager
    ">
-    <meta name="generator" content="docfx 2.28.1.0">
+    <meta name="generator" content="docfx 2.28.3.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -90,6 +90,7 @@ and when instances are created by the Unity container.</p>
   <div classs="implements">
     <h5>Implements</h5>
     <div><a class="xref" href="Unity.Lifetime.ILifetimePolicy.html">ILifetimePolicy</a></div>
+    <div><a class="xref" href="Unity.Lifetime.ILifetimeFactoryPolicy.html">ILifetimeFactoryPolicy</a></div>
     <div><a class="xref" href="Unity.Policy.IBuilderPolicy.html">IBuilderPolicy</a></div>
   </div>
   <div class="inheritedMembers">
@@ -120,7 +121,7 @@ and when instances are created by the Unity container.</p>
   <h6><strong>Assembly</strong>: Unity.Abstractions.dll</h6>
   <h5 id="Unity_Lifetime_LifetimeManager_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public abstract class LifetimeManager : ILifetimePolicy, IBuilderPolicy</code></pre>
+    <pre><code class="lang-csharp hljs">public abstract class LifetimeManager : ILifetimePolicy, ILifetimeFactoryPolicy, IBuilderPolicy</code></pre>
   </div>
   <h3 id="properties">Properties
   </h3>
@@ -129,7 +130,7 @@ and when instances are created by the Unity container.</p>
     <a href="https://github.com/unitycontainer/abstractions/new/master/apiSpec/new?filename=Unity_Lifetime_LifetimeManager_InUse.md&amp;value=---%0Auid%3A%20Unity.Lifetime.LifetimeManager.InUse%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/unitycontainer/abstractions/blob/master/src/Lifetime/LifetimeManager.cs/#L11">View Source</a>
+    <a href="https://github.com/unitycontainer/abstractions/blob/master/src/Lifetime/LifetimeManager.cs/#L12">View Source</a>
   </span>
   <a id="Unity_Lifetime_LifetimeManager_InUse_" data-uid="Unity.Lifetime.LifetimeManager.InUse*"></a>
   <h4 id="Unity_Lifetime_LifetimeManager_InUse" data-uid="Unity.Lifetime.LifetimeManager.InUse">InUse</h4>
@@ -154,14 +155,74 @@ and when instances are created by the Unity container.</p>
       </tr>
     </tbody>
   </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/unitycontainer/abstractions/new/master/apiSpec/new?filename=Unity_Lifetime_LifetimeManager_LifetimeType.md&amp;value=---%0Auid%3A%20Unity.Lifetime.LifetimeManager.LifetimeType%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/unitycontainer/abstractions/blob/master/src/Lifetime/LifetimeManager.cs/#L47">View Source</a>
+  </span>
+  <a id="Unity_Lifetime_LifetimeManager_LifetimeType_" data-uid="Unity.Lifetime.LifetimeManager.LifetimeType*"></a>
+  <h4 id="Unity_Lifetime_LifetimeManager_LifetimeType" data-uid="Unity.Lifetime.LifetimeManager.LifetimeType">LifetimeType</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Type LifetimeType { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Type</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   <h3 id="methods">Methods
   </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/unitycontainer/abstractions/new/master/apiSpec/new?filename=Unity_Lifetime_LifetimeManager_CreateLifetimePolicy.md&amp;value=---%0Auid%3A%20Unity.Lifetime.LifetimeManager.CreateLifetimePolicy%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/unitycontainer/abstractions/blob/master/src/Lifetime/LifetimeManager.cs/#L42">View Source</a>
+  </span>
+  <a id="Unity_Lifetime_LifetimeManager_CreateLifetimePolicy_" data-uid="Unity.Lifetime.LifetimeManager.CreateLifetimePolicy*"></a>
+  <h4 id="Unity_Lifetime_LifetimeManager_CreateLifetimePolicy" data-uid="Unity.Lifetime.LifetimeManager.CreateLifetimePolicy">CreateLifetimePolicy()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ILifetimePolicy CreateLifetimePolicy()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Unity.Lifetime.ILifetimePolicy.html">ILifetimePolicy</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
     <a href="https://github.com/unitycontainer/abstractions/new/master/apiSpec/new?filename=Unity_Lifetime_LifetimeManager_GetValue_Unity_Lifetime_ILifetimeContainer_.md&amp;value=---%0Auid%3A%20Unity.Lifetime.LifetimeManager.GetValue(Unity.Lifetime.ILifetimeContainer)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/unitycontainer/abstractions/blob/master/src/Lifetime/LifetimeManager.cs/#L21">View Source</a>
+    <a href="https://github.com/unitycontainer/abstractions/blob/master/src/Lifetime/LifetimeManager.cs/#L22">View Source</a>
   </span>
   <a id="Unity_Lifetime_LifetimeManager_GetValue_" data-uid="Unity.Lifetime.LifetimeManager.GetValue*"></a>
   <h4 id="Unity_Lifetime_LifetimeManager_GetValue_Unity_Lifetime_ILifetimeContainer_" data-uid="Unity.Lifetime.LifetimeManager.GetValue(Unity.Lifetime.ILifetimeContainer)">GetValue(ILifetimeContainer)</h4>
@@ -208,10 +269,41 @@ and when instances are created by the Unity container.</p>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
+    <a href="https://github.com/unitycontainer/abstractions/new/master/apiSpec/new?filename=Unity_Lifetime_LifetimeManager_OnCreateLifetimeManager.md&amp;value=---%0Auid%3A%20Unity.Lifetime.LifetimeManager.OnCreateLifetimeManager%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/unitycontainer/abstractions/blob/master/src/Lifetime/LifetimeManager.cs/#L58">View Source</a>
+  </span>
+  <a id="Unity_Lifetime_LifetimeManager_OnCreateLifetimeManager_" data-uid="Unity.Lifetime.LifetimeManager.OnCreateLifetimeManager*"></a>
+  <h4 id="Unity_Lifetime_LifetimeManager_OnCreateLifetimeManager" data-uid="Unity.Lifetime.LifetimeManager.OnCreateLifetimeManager">OnCreateLifetimeManager()</h4>
+  <div class="markdown level1 summary"><p>Creates Lifetime Manager</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected abstract LifetimeManager OnCreateLifetimeManager()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Unity.Lifetime.LifetimeManager.html">LifetimeManager</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
     <a href="https://github.com/unitycontainer/abstractions/new/master/apiSpec/new?filename=Unity_Lifetime_LifetimeManager_RemoveValue_Unity_Lifetime_ILifetimeContainer_.md&amp;value=---%0Auid%3A%20Unity.Lifetime.LifetimeManager.RemoveValue(Unity.Lifetime.ILifetimeContainer)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/unitycontainer/abstractions/blob/master/src/Lifetime/LifetimeManager.cs/#L34">View Source</a>
+    <a href="https://github.com/unitycontainer/abstractions/blob/master/src/Lifetime/LifetimeManager.cs/#L35">View Source</a>
   </span>
   <a id="Unity_Lifetime_LifetimeManager_RemoveValue_" data-uid="Unity.Lifetime.LifetimeManager.RemoveValue*"></a>
   <h4 id="Unity_Lifetime_LifetimeManager_RemoveValue_Unity_Lifetime_ILifetimeContainer_" data-uid="Unity.Lifetime.LifetimeManager.RemoveValue(Unity.Lifetime.ILifetimeContainer)">RemoveValue(ILifetimeContainer)</h4>
@@ -245,7 +337,7 @@ and when instances are created by the Unity container.</p>
     <a href="https://github.com/unitycontainer/abstractions/new/master/apiSpec/new?filename=Unity_Lifetime_LifetimeManager_SetValue_System_Object_Unity_Lifetime_ILifetimeContainer_.md&amp;value=---%0Auid%3A%20Unity.Lifetime.LifetimeManager.SetValue(System.Object%2CUnity.Lifetime.ILifetimeContainer)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/unitycontainer/abstractions/blob/master/src/Lifetime/LifetimeManager.cs/#L28">View Source</a>
+    <a href="https://github.com/unitycontainer/abstractions/blob/master/src/Lifetime/LifetimeManager.cs/#L29">View Source</a>
   </span>
   <a id="Unity_Lifetime_LifetimeManager_SetValue_" data-uid="Unity.Lifetime.LifetimeManager.SetValue*"></a>
   <h4 id="Unity_Lifetime_LifetimeManager_SetValue_System_Object_Unity_Lifetime_ILifetimeContainer_" data-uid="Unity.Lifetime.LifetimeManager.SetValue(System.Object,Unity.Lifetime.ILifetimeContainer)">SetValue(Object, ILifetimeContainer)</h4>
@@ -285,6 +377,9 @@ and when instances are created by the Unity container.</p>
       <a class="xref" href="Unity.Lifetime.ILifetimePolicy.html">ILifetimePolicy</a>
   </div>
   <div>
+      <a class="xref" href="Unity.Lifetime.ILifetimeFactoryPolicy.html">ILifetimeFactoryPolicy</a>
+  </div>
+  <div>
       <a class="xref" href="Unity.Policy.IBuilderPolicy.html">IBuilderPolicy</a>
   </div>
 </article>
@@ -298,7 +393,7 @@ and when instances are created by the Unity container.</p>
                     <a href="https://github.com/unitycontainer/abstractions/new/master/apiSpec/new?filename=Unity_Lifetime_LifetimeManager.md&amp;value=---%0Auid%3A%20Unity.Lifetime.LifetimeManager%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
                   </li>
                   <li>
-                    <a href="https://github.com/unitycontainer/abstractions/blob/master/src/Lifetime/LifetimeManager.cs/#L9" class="contribution-link">View Source</a>
+                    <a href="https://github.com/unitycontainer/abstractions/blob/master/src/Lifetime/LifetimeManager.cs/#L10" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>

@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Class NamedTypeDependencyResolverPolicy
    ">
-    <meta name="generator" content="docfx 2.28.1.0">
+    <meta name="generator" content="docfx 2.28.3.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -73,7 +73,7 @@
   
   <h1 id="Unity_ResolverPolicy_NamedTypeDependencyResolverPolicy" data-uid="Unity.ResolverPolicy.NamedTypeDependencyResolverPolicy" class="text-break">Class NamedTypeDependencyResolverPolicy
   </h1>
-  <div class="markdown level0 summary"><p>An implementation of <a class="xref" href="Unity.Policy.IDependencyResolverPolicy.html">IDependencyResolverPolicy</a> that stores a
+  <div class="markdown level0 summary"><p>An implementation of <a class="xref" href="Unity.Policy.IResolverPolicy.html">IResolverPolicy</a> that stores a
 type and name, and at resolution time puts them together into a
 <a class="xref" href="Unity.Builder.NamedTypeBuildKey.html">NamedTypeBuildKey</a>.</p>
 </div>
@@ -85,7 +85,7 @@ type and name, and at resolution time puts them together into a
   </div>
   <div classs="implements">
     <h5>Implements</h5>
-    <div><a class="xref" href="Unity.Policy.IDependencyResolverPolicy.html">IDependencyResolverPolicy</a></div>
+    <div><a class="xref" href="Unity.Policy.IResolverPolicy.html">IResolverPolicy</a></div>
     <div><a class="xref" href="Unity.Policy.IBuilderPolicy.html">IBuilderPolicy</a></div>
   </div>
   <div class="inheritedMembers">
@@ -116,7 +116,7 @@ type and name, and at resolution time puts them together into a
   <h6><strong>Assembly</strong>: Unity.Abstractions.dll</h6>
   <h5 id="Unity_ResolverPolicy_NamedTypeDependencyResolverPolicy_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class NamedTypeDependencyResolverPolicy : IDependencyResolverPolicy, IBuilderPolicy</code></pre>
+    <pre><code class="lang-csharp hljs">public class NamedTypeDependencyResolverPolicy : IResolverPolicy, IBuilderPolicy</code></pre>
   </div>
   <h3 id="constructors">Constructors
   </h3>
@@ -279,7 +279,7 @@ with the given type and name.</p>
   </table>
   <h3 id="implements">Implements</h3>
   <div>
-      <a class="xref" href="Unity.Policy.IDependencyResolverPolicy.html">IDependencyResolverPolicy</a>
+      <a class="xref" href="Unity.Policy.IResolverPolicy.html">IResolverPolicy</a>
   </div>
   <div>
       <a class="xref" href="Unity.Policy.IBuilderPolicy.html">IBuilderPolicy</a>

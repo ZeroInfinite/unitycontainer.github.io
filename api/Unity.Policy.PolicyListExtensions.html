@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Class PolicyListExtensions
    ">
-    <meta name="generator" content="docfx 2.28.1.0">
+    <meta name="generator" content="docfx 2.28.3.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -116,10 +116,56 @@ overloads (generic versions, mostly).</p>
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
+    <a href="https://github.com/unitycontainer/abstractions/new/master/apiSpec/new?filename=Unity_Policy_PolicyListExtensions_Clear_Unity_Policy_IPolicyList_System_Type_System_Object_.md&amp;value=---%0Auid%3A%20Unity.Policy.PolicyListExtensions.Clear(Unity.Policy.IPolicyList%2CSystem.Type%2CSystem.Object)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/unitycontainer/abstractions/blob/master/src/Utility/PolicyListExtensions.cs/#L24">View Source</a>
+  </span>
+  <a id="Unity_Policy_PolicyListExtensions_Clear_" data-uid="Unity.Policy.PolicyListExtensions.Clear*"></a>
+  <h4 id="Unity_Policy_PolicyListExtensions_Clear_Unity_Policy_IPolicyList_System_Type_System_Object_" data-uid="Unity.Policy.PolicyListExtensions.Clear(Unity.Policy.IPolicyList,System.Type,System.Object)">Clear(IPolicyList, Type, Object)</h4>
+  <div class="markdown level1 summary"><p>Removes an individual policy type for a build key.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Use IPolicyList.Clear(...)&quot;)]
+public static void Clear(this IPolicyList policies, Type policyInterface, object buildKey)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Unity.Policy.IPolicyList.html">IPolicyList</a></td>
+        <td><span class="parametername">policies</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Type</span></td>
+        <td><span class="parametername">policyInterface</span></td>
+        <td><p>The type of policy to remove.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Object</span></td>
+        <td><span class="parametername">buildKey</span></td>
+        <td><p>The key the policy applies.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
     <a href="https://github.com/unitycontainer/abstractions/new/master/apiSpec/new?filename=Unity_Policy_PolicyListExtensions_Clear__1_Unity_Policy_IPolicyList_System_Object_.md&amp;value=---%0Auid%3A%20Unity.Policy.PolicyListExtensions.Clear%60%601(Unity.Policy.IPolicyList%2CSystem.Object)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/unitycontainer/abstractions/blob/master/src/Utility/PolicyListExtensions.cs/#L22">View Source</a>
+    <a href="https://github.com/unitycontainer/abstractions/blob/master/src/Utility/PolicyListExtensions.cs/#L37">View Source</a>
   </span>
   <a id="Unity_Policy_PolicyListExtensions_Clear_" data-uid="Unity.Policy.PolicyListExtensions.Clear*"></a>
   <h4 id="Unity_Policy_PolicyListExtensions_Clear__1_Unity_Policy_IPolicyList_System_Object_" data-uid="Unity.Policy.PolicyListExtensions.Clear``1(Unity.Policy.IPolicyList,System.Object)">Clear&lt;TPolicyInterface&gt;(IPolicyList, Object)</h4>
@@ -128,7 +174,8 @@ overloads (generic versions, mostly).</p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void Clear&lt;TPolicyInterface&gt;(this IPolicyList policies, object buildKey)where TPolicyInterface : IBuilderPolicy</code></pre>
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Use IPolicyList.Clear(...)&quot;)]
+public static void Clear&lt;TPolicyInterface&gt;(this IPolicyList policies, object buildKey)where TPolicyInterface : IBuilderPolicy</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -175,7 +222,7 @@ overloads (generic versions, mostly).</p>
     <a href="https://github.com/unitycontainer/abstractions/new/master/apiSpec/new?filename=Unity_Policy_PolicyListExtensions_ClearDefault_Unity_Policy_IPolicyList_System_Type_.md&amp;value=---%0Auid%3A%20Unity.Policy.PolicyListExtensions.ClearDefault(Unity.Policy.IPolicyList%2CSystem.Type)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/unitycontainer/abstractions/blob/master/src/Utility/PolicyListExtensions.cs/#L45">View Source</a>
+    <a href="https://github.com/unitycontainer/abstractions/blob/master/src/Utility/PolicyListExtensions.cs/#L63">View Source</a>
   </span>
   <a id="Unity_Policy_PolicyListExtensions_ClearDefault_" data-uid="Unity.Policy.PolicyListExtensions.ClearDefault*"></a>
   <h4 id="Unity_Policy_PolicyListExtensions_ClearDefault_Unity_Policy_IPolicyList_System_Type_" data-uid="Unity.Policy.PolicyListExtensions.ClearDefault(Unity.Policy.IPolicyList,System.Type)">ClearDefault(IPolicyList, Type)</h4>
@@ -184,7 +231,8 @@ overloads (generic versions, mostly).</p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void ClearDefault(this IPolicyList policies, Type policyInterface)</code></pre>
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Use IPolicyList.Clear(null, null, ...)&quot;)]
+public static void ClearDefault(this IPolicyList policies, Type policyInterface)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -214,7 +262,7 @@ overloads (generic versions, mostly).</p>
     <a href="https://github.com/unitycontainer/abstractions/new/master/apiSpec/new?filename=Unity_Policy_PolicyListExtensions_ClearDefault__1_Unity_Policy_IPolicyList_.md&amp;value=---%0Auid%3A%20Unity.Policy.PolicyListExtensions.ClearDefault%60%601(Unity.Policy.IPolicyList)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/unitycontainer/abstractions/blob/master/src/Utility/PolicyListExtensions.cs/#L33">View Source</a>
+    <a href="https://github.com/unitycontainer/abstractions/blob/master/src/Utility/PolicyListExtensions.cs/#L50">View Source</a>
   </span>
   <a id="Unity_Policy_PolicyListExtensions_ClearDefault_" data-uid="Unity.Policy.PolicyListExtensions.ClearDefault*"></a>
   <h4 id="Unity_Policy_PolicyListExtensions_ClearDefault__1_Unity_Policy_IPolicyList_" data-uid="Unity.Policy.PolicyListExtensions.ClearDefault``1(Unity.Policy.IPolicyList)">ClearDefault&lt;TPolicyInterface&gt;(IPolicyList)</h4>
@@ -223,7 +271,8 @@ overloads (generic versions, mostly).</p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void ClearDefault&lt;TPolicyInterface&gt;(this IPolicyList policies)where TPolicyInterface : IBuilderPolicy</code></pre>
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Use IPolicyList.Clear(null, null, ...)&quot;)]
+public static void ClearDefault&lt;TPolicyInterface&gt;(this IPolicyList policies)where TPolicyInterface : IBuilderPolicy</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -264,7 +313,7 @@ overloads (generic versions, mostly).</p>
     <a href="https://github.com/unitycontainer/abstractions/new/master/apiSpec/new?filename=Unity_Policy_PolicyListExtensions_Get_Unity_Policy_IPolicyList_System_Type_System_Object_.md&amp;value=---%0Auid%3A%20Unity.Policy.PolicyListExtensions.Get(Unity.Policy.IPolicyList%2CSystem.Type%2CSystem.Object)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/unitycontainer/abstractions/blob/master/src/Utility/PolicyListExtensions.cs/#L84">View Source</a>
+    <a href="https://github.com/unitycontainer/abstractions/blob/master/src/Utility/PolicyListExtensions.cs/#L141">View Source</a>
   </span>
   <a id="Unity_Policy_PolicyListExtensions_Get_" data-uid="Unity.Policy.PolicyListExtensions.Get*"></a>
   <h4 id="Unity_Policy_PolicyListExtensions_Get_Unity_Policy_IPolicyList_System_Type_System_Object_" data-uid="Unity.Policy.PolicyListExtensions.Get(Unity.Policy.IPolicyList,System.Type,System.Object)">Get(IPolicyList, Type, Object)</h4>
@@ -273,7 +322,8 @@ overloads (generic versions, mostly).</p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static IBuilderPolicy Get(this IPolicyList policies, Type policyInterface, object buildKey)</code></pre>
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Use IPolicyList.Get(...)&quot;)]
+public static IBuilderPolicy Get(this IPolicyList policies, Type policyInterface, object buildKey)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -301,74 +351,6 @@ overloads (generic versions, mostly).</p>
         <td><span class="xref">System.Object</span></td>
         <td><span class="parametername">buildKey</span></td>
         <td><p>The key the policy applies.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Unity.Policy.IBuilderPolicy.html">IBuilderPolicy</a></td>
-        <td><p>The policy in the list, if present; returns null otherwise.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/unitycontainer/abstractions/new/master/apiSpec/new?filename=Unity_Policy_PolicyListExtensions_Get_Unity_Policy_IPolicyList_System_Type_System_Object_System_Boolean_.md&amp;value=---%0Auid%3A%20Unity.Policy.PolicyListExtensions.Get(Unity.Policy.IPolicyList%2CSystem.Type%2CSystem.Object%2CSystem.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/unitycontainer/abstractions/blob/master/src/Utility/PolicyListExtensions.cs/#L112">View Source</a>
-  </span>
-  <a id="Unity_Policy_PolicyListExtensions_Get_" data-uid="Unity.Policy.PolicyListExtensions.Get*"></a>
-  <h4 id="Unity_Policy_PolicyListExtensions_Get_Unity_Policy_IPolicyList_System_Type_System_Object_System_Boolean_" data-uid="Unity.Policy.PolicyListExtensions.Get(Unity.Policy.IPolicyList,System.Type,System.Object,System.Boolean)">Get(IPolicyList, Type, Object, Boolean)</h4>
-  <div class="markdown level1 summary"><p>Gets an individual policy.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static IBuilderPolicy Get(this IPolicyList policies, Type policyInterface, object buildKey, bool localOnly)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Unity.Policy.IPolicyList.html">IPolicyList</a></td>
-        <td><span class="parametername">policies</span></td>
-        <td><p><a class="xref" href="Unity.Policy.IPolicyList.html">IPolicyList</a> to search.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.Type</span></td>
-        <td><span class="parametername">policyInterface</span></td>
-        <td><p>The interface the policy is registered under.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.Object</span></td>
-        <td><span class="parametername">buildKey</span></td>
-        <td><p>The key the policy applies.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td><span class="parametername">localOnly</span></td>
-        <td><p>true if the policy searches local only; otherwise false to search up the parent chain.</p>
 </td>
       </tr>
     </tbody>
@@ -394,7 +376,7 @@ overloads (generic versions, mostly).</p>
     <a href="https://github.com/unitycontainer/abstractions/new/master/apiSpec/new?filename=Unity_Policy_PolicyListExtensions_Get_Unity_Policy_IPolicyList_System_Type_System_Object_Unity_Policy_IPolicyList__.md&amp;value=---%0Auid%3A%20Unity.Policy.PolicyListExtensions.Get(Unity.Policy.IPolicyList%2CSystem.Type%2CSystem.Object%2CUnity.Policy.IPolicyList%40)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/unitycontainer/abstractions/blob/master/src/Utility/PolicyListExtensions.cs/#L98">View Source</a>
+    <a href="https://github.com/unitycontainer/abstractions/blob/master/src/Utility/PolicyListExtensions.cs/#L182">View Source</a>
   </span>
   <a id="Unity_Policy_PolicyListExtensions_Get_" data-uid="Unity.Policy.PolicyListExtensions.Get*"></a>
   <h4 id="Unity_Policy_PolicyListExtensions_Get_Unity_Policy_IPolicyList_System_Type_System_Object_Unity_Policy_IPolicyList__" data-uid="Unity.Policy.PolicyListExtensions.Get(Unity.Policy.IPolicyList,System.Type,System.Object,Unity.Policy.IPolicyList@)">Get(IPolicyList, Type, Object, out IPolicyList)</h4>
@@ -462,7 +444,7 @@ overloads (generic versions, mostly).</p>
     <a href="https://github.com/unitycontainer/abstractions/new/master/apiSpec/new?filename=Unity_Policy_PolicyListExtensions_Get__1_Unity_Policy_IPolicyList_System_Object_.md&amp;value=---%0Auid%3A%20Unity.Policy.PolicyListExtensions.Get%60%601(Unity.Policy.IPolicyList%2CSystem.Object)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/unitycontainer/abstractions/blob/master/src/Utility/PolicyListExtensions.cs/#L57">View Source</a>
+    <a href="https://github.com/unitycontainer/abstractions/blob/master/src/Utility/PolicyListExtensions.cs/#L154">View Source</a>
   </span>
   <a id="Unity_Policy_PolicyListExtensions_Get_" data-uid="Unity.Policy.PolicyListExtensions.Get*"></a>
   <h4 id="Unity_Policy_PolicyListExtensions_Get__1_Unity_Policy_IPolicyList_System_Object_" data-uid="Unity.Policy.PolicyListExtensions.Get``1(Unity.Policy.IPolicyList,System.Object)">Get&lt;TPolicyInterface&gt;(IPolicyList, Object)</h4>
@@ -534,7 +516,7 @@ overloads (generic versions, mostly).</p>
     <a href="https://github.com/unitycontainer/abstractions/new/master/apiSpec/new?filename=Unity_Policy_PolicyListExtensions_Get__1_Unity_Policy_IPolicyList_System_Object_Unity_Policy_IPolicyList__.md&amp;value=---%0Auid%3A%20Unity.Policy.PolicyListExtensions.Get%60%601(Unity.Policy.IPolicyList%2CSystem.Object%2CUnity.Policy.IPolicyList%40)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/unitycontainer/abstractions/blob/master/src/Utility/PolicyListExtensions.cs/#L71">View Source</a>
+    <a href="https://github.com/unitycontainer/abstractions/blob/master/src/Utility/PolicyListExtensions.cs/#L168">View Source</a>
   </span>
   <a id="Unity_Policy_PolicyListExtensions_Get_" data-uid="Unity.Policy.PolicyListExtensions.Get*"></a>
   <h4 id="Unity_Policy_PolicyListExtensions_Get__1_Unity_Policy_IPolicyList_System_Object_Unity_Policy_IPolicyList__" data-uid="Unity.Policy.PolicyListExtensions.Get``1(Unity.Policy.IPolicyList,System.Object,Unity.Policy.IPolicyList@)">Get&lt;TPolicyInterface&gt;(IPolicyList, Object, out IPolicyList)</h4>
@@ -612,7 +594,7 @@ overloads (generic versions, mostly).</p>
     <a href="https://github.com/unitycontainer/abstractions/new/master/apiSpec/new?filename=Unity_Policy_PolicyListExtensions_GetNoDefault_Unity_Policy_IPolicyList_System_Type_System_Object_.md&amp;value=---%0Auid%3A%20Unity.Policy.PolicyListExtensions.GetNoDefault(Unity.Policy.IPolicyList%2CSystem.Type%2CSystem.Object)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/unitycontainer/abstractions/blob/master/src/Utility/PolicyListExtensions.cs/#L156">View Source</a>
+    <a href="https://github.com/unitycontainer/abstractions/blob/master/src/Utility/PolicyListExtensions.cs/#L223">View Source</a>
   </span>
   <a id="Unity_Policy_PolicyListExtensions_GetNoDefault_" data-uid="Unity.Policy.PolicyListExtensions.GetNoDefault*"></a>
   <h4 id="Unity_Policy_PolicyListExtensions_GetNoDefault_Unity_Policy_IPolicyList_System_Type_System_Object_" data-uid="Unity.Policy.PolicyListExtensions.GetNoDefault(Unity.Policy.IPolicyList,System.Type,System.Object)">GetNoDefault(IPolicyList, Type, Object)</h4>
@@ -674,7 +656,7 @@ overloads (generic versions, mostly).</p>
     <a href="https://github.com/unitycontainer/abstractions/new/master/apiSpec/new?filename=Unity_Policy_PolicyListExtensions_GetNoDefault__1_Unity_Policy_IPolicyList_System_Object_.md&amp;value=---%0Auid%3A%20Unity.Policy.PolicyListExtensions.GetNoDefault%60%601(Unity.Policy.IPolicyList%2CSystem.Object)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/unitycontainer/abstractions/blob/master/src/Utility/PolicyListExtensions.cs/#L127">View Source</a>
+    <a href="https://github.com/unitycontainer/abstractions/blob/master/src/Utility/PolicyListExtensions.cs/#L195">View Source</a>
   </span>
   <a id="Unity_Policy_PolicyListExtensions_GetNoDefault_" data-uid="Unity.Policy.PolicyListExtensions.GetNoDefault*"></a>
   <h4 id="Unity_Policy_PolicyListExtensions_GetNoDefault__1_Unity_Policy_IPolicyList_System_Object_" data-uid="Unity.Policy.PolicyListExtensions.GetNoDefault``1(Unity.Policy.IPolicyList,System.Object)">GetNoDefault&lt;TPolicyInterface&gt;(IPolicyList, Object)</h4>
@@ -746,7 +728,7 @@ overloads (generic versions, mostly).</p>
     <a href="https://github.com/unitycontainer/abstractions/new/master/apiSpec/new?filename=Unity_Policy_PolicyListExtensions_GetNoDefault__1_Unity_Policy_IPolicyList_System_Object_System_Boolean_Unity_Policy_IPolicyList__.md&amp;value=---%0Auid%3A%20Unity.Policy.PolicyListExtensions.GetNoDefault%60%601(Unity.Policy.IPolicyList%2CSystem.Object%2CSystem.Boolean%2CUnity.Policy.IPolicyList%40)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/unitycontainer/abstractions/blob/master/src/Utility/PolicyListExtensions.cs/#L142">View Source</a>
+    <a href="https://github.com/unitycontainer/abstractions/blob/master/src/Utility/PolicyListExtensions.cs/#L210">View Source</a>
   </span>
   <a id="Unity_Policy_PolicyListExtensions_GetNoDefault_" data-uid="Unity.Policy.PolicyListExtensions.GetNoDefault*"></a>
   <h4 id="Unity_Policy_PolicyListExtensions_GetNoDefault__1_Unity_Policy_IPolicyList_System_Object_System_Boolean_Unity_Policy_IPolicyList__" data-uid="Unity.Policy.PolicyListExtensions.GetNoDefault``1(Unity.Policy.IPolicyList,System.Object,System.Boolean,Unity.Policy.IPolicyList@)">GetNoDefault&lt;TPolicyInterface&gt;(IPolicyList, Object, Boolean, out IPolicyList)</h4>
@@ -830,7 +812,7 @@ overloads (generic versions, mostly).</p>
     <a href="https://github.com/unitycontainer/abstractions/new/master/apiSpec/new?filename=Unity_Policy_PolicyListExtensions_GetOrDefault_Unity_Policy_IPolicyList_System_Type_System_Object_Unity_Policy_IPolicyList__.md&amp;value=---%0Auid%3A%20Unity.Policy.PolicyListExtensions.GetOrDefault(Unity.Policy.IPolicyList%2CSystem.Type%2CSystem.Object%2CUnity.Policy.IPolicyList%40)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/unitycontainer/abstractions/blob/master/src/Utility/PolicyListExtensions.cs/#L211">View Source</a>
+    <a href="https://github.com/unitycontainer/abstractions/blob/master/src/Utility/PolicyListExtensions.cs/#L237">View Source</a>
   </span>
   <a id="Unity_Policy_PolicyListExtensions_GetOrDefault_" data-uid="Unity.Policy.PolicyListExtensions.GetOrDefault*"></a>
   <h4 id="Unity_Policy_PolicyListExtensions_GetOrDefault_Unity_Policy_IPolicyList_System_Type_System_Object_Unity_Policy_IPolicyList__" data-uid="Unity.Policy.PolicyListExtensions.GetOrDefault(Unity.Policy.IPolicyList,System.Type,System.Object,Unity.Policy.IPolicyList@)">GetOrDefault(IPolicyList, Type, Object, out IPolicyList)</h4>
@@ -895,18 +877,18 @@ not found.</p>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/unitycontainer/abstractions/new/master/apiSpec/new?filename=Unity_Policy_PolicyListExtensions_GetPolicy__1_Unity_Policy_IPolicyList_Unity_Builder_NamedTypeBuildKey_Unity_Policy_IPolicyList__.md&amp;value=---%0Auid%3A%20Unity.Policy.PolicyListExtensions.GetPolicy%60%601(Unity.Policy.IPolicyList%2CUnity.Builder.NamedTypeBuildKey%2CUnity.Policy.IPolicyList%40)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/unitycontainer/abstractions/new/master/apiSpec/new?filename=Unity_Policy_PolicyListExtensions_GetPolicy__1_Unity_Policy_IPolicyList_Unity_Builder_INamedType_Unity_Policy_IPolicyList__.md&amp;value=---%0Auid%3A%20Unity.Policy.PolicyListExtensions.GetPolicy%60%601(Unity.Policy.IPolicyList%2CUnity.Builder.INamedType%2CUnity.Policy.IPolicyList%40)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/unitycontainer/abstractions/blob/master/src/Utility/PolicyListExtensions.cs/#L227">View Source</a>
+    <a href="https://github.com/unitycontainer/abstractions/blob/master/src/Utility/PolicyListExtensions.cs/#L343">View Source</a>
   </span>
   <a id="Unity_Policy_PolicyListExtensions_GetPolicy_" data-uid="Unity.Policy.PolicyListExtensions.GetPolicy*"></a>
-  <h4 id="Unity_Policy_PolicyListExtensions_GetPolicy__1_Unity_Policy_IPolicyList_Unity_Builder_NamedTypeBuildKey_Unity_Policy_IPolicyList__" data-uid="Unity.Policy.PolicyListExtensions.GetPolicy``1(Unity.Policy.IPolicyList,Unity.Builder.NamedTypeBuildKey,Unity.Policy.IPolicyList@)">GetPolicy&lt;TPolicyInterface&gt;(IPolicyList, NamedTypeBuildKey, out IPolicyList)</h4>
+  <h4 id="Unity_Policy_PolicyListExtensions_GetPolicy__1_Unity_Policy_IPolicyList_Unity_Builder_INamedType_Unity_Policy_IPolicyList__" data-uid="Unity.Policy.PolicyListExtensions.GetPolicy``1(Unity.Policy.IPolicyList,Unity.Builder.INamedType,Unity.Policy.IPolicyList@)">GetPolicy&lt;TPolicyInterface&gt;(IPolicyList, INamedType, out IPolicyList)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static TPolicyInterface GetPolicy&lt;TPolicyInterface&gt;(this IPolicyList list, NamedTypeBuildKey buildKey, out IPolicyList containingPolicyList)</code></pre>
+    <pre><code class="lang-csharp hljs">public static TPolicyInterface GetPolicy&lt;TPolicyInterface&gt;(this IPolicyList list, INamedType buildKey, out IPolicyList containingPolicyList)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -924,7 +906,7 @@ not found.</p>
         <td></td>
       </tr>
       <tr>
-        <td><a class="xref" href="Unity.Builder.NamedTypeBuildKey.html">NamedTypeBuildKey</a></td>
+        <td><a class="xref" href="Unity.Builder.INamedType.html">INamedType</a></td>
         <td><span class="parametername">buildKey</span></td>
         <td></td>
       </tr>
@@ -967,14 +949,66 @@ not found.</p>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
+    <a href="https://github.com/unitycontainer/abstractions/new/master/apiSpec/new?filename=Unity_Policy_PolicyListExtensions_Set_Unity_Policy_IPolicyList_System_Type_Unity_Policy_IBuilderPolicy_System_Object_.md&amp;value=---%0Auid%3A%20Unity.Policy.PolicyListExtensions.Set(Unity.Policy.IPolicyList%2CSystem.Type%2CUnity.Policy.IBuilderPolicy%2CSystem.Object)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/unitycontainer/abstractions/blob/master/src/Utility/PolicyListExtensions.cs/#L81">View Source</a>
+  </span>
+  <a id="Unity_Policy_PolicyListExtensions_Set_" data-uid="Unity.Policy.PolicyListExtensions.Set*"></a>
+  <h4 id="Unity_Policy_PolicyListExtensions_Set_Unity_Policy_IPolicyList_System_Type_Unity_Policy_IBuilderPolicy_System_Object_" data-uid="Unity.Policy.PolicyListExtensions.Set(Unity.Policy.IPolicyList,System.Type,Unity.Policy.IBuilderPolicy,System.Object)">Set(IPolicyList, Type, IBuilderPolicy, Object)</h4>
+  <div class="markdown level1 summary"><p>Sets an individual policy.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Use IPolicyList.Set(...)&quot;)]
+public static void Set(this IPolicyList policies, Type policyInterface, IBuilderPolicy policy, object buildKey = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Unity.Policy.IPolicyList.html">IPolicyList</a></td>
+        <td><span class="parametername">policies</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Type</span></td>
+        <td><span class="parametername">policyInterface</span></td>
+        <td><p>The <span class="xref">System.Type</span> of the policy.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Unity.Policy.IBuilderPolicy.html">IBuilderPolicy</a></td>
+        <td><span class="parametername">policy</span></td>
+        <td><p>The policy to be registered.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Object</span></td>
+        <td><span class="parametername">buildKey</span></td>
+        <td><p>The key the policy applies.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
     <a href="https://github.com/unitycontainer/abstractions/new/master/apiSpec/new?filename=Unity_Policy_PolicyListExtensions_Set__1_Unity_Policy_IPolicyList___0_System_Object_.md&amp;value=---%0Auid%3A%20Unity.Policy.PolicyListExtensions.Set%60%601(Unity.Policy.IPolicyList%2C%60%600%2CSystem.Object)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/unitycontainer/abstractions/blob/master/src/Utility/PolicyListExtensions.cs/#L168">View Source</a>
+    <a href="https://github.com/unitycontainer/abstractions/blob/master/src/Utility/PolicyListExtensions.cs/#L96">View Source</a>
   </span>
   <a id="Unity_Policy_PolicyListExtensions_Set_" data-uid="Unity.Policy.PolicyListExtensions.Set*"></a>
   <h4 id="Unity_Policy_PolicyListExtensions_Set__1_Unity_Policy_IPolicyList___0_System_Object_" data-uid="Unity.Policy.PolicyListExtensions.Set``1(Unity.Policy.IPolicyList,``0,System.Object)">Set&lt;TPolicyInterface&gt;(IPolicyList, TPolicyInterface, Object)</h4>
-  <div class="markdown level1 summary"><p>Sets an individual policy.</p>
+  <div class="markdown level1 summary"><p>Sets a generic individual policy.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -1032,7 +1066,7 @@ not found.</p>
     <a href="https://github.com/unitycontainer/abstractions/new/master/apiSpec/new?filename=Unity_Policy_PolicyListExtensions_SetDefault_Unity_Policy_IPolicyList_System_Type_Unity_Policy_IBuilderPolicy_.md&amp;value=---%0Auid%3A%20Unity.Policy.PolicyListExtensions.SetDefault(Unity.Policy.IPolicyList%2CSystem.Type%2CUnity.Policy.IBuilderPolicy)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/unitycontainer/abstractions/blob/master/src/Utility/PolicyListExtensions.cs/#L183">View Source</a>
+    <a href="https://github.com/unitycontainer/abstractions/blob/master/src/Utility/PolicyListExtensions.cs/#L111">View Source</a>
   </span>
   <a id="Unity_Policy_PolicyListExtensions_SetDefault_" data-uid="Unity.Policy.PolicyListExtensions.SetDefault*"></a>
   <h4 id="Unity_Policy_PolicyListExtensions_SetDefault_Unity_Policy_IPolicyList_System_Type_Unity_Policy_IBuilderPolicy_" data-uid="Unity.Policy.PolicyListExtensions.SetDefault(Unity.Policy.IPolicyList,System.Type,Unity.Policy.IBuilderPolicy)">SetDefault(IPolicyList, Type, IBuilderPolicy)</h4>
@@ -1078,7 +1112,7 @@ is available, the default will be used.</p>
     <a href="https://github.com/unitycontainer/abstractions/new/master/apiSpec/new?filename=Unity_Policy_PolicyListExtensions_SetDefault__1_Unity_Policy_IPolicyList___0_.md&amp;value=---%0Auid%3A%20Unity.Policy.PolicyListExtensions.SetDefault%60%601(Unity.Policy.IPolicyList%2C%60%600)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/unitycontainer/abstractions/blob/master/src/Utility/PolicyListExtensions.cs/#L195">View Source</a>
+    <a href="https://github.com/unitycontainer/abstractions/blob/master/src/Utility/PolicyListExtensions.cs/#L123">View Source</a>
   </span>
   <a id="Unity_Policy_PolicyListExtensions_SetDefault_" data-uid="Unity.Policy.PolicyListExtensions.SetDefault*"></a>
   <h4 id="Unity_Policy_PolicyListExtensions_SetDefault__1_Unity_Policy_IPolicyList___0_" data-uid="Unity.Policy.PolicyListExtensions.SetDefault``1(Unity.Policy.IPolicyList,``0)">SetDefault&lt;TPolicyInterface&gt;(IPolicyList, TPolicyInterface)</h4>

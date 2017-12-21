@@ -166,6 +166,15 @@ references:
   commentId: Overload:Unity.Builder.BuilderContextExtensions.AddResolverOverrides
   fullName: Unity.Builder.BuilderContextExtensions.AddResolverOverrides
   nameWithType: BuilderContextExtensions.AddResolverOverrides
+- uid: Unity.Builder.BuilderContextExtensions.NewBuildUp(Unity.Builder.IBuilderContext,Unity.Builder.INamedType,System.Action{Unity.Builder.IBuilderContext})
+  name: NewBuildUp(IBuilderContext, INamedType, Action<IBuilderContext>)
+  href: api/Unity.Builder.BuilderContextExtensions.html#Unity_Builder_BuilderContextExtensions_NewBuildUp_Unity_Builder_IBuilderContext_Unity_Builder_INamedType_System_Action_Unity_Builder_IBuilderContext__
+  commentId: M:Unity.Builder.BuilderContextExtensions.NewBuildUp(Unity.Builder.IBuilderContext,Unity.Builder.INamedType,System.Action{Unity.Builder.IBuilderContext})
+  name.vb: NewBuildUp(IBuilderContext, INamedType, Action(Of IBuilderContext))
+  fullName: Unity.Builder.BuilderContextExtensions.NewBuildUp(Unity.Builder.IBuilderContext, Unity.Builder.INamedType, System.Action<Unity.Builder.IBuilderContext>)
+  fullName.vb: Unity.Builder.BuilderContextExtensions.NewBuildUp(Unity.Builder.IBuilderContext, Unity.Builder.INamedType, System.Action(Of Unity.Builder.IBuilderContext))
+  nameWithType: BuilderContextExtensions.NewBuildUp(IBuilderContext, INamedType, Action<IBuilderContext>)
+  nameWithType.vb: BuilderContextExtensions.NewBuildUp(IBuilderContext, INamedType, Action(Of IBuilderContext))
 - uid: Unity.Builder.BuilderContextExtensions.NewBuildUp*
   name: NewBuildUp
   href: api/Unity.Builder.BuilderContextExtensions.html#Unity_Builder_BuilderContextExtensions_NewBuildUp_
@@ -379,15 +388,15 @@ references:
   commentId: Overload:Unity.Builder.IBuilderContext.Lifetime
   fullName: Unity.Builder.IBuilderContext.Lifetime
   nameWithType: IBuilderContext.Lifetime
-- uid: Unity.Builder.IBuilderContext.NewBuildUp(Unity.Builder.NamedTypeBuildKey,System.Action{Unity.Builder.IBuilderContext})
-  name: NewBuildUp(NamedTypeBuildKey, Action<IBuilderContext>)
-  href: api/Unity.Builder.IBuilderContext.html#Unity_Builder_IBuilderContext_NewBuildUp_Unity_Builder_NamedTypeBuildKey_System_Action_Unity_Builder_IBuilderContext__
-  commentId: M:Unity.Builder.IBuilderContext.NewBuildUp(Unity.Builder.NamedTypeBuildKey,System.Action{Unity.Builder.IBuilderContext})
-  name.vb: NewBuildUp(NamedTypeBuildKey, Action(Of IBuilderContext))
-  fullName: Unity.Builder.IBuilderContext.NewBuildUp(Unity.Builder.NamedTypeBuildKey, System.Action<Unity.Builder.IBuilderContext>)
-  fullName.vb: Unity.Builder.IBuilderContext.NewBuildUp(Unity.Builder.NamedTypeBuildKey, System.Action(Of Unity.Builder.IBuilderContext))
-  nameWithType: IBuilderContext.NewBuildUp(NamedTypeBuildKey, Action<IBuilderContext>)
-  nameWithType.vb: IBuilderContext.NewBuildUp(NamedTypeBuildKey, Action(Of IBuilderContext))
+- uid: Unity.Builder.IBuilderContext.NewBuildUp(System.Type,System.String,System.Action{Unity.Builder.IBuilderContext})
+  name: NewBuildUp(Type, String, Action<IBuilderContext>)
+  href: api/Unity.Builder.IBuilderContext.html#Unity_Builder_IBuilderContext_NewBuildUp_System_Type_System_String_System_Action_Unity_Builder_IBuilderContext__
+  commentId: M:Unity.Builder.IBuilderContext.NewBuildUp(System.Type,System.String,System.Action{Unity.Builder.IBuilderContext})
+  name.vb: NewBuildUp(Type, String, Action(Of IBuilderContext))
+  fullName: Unity.Builder.IBuilderContext.NewBuildUp(System.Type, System.String, System.Action<Unity.Builder.IBuilderContext>)
+  fullName.vb: Unity.Builder.IBuilderContext.NewBuildUp(System.Type, System.String, System.Action(Of Unity.Builder.IBuilderContext))
+  nameWithType: IBuilderContext.NewBuildUp(Type, String, Action<IBuilderContext>)
+  nameWithType.vb: IBuilderContext.NewBuildUp(Type, String, Action(Of IBuilderContext))
 - uid: Unity.Builder.IBuilderContext.NewBuildUp*
   name: NewBuildUp
   href: api/Unity.Builder.IBuilderContext.html#Unity_Builder_IBuilderContext_NewBuildUp_
@@ -406,6 +415,18 @@ references:
   commentId: Overload:Unity.Builder.IBuilderContext.OriginalBuildKey
   fullName: Unity.Builder.IBuilderContext.OriginalBuildKey
   nameWithType: IBuilderContext.OriginalBuildKey
+- uid: Unity.Builder.IBuilderContext.ParentContext
+  name: ParentContext
+  href: api/Unity.Builder.IBuilderContext.html#Unity_Builder_IBuilderContext_ParentContext
+  commentId: P:Unity.Builder.IBuilderContext.ParentContext
+  fullName: Unity.Builder.IBuilderContext.ParentContext
+  nameWithType: IBuilderContext.ParentContext
+- uid: Unity.Builder.IBuilderContext.ParentContext*
+  name: ParentContext
+  href: api/Unity.Builder.IBuilderContext.html#Unity_Builder_IBuilderContext_ParentContext_
+  commentId: Overload:Unity.Builder.IBuilderContext.ParentContext
+  fullName: Unity.Builder.IBuilderContext.ParentContext
+  nameWithType: IBuilderContext.ParentContext
 - uid: Unity.Builder.IBuilderContext.PersistentPolicies
   name: PersistentPolicies
   href: api/Unity.Builder.IBuilderContext.html#Unity_Builder_IBuilderContext_PersistentPolicies
@@ -454,6 +475,36 @@ references:
   commentId: Overload:Unity.Builder.IBuilderContext.Strategies
   fullName: Unity.Builder.IBuilderContext.Strategies
   nameWithType: IBuilderContext.Strategies
+- uid: Unity.Builder.INamedType
+  name: INamedType
+  href: api/Unity.Builder.INamedType.html
+  commentId: T:Unity.Builder.INamedType
+  fullName: Unity.Builder.INamedType
+  nameWithType: INamedType
+- uid: Unity.Builder.INamedType.Name
+  name: Name
+  href: api/Unity.Builder.INamedType.html#Unity_Builder_INamedType_Name
+  commentId: P:Unity.Builder.INamedType.Name
+  fullName: Unity.Builder.INamedType.Name
+  nameWithType: INamedType.Name
+- uid: Unity.Builder.INamedType.Name*
+  name: Name
+  href: api/Unity.Builder.INamedType.html#Unity_Builder_INamedType_Name_
+  commentId: Overload:Unity.Builder.INamedType.Name
+  fullName: Unity.Builder.INamedType.Name
+  nameWithType: INamedType.Name
+- uid: Unity.Builder.INamedType.Type
+  name: Type
+  href: api/Unity.Builder.INamedType.html#Unity_Builder_INamedType_Type
+  commentId: P:Unity.Builder.INamedType.Type
+  fullName: Unity.Builder.INamedType.Type
+  nameWithType: INamedType.Type
+- uid: Unity.Builder.INamedType.Type*
+  name: Type
+  href: api/Unity.Builder.INamedType.html#Unity_Builder_INamedType_Type_
+  commentId: Overload:Unity.Builder.INamedType.Type
+  fullName: Unity.Builder.INamedType.Type
+  nameWithType: INamedType.Type
 - uid: Unity.Builder.NamedTypeBuildKey
   name: NamedTypeBuildKey
   href: api/Unity.Builder.NamedTypeBuildKey.html
@@ -1122,12 +1173,12 @@ references:
   commentId: T:Unity.Builder.Selection.SelectedMemberWithParameters
   fullName: Unity.Builder.Selection.SelectedMemberWithParameters
   nameWithType: SelectedMemberWithParameters
-- uid: Unity.Builder.Selection.SelectedMemberWithParameters.AddParameterResolver(Unity.Policy.IDependencyResolverPolicy)
-  name: AddParameterResolver(IDependencyResolverPolicy)
-  href: api/Unity.Builder.Selection.SelectedMemberWithParameters.html#Unity_Builder_Selection_SelectedMemberWithParameters_AddParameterResolver_Unity_Policy_IDependencyResolverPolicy_
-  commentId: M:Unity.Builder.Selection.SelectedMemberWithParameters.AddParameterResolver(Unity.Policy.IDependencyResolverPolicy)
-  fullName: Unity.Builder.Selection.SelectedMemberWithParameters.AddParameterResolver(Unity.Policy.IDependencyResolverPolicy)
-  nameWithType: SelectedMemberWithParameters.AddParameterResolver(IDependencyResolverPolicy)
+- uid: Unity.Builder.Selection.SelectedMemberWithParameters.AddParameterResolver(Unity.Policy.IResolverPolicy)
+  name: AddParameterResolver(IResolverPolicy)
+  href: api/Unity.Builder.Selection.SelectedMemberWithParameters.html#Unity_Builder_Selection_SelectedMemberWithParameters_AddParameterResolver_Unity_Policy_IResolverPolicy_
+  commentId: M:Unity.Builder.Selection.SelectedMemberWithParameters.AddParameterResolver(Unity.Policy.IResolverPolicy)
+  fullName: Unity.Builder.Selection.SelectedMemberWithParameters.AddParameterResolver(Unity.Policy.IResolverPolicy)
+  nameWithType: SelectedMemberWithParameters.AddParameterResolver(IResolverPolicy)
 - uid: Unity.Builder.Selection.SelectedMemberWithParameters.AddParameterResolver*
   name: AddParameterResolver
   href: api/Unity.Builder.Selection.SelectedMemberWithParameters.html#Unity_Builder_Selection_SelectedMemberWithParameters_AddParameterResolver_
@@ -1223,12 +1274,12 @@ references:
   commentId: T:Unity.Builder.Selection.SelectedProperty
   fullName: Unity.Builder.Selection.SelectedProperty
   nameWithType: SelectedProperty
-- uid: Unity.Builder.Selection.SelectedProperty.#ctor(System.Reflection.PropertyInfo,Unity.Policy.IDependencyResolverPolicy)
-  name: SelectedProperty(PropertyInfo, IDependencyResolverPolicy)
-  href: api/Unity.Builder.Selection.SelectedProperty.html#Unity_Builder_Selection_SelectedProperty__ctor_System_Reflection_PropertyInfo_Unity_Policy_IDependencyResolverPolicy_
-  commentId: M:Unity.Builder.Selection.SelectedProperty.#ctor(System.Reflection.PropertyInfo,Unity.Policy.IDependencyResolverPolicy)
-  fullName: Unity.Builder.Selection.SelectedProperty.SelectedProperty(System.Reflection.PropertyInfo, Unity.Policy.IDependencyResolverPolicy)
-  nameWithType: SelectedProperty.SelectedProperty(PropertyInfo, IDependencyResolverPolicy)
+- uid: Unity.Builder.Selection.SelectedProperty.#ctor(System.Reflection.PropertyInfo,Unity.Policy.IResolverPolicy)
+  name: SelectedProperty(PropertyInfo, IResolverPolicy)
+  href: api/Unity.Builder.Selection.SelectedProperty.html#Unity_Builder_Selection_SelectedProperty__ctor_System_Reflection_PropertyInfo_Unity_Policy_IResolverPolicy_
+  commentId: M:Unity.Builder.Selection.SelectedProperty.#ctor(System.Reflection.PropertyInfo,Unity.Policy.IResolverPolicy)
+  fullName: Unity.Builder.Selection.SelectedProperty.SelectedProperty(System.Reflection.PropertyInfo, Unity.Policy.IResolverPolicy)
+  nameWithType: SelectedProperty.SelectedProperty(PropertyInfo, IResolverPolicy)
 - uid: Unity.Builder.Selection.SelectedProperty.#ctor*
   name: SelectedProperty
   href: api/Unity.Builder.Selection.SelectedProperty.html#Unity_Builder_Selection_SelectedProperty__ctor_
@@ -1271,12 +1322,12 @@ references:
   commentId: T:Unity.Builder.Strategy.BuilderStrategy
   fullName: Unity.Builder.Strategy.BuilderStrategy
   nameWithType: BuilderStrategy
-- uid: Unity.Builder.Strategy.BuilderStrategy.PostBuildUp(Unity.Builder.IBuilderContext)
-  name: PostBuildUp(IBuilderContext)
-  href: api/Unity.Builder.Strategy.BuilderStrategy.html#Unity_Builder_Strategy_BuilderStrategy_PostBuildUp_Unity_Builder_IBuilderContext_
-  commentId: M:Unity.Builder.Strategy.BuilderStrategy.PostBuildUp(Unity.Builder.IBuilderContext)
-  fullName: Unity.Builder.Strategy.BuilderStrategy.PostBuildUp(Unity.Builder.IBuilderContext)
-  nameWithType: BuilderStrategy.PostBuildUp(IBuilderContext)
+- uid: Unity.Builder.Strategy.BuilderStrategy.PostBuildUp(Unity.Builder.IBuilderContext,System.Object)
+  name: PostBuildUp(IBuilderContext, Object)
+  href: api/Unity.Builder.Strategy.BuilderStrategy.html#Unity_Builder_Strategy_BuilderStrategy_PostBuildUp_Unity_Builder_IBuilderContext_System_Object_
+  commentId: M:Unity.Builder.Strategy.BuilderStrategy.PostBuildUp(Unity.Builder.IBuilderContext,System.Object)
+  fullName: Unity.Builder.Strategy.BuilderStrategy.PostBuildUp(Unity.Builder.IBuilderContext, System.Object)
+  nameWithType: BuilderStrategy.PostBuildUp(IBuilderContext, Object)
 - uid: Unity.Builder.Strategy.BuilderStrategy.PostBuildUp*
   name: PostBuildUp
   href: api/Unity.Builder.Strategy.BuilderStrategy.html#Unity_Builder_Strategy_BuilderStrategy_PostBuildUp_
@@ -1301,12 +1352,12 @@ references:
   commentId: T:Unity.Builder.Strategy.IBuilderStrategy
   fullName: Unity.Builder.Strategy.IBuilderStrategy
   nameWithType: IBuilderStrategy
-- uid: Unity.Builder.Strategy.IBuilderStrategy.PostBuildUp(Unity.Builder.IBuilderContext)
-  name: PostBuildUp(IBuilderContext)
-  href: api/Unity.Builder.Strategy.IBuilderStrategy.html#Unity_Builder_Strategy_IBuilderStrategy_PostBuildUp_Unity_Builder_IBuilderContext_
-  commentId: M:Unity.Builder.Strategy.IBuilderStrategy.PostBuildUp(Unity.Builder.IBuilderContext)
-  fullName: Unity.Builder.Strategy.IBuilderStrategy.PostBuildUp(Unity.Builder.IBuilderContext)
-  nameWithType: IBuilderStrategy.PostBuildUp(IBuilderContext)
+- uid: Unity.Builder.Strategy.IBuilderStrategy.PostBuildUp(Unity.Builder.IBuilderContext,System.Object)
+  name: PostBuildUp(IBuilderContext, Object)
+  href: api/Unity.Builder.Strategy.IBuilderStrategy.html#Unity_Builder_Strategy_IBuilderStrategy_PostBuildUp_Unity_Builder_IBuilderContext_System_Object_
+  commentId: M:Unity.Builder.Strategy.IBuilderStrategy.PostBuildUp(Unity.Builder.IBuilderContext,System.Object)
+  fullName: Unity.Builder.Strategy.IBuilderStrategy.PostBuildUp(Unity.Builder.IBuilderContext, System.Object)
+  nameWithType: IBuilderStrategy.PostBuildUp(IBuilderContext, Object)
 - uid: Unity.Builder.Strategy.IBuilderStrategy.PostBuildUp*
   name: PostBuildUp
   href: api/Unity.Builder.Strategy.IBuilderStrategy.html#Unity_Builder_Strategy_IBuilderStrategy_PostBuildUp_
@@ -1412,53 +1463,6 @@ references:
   commentId: N:Unity.Container
   fullName: Unity.Container
   nameWithType: Unity.Container
-- uid: Unity.Container.IMap`2
-  name: IMap<TKey, TValue>
-  href: api/Unity.Container.IMap-2.html
-  commentId: T:Unity.Container.IMap`2
-  name.vb: IMap(Of TKey, TValue)
-  fullName: Unity.Container.IMap<TKey, TValue>
-  fullName.vb: Unity.Container.IMap(Of TKey, TValue)
-  nameWithType: IMap<TKey, TValue>
-  nameWithType.vb: IMap(Of TKey, TValue)
-- uid: Unity.Container.IMap`2.Item(`0)
-  name: Item[TKey]
-  href: api/Unity.Container.IMap-2.html#Unity_Container_IMap_2_Item__0_
-  commentId: P:Unity.Container.IMap`2.Item(`0)
-  name.vb: Item(TKey)
-  fullName: Unity.Container.IMap<TKey, TValue>.Item[TKey]
-  fullName.vb: Unity.Container.IMap(Of TKey, TValue).Item(TKey)
-  nameWithType: IMap<TKey, TValue>.Item[TKey]
-  nameWithType.vb: IMap(Of TKey, TValue).Item(TKey)
-- uid: Unity.Container.IMap`2.Item*
-  name: Item
-  href: api/Unity.Container.IMap-2.html#Unity_Container_IMap_2_Item_
-  commentId: Overload:Unity.Container.IMap`2.Item
-  fullName: Unity.Container.IMap<TKey, TValue>.Item
-  fullName.vb: Unity.Container.IMap(Of TKey, TValue).Item
-  nameWithType: IMap<TKey, TValue>.Item
-  nameWithType.vb: IMap(Of TKey, TValue).Item
-- uid: Unity.Container.IPolicyRegistry
-  name: IPolicyRegistry
-  href: api/Unity.Container.IPolicyRegistry.html
-  commentId: T:Unity.Container.IPolicyRegistry
-  fullName: Unity.Container.IPolicyRegistry
-  nameWithType: IPolicyRegistry
-- uid: Unity.Container.IPolicyRegistry.Item(System.Type,System.String,System.Type)
-  name: Item[Type, String, Type]
-  href: api/Unity.Container.IPolicyRegistry.html#Unity_Container_IPolicyRegistry_Item_System_Type_System_String_System_Type_
-  commentId: P:Unity.Container.IPolicyRegistry.Item(System.Type,System.String,System.Type)
-  name.vb: Item(Type, String, Type)
-  fullName: Unity.Container.IPolicyRegistry.Item[System.Type, System.String, System.Type]
-  fullName.vb: Unity.Container.IPolicyRegistry.Item(System.Type, System.String, System.Type)
-  nameWithType: IPolicyRegistry.Item[Type, String, Type]
-  nameWithType.vb: IPolicyRegistry.Item(Type, String, Type)
-- uid: Unity.Container.IPolicyRegistry.Item*
-  name: Item
-  href: api/Unity.Container.IPolicyRegistry.html#Unity_Container_IPolicyRegistry_Item_
-  commentId: Overload:Unity.Container.IPolicyRegistry.Item
-  fullName: Unity.Container.IPolicyRegistry.Item
-  nameWithType: IPolicyRegistry.Item
 - uid: Unity.Container.Lifetime
   name: Unity.Container.Lifetime
   href: api/Unity.Container.Lifetime.html
@@ -1589,12 +1593,12 @@ references:
   commentId: Overload:Unity.Container.PolicyList.#ctor
   fullName: Unity.Container.PolicyList.PolicyList
   nameWithType: PolicyList.PolicyList
-- uid: Unity.Container.PolicyList.Clear(System.Type,System.Object)
-  name: Clear(Type, Object)
-  href: api/Unity.Container.PolicyList.html#Unity_Container_PolicyList_Clear_System_Type_System_Object_
-  commentId: M:Unity.Container.PolicyList.Clear(System.Type,System.Object)
-  fullName: Unity.Container.PolicyList.Clear(System.Type, System.Object)
-  nameWithType: PolicyList.Clear(Type, Object)
+- uid: Unity.Container.PolicyList.Clear(System.Type,System.String,System.Type)
+  name: Clear(Type, String, Type)
+  href: api/Unity.Container.PolicyList.html#Unity_Container_PolicyList_Clear_System_Type_System_String_System_Type_
+  commentId: M:Unity.Container.PolicyList.Clear(System.Type,System.String,System.Type)
+  fullName: Unity.Container.PolicyList.Clear(System.Type, System.String, System.Type)
+  nameWithType: PolicyList.Clear(Type, String, Type)
 - uid: Unity.Container.PolicyList.Clear*
   name: Clear
   href: api/Unity.Container.PolicyList.html#Unity_Container_PolicyList_Clear_
@@ -1637,27 +1641,27 @@ references:
   commentId: Overload:Unity.Container.PolicyList.Count
   fullName: Unity.Container.PolicyList.Count
   nameWithType: PolicyList.Count
-- uid: Unity.Container.PolicyList.Get(System.Type,System.Object,Unity.Policy.IPolicyList@)
-  name: Get(Type, Object, out IPolicyList)
-  href: api/Unity.Container.PolicyList.html#Unity_Container_PolicyList_Get_System_Type_System_Object_Unity_Policy_IPolicyList__
-  commentId: M:Unity.Container.PolicyList.Get(System.Type,System.Object,Unity.Policy.IPolicyList@)
-  name.vb: Get(Type, Object, ByRef IPolicyList)
-  fullName: Unity.Container.PolicyList.Get(System.Type, System.Object, out Unity.Policy.IPolicyList)
-  fullName.vb: Unity.Container.PolicyList.Get(System.Type, System.Object, ByRef Unity.Policy.IPolicyList)
-  nameWithType: PolicyList.Get(Type, Object, out IPolicyList)
-  nameWithType.vb: PolicyList.Get(Type, Object, ByRef IPolicyList)
+- uid: Unity.Container.PolicyList.Get(System.Type,System.String,System.Type,Unity.Policy.IPolicyList@)
+  name: Get(Type, String, Type, out IPolicyList)
+  href: api/Unity.Container.PolicyList.html#Unity_Container_PolicyList_Get_System_Type_System_String_System_Type_Unity_Policy_IPolicyList__
+  commentId: M:Unity.Container.PolicyList.Get(System.Type,System.String,System.Type,Unity.Policy.IPolicyList@)
+  name.vb: Get(Type, String, Type, ByRef IPolicyList)
+  fullName: Unity.Container.PolicyList.Get(System.Type, System.String, System.Type, out Unity.Policy.IPolicyList)
+  fullName.vb: Unity.Container.PolicyList.Get(System.Type, System.String, System.Type, ByRef Unity.Policy.IPolicyList)
+  nameWithType: PolicyList.Get(Type, String, Type, out IPolicyList)
+  nameWithType.vb: PolicyList.Get(Type, String, Type, ByRef IPolicyList)
 - uid: Unity.Container.PolicyList.Get*
   name: Get
   href: api/Unity.Container.PolicyList.html#Unity_Container_PolicyList_Get_
   commentId: Overload:Unity.Container.PolicyList.Get
   fullName: Unity.Container.PolicyList.Get
   nameWithType: PolicyList.Get
-- uid: Unity.Container.PolicyList.Set(System.Type,Unity.Policy.IBuilderPolicy,System.Object)
-  name: Set(Type, IBuilderPolicy, Object)
-  href: api/Unity.Container.PolicyList.html#Unity_Container_PolicyList_Set_System_Type_Unity_Policy_IBuilderPolicy_System_Object_
-  commentId: M:Unity.Container.PolicyList.Set(System.Type,Unity.Policy.IBuilderPolicy,System.Object)
-  fullName: Unity.Container.PolicyList.Set(System.Type, Unity.Policy.IBuilderPolicy, System.Object)
-  nameWithType: PolicyList.Set(Type, IBuilderPolicy, Object)
+- uid: Unity.Container.PolicyList.Set(System.Type,System.String,System.Type,Unity.Policy.IBuilderPolicy)
+  name: Set(Type, String, Type, IBuilderPolicy)
+  href: api/Unity.Container.PolicyList.html#Unity_Container_PolicyList_Set_System_Type_System_String_System_Type_Unity_Policy_IBuilderPolicy_
+  commentId: M:Unity.Container.PolicyList.Set(System.Type,System.String,System.Type,Unity.Policy.IBuilderPolicy)
+  fullName: Unity.Container.PolicyList.Set(System.Type, System.String, System.Type, Unity.Policy.IBuilderPolicy)
+  nameWithType: PolicyList.Set(Type, String, Type, IBuilderPolicy)
 - uid: Unity.Container.PolicyList.Set*
   name: Set
   href: api/Unity.Container.PolicyList.html#Unity_Container_PolicyList_Set_
@@ -1774,6 +1778,23 @@ references:
   fullName.vb: Unity.Container.StagedStrategyChain(Of TStageEnum).Add
   nameWithType: StagedStrategyChain<TStageEnum>.Add
   nameWithType.vb: StagedStrategyChain(Of TStageEnum).Add
+- uid: Unity.Container.StagedStrategyChain`1.AddNew*
+  name: AddNew
+  href: api/Unity.Container.StagedStrategyChain-1.html#Unity_Container_StagedStrategyChain_1_AddNew_
+  commentId: Overload:Unity.Container.StagedStrategyChain`1.AddNew
+  fullName: Unity.Container.StagedStrategyChain<TStageEnum>.AddNew
+  fullName.vb: Unity.Container.StagedStrategyChain(Of TStageEnum).AddNew
+  nameWithType: StagedStrategyChain<TStageEnum>.AddNew
+  nameWithType.vb: StagedStrategyChain(Of TStageEnum).AddNew
+- uid: Unity.Container.StagedStrategyChain`1.AddNew``1(`0)
+  name: AddNew<TStrategy>(TStageEnum)
+  href: api/Unity.Container.StagedStrategyChain-1.html#Unity_Container_StagedStrategyChain_1_AddNew__1__0_
+  commentId: M:Unity.Container.StagedStrategyChain`1.AddNew``1(`0)
+  name.vb: AddNew(Of TStrategy)(TStageEnum)
+  fullName: Unity.Container.StagedStrategyChain<TStageEnum>.AddNew<TStrategy>(TStageEnum)
+  fullName.vb: Unity.Container.StagedStrategyChain(Of TStageEnum).AddNew(Of TStrategy)(TStageEnum)
+  nameWithType: StagedStrategyChain<TStageEnum>.AddNew<TStrategy>(TStageEnum)
+  nameWithType.vb: StagedStrategyChain(Of TStageEnum).AddNew(Of TStrategy)(TStageEnum)
 - uid: Unity.Container.StagedStrategyChain`1.Clear
   name: Clear()
   href: api/Unity.Container.StagedStrategyChain-1.html#Unity_Container_StagedStrategyChain_1_Clear
@@ -2684,6 +2705,12 @@ references:
   commentId: Overload:Unity.Injection.GenericResolvedArrayParameter.ParameterTypeName
   fullName: Unity.Injection.GenericResolvedArrayParameter.ParameterTypeName
   nameWithType: GenericResolvedArrayParameter.ParameterTypeName
+- uid: Unity.Injection.IInjectionFactory
+  name: IInjectionFactory
+  href: api/Unity.Injection.IInjectionFactory.html
+  commentId: T:Unity.Injection.IInjectionFactory
+  fullName: Unity.Injection.IInjectionFactory
+  nameWithType: IInjectionFactory
 - uid: Unity.Injection.InjectionConstructor
   name: InjectionConstructor
   href: api/Unity.Injection.InjectionConstructor.html
@@ -2774,6 +2801,18 @@ references:
   commentId: Overload:Unity.Injection.InjectionFactory.AddPolicies
   fullName: Unity.Injection.InjectionFactory.AddPolicies
   nameWithType: InjectionFactory.AddPolicies
+- uid: Unity.Injection.InjectionFactory.BuildUp(Unity.Builder.IBuilderContext)
+  name: BuildUp(IBuilderContext)
+  href: api/Unity.Injection.InjectionFactory.html#Unity_Injection_InjectionFactory_BuildUp_Unity_Builder_IBuilderContext_
+  commentId: M:Unity.Injection.InjectionFactory.BuildUp(Unity.Builder.IBuilderContext)
+  fullName: Unity.Injection.InjectionFactory.BuildUp(Unity.Builder.IBuilderContext)
+  nameWithType: InjectionFactory.BuildUp(IBuilderContext)
+- uid: Unity.Injection.InjectionFactory.BuildUp*
+  name: BuildUp
+  href: api/Unity.Injection.InjectionFactory.html#Unity_Injection_InjectionFactory_BuildUp_
+  commentId: Overload:Unity.Injection.InjectionFactory.BuildUp
+  fullName: Unity.Injection.InjectionFactory.BuildUp
+  nameWithType: InjectionFactory.BuildUp
 - uid: Unity.Injection.InjectionMethod
   name: InjectionMethod
   href: api/Unity.Injection.InjectionMethod.html
@@ -3362,6 +3401,18 @@ references:
   commentId: Overload:Unity.IUnityContainer.CreateChildContainer
   fullName: Unity.IUnityContainer.CreateChildContainer
   nameWithType: IUnityContainer.CreateChildContainer
+- uid: Unity.IUnityContainer.IsRegistered(System.Type,System.String)
+  name: IsRegistered(Type, String)
+  href: api/Unity.IUnityContainer.html#Unity_IUnityContainer_IsRegistered_System_Type_System_String_
+  commentId: M:Unity.IUnityContainer.IsRegistered(System.Type,System.String)
+  fullName: Unity.IUnityContainer.IsRegistered(System.Type, System.String)
+  nameWithType: IUnityContainer.IsRegistered(Type, String)
+- uid: Unity.IUnityContainer.IsRegistered*
+  name: IsRegistered
+  href: api/Unity.IUnityContainer.html#Unity_IUnityContainer_IsRegistered_
+  commentId: Overload:Unity.IUnityContainer.IsRegistered
+  fullName: Unity.IUnityContainer.IsRegistered
+  nameWithType: IUnityContainer.IsRegistered
 - uid: Unity.IUnityContainer.Parent
   name: Parent
   href: api/Unity.IUnityContainer.html#Unity_IUnityContainer_Parent
@@ -3464,6 +3515,18 @@ references:
   commentId: Overload:Unity.Lifetime.ContainerControlledLifetimeManager.Dispose
   fullName: Unity.Lifetime.ContainerControlledLifetimeManager.Dispose
   nameWithType: ContainerControlledLifetimeManager.Dispose
+- uid: Unity.Lifetime.ContainerControlledLifetimeManager.OnCreateLifetimeManager
+  name: OnCreateLifetimeManager()
+  href: api/Unity.Lifetime.ContainerControlledLifetimeManager.html#Unity_Lifetime_ContainerControlledLifetimeManager_OnCreateLifetimeManager
+  commentId: M:Unity.Lifetime.ContainerControlledLifetimeManager.OnCreateLifetimeManager
+  fullName: Unity.Lifetime.ContainerControlledLifetimeManager.OnCreateLifetimeManager()
+  nameWithType: ContainerControlledLifetimeManager.OnCreateLifetimeManager()
+- uid: Unity.Lifetime.ContainerControlledLifetimeManager.OnCreateLifetimeManager*
+  name: OnCreateLifetimeManager
+  href: api/Unity.Lifetime.ContainerControlledLifetimeManager.html#Unity_Lifetime_ContainerControlledLifetimeManager_OnCreateLifetimeManager_
+  commentId: Overload:Unity.Lifetime.ContainerControlledLifetimeManager.OnCreateLifetimeManager
+  fullName: Unity.Lifetime.ContainerControlledLifetimeManager.OnCreateLifetimeManager
+  nameWithType: ContainerControlledLifetimeManager.OnCreateLifetimeManager
 - uid: Unity.Lifetime.ContainerControlledLifetimeManager.RemoveValue(Unity.Lifetime.ILifetimeContainer)
   name: RemoveValue(ILifetimeContainer)
   href: api/Unity.Lifetime.ContainerControlledLifetimeManager.html#Unity_Lifetime_ContainerControlledLifetimeManager_RemoveValue_Unity_Lifetime_ILifetimeContainer_
@@ -3524,6 +3587,18 @@ references:
   commentId: Overload:Unity.Lifetime.ExternallyControlledLifetimeManager.GetValue
   fullName: Unity.Lifetime.ExternallyControlledLifetimeManager.GetValue
   nameWithType: ExternallyControlledLifetimeManager.GetValue
+- uid: Unity.Lifetime.ExternallyControlledLifetimeManager.OnCreateLifetimeManager
+  name: OnCreateLifetimeManager()
+  href: api/Unity.Lifetime.ExternallyControlledLifetimeManager.html#Unity_Lifetime_ExternallyControlledLifetimeManager_OnCreateLifetimeManager
+  commentId: M:Unity.Lifetime.ExternallyControlledLifetimeManager.OnCreateLifetimeManager
+  fullName: Unity.Lifetime.ExternallyControlledLifetimeManager.OnCreateLifetimeManager()
+  nameWithType: ExternallyControlledLifetimeManager.OnCreateLifetimeManager()
+- uid: Unity.Lifetime.ExternallyControlledLifetimeManager.OnCreateLifetimeManager*
+  name: OnCreateLifetimeManager
+  href: api/Unity.Lifetime.ExternallyControlledLifetimeManager.html#Unity_Lifetime_ExternallyControlledLifetimeManager_OnCreateLifetimeManager_
+  commentId: Overload:Unity.Lifetime.ExternallyControlledLifetimeManager.OnCreateLifetimeManager
+  fullName: Unity.Lifetime.ExternallyControlledLifetimeManager.OnCreateLifetimeManager
+  nameWithType: ExternallyControlledLifetimeManager.OnCreateLifetimeManager
 - uid: Unity.Lifetime.ExternallyControlledLifetimeManager.RemoveValue(Unity.Lifetime.ILifetimeContainer)
   name: RemoveValue(ILifetimeContainer)
   href: api/Unity.Lifetime.ExternallyControlledLifetimeManager.html#Unity_Lifetime_ExternallyControlledLifetimeManager_RemoveValue_Unity_Lifetime_ILifetimeContainer_
@@ -3566,6 +3641,18 @@ references:
   commentId: Overload:Unity.Lifetime.HierarchicalLifetimeManager.Dispose
   fullName: Unity.Lifetime.HierarchicalLifetimeManager.Dispose
   nameWithType: HierarchicalLifetimeManager.Dispose
+- uid: Unity.Lifetime.HierarchicalLifetimeManager.OnCreateLifetimeManager
+  name: OnCreateLifetimeManager()
+  href: api/Unity.Lifetime.HierarchicalLifetimeManager.html#Unity_Lifetime_HierarchicalLifetimeManager_OnCreateLifetimeManager
+  commentId: M:Unity.Lifetime.HierarchicalLifetimeManager.OnCreateLifetimeManager
+  fullName: Unity.Lifetime.HierarchicalLifetimeManager.OnCreateLifetimeManager()
+  nameWithType: HierarchicalLifetimeManager.OnCreateLifetimeManager()
+- uid: Unity.Lifetime.HierarchicalLifetimeManager.OnCreateLifetimeManager*
+  name: OnCreateLifetimeManager
+  href: api/Unity.Lifetime.HierarchicalLifetimeManager.html#Unity_Lifetime_HierarchicalLifetimeManager_OnCreateLifetimeManager_
+  commentId: Overload:Unity.Lifetime.HierarchicalLifetimeManager.OnCreateLifetimeManager
+  fullName: Unity.Lifetime.HierarchicalLifetimeManager.OnCreateLifetimeManager
+  nameWithType: HierarchicalLifetimeManager.OnCreateLifetimeManager
 - uid: Unity.Lifetime.HierarchicalLifetimeManager.RemoveValue(Unity.Lifetime.ILifetimeContainer)
   name: RemoveValue(ILifetimeContainer)
   href: api/Unity.Lifetime.HierarchicalLifetimeManager.html#Unity_Lifetime_HierarchicalLifetimeManager_RemoveValue_Unity_Lifetime_ILifetimeContainer_
@@ -3752,6 +3839,18 @@ references:
   commentId: T:Unity.Lifetime.LifetimeManager
   fullName: Unity.Lifetime.LifetimeManager
   nameWithType: LifetimeManager
+- uid: Unity.Lifetime.LifetimeManager.CreateLifetimePolicy
+  name: CreateLifetimePolicy()
+  href: api/Unity.Lifetime.LifetimeManager.html#Unity_Lifetime_LifetimeManager_CreateLifetimePolicy
+  commentId: M:Unity.Lifetime.LifetimeManager.CreateLifetimePolicy
+  fullName: Unity.Lifetime.LifetimeManager.CreateLifetimePolicy()
+  nameWithType: LifetimeManager.CreateLifetimePolicy()
+- uid: Unity.Lifetime.LifetimeManager.CreateLifetimePolicy*
+  name: CreateLifetimePolicy
+  href: api/Unity.Lifetime.LifetimeManager.html#Unity_Lifetime_LifetimeManager_CreateLifetimePolicy_
+  commentId: Overload:Unity.Lifetime.LifetimeManager.CreateLifetimePolicy
+  fullName: Unity.Lifetime.LifetimeManager.CreateLifetimePolicy
+  nameWithType: LifetimeManager.CreateLifetimePolicy
 - uid: Unity.Lifetime.LifetimeManager.GetValue(Unity.Lifetime.ILifetimeContainer)
   name: GetValue(ILifetimeContainer)
   href: api/Unity.Lifetime.LifetimeManager.html#Unity_Lifetime_LifetimeManager_GetValue_Unity_Lifetime_ILifetimeContainer_
@@ -3776,6 +3875,30 @@ references:
   commentId: Overload:Unity.Lifetime.LifetimeManager.InUse
   fullName: Unity.Lifetime.LifetimeManager.InUse
   nameWithType: LifetimeManager.InUse
+- uid: Unity.Lifetime.LifetimeManager.LifetimeType
+  name: LifetimeType
+  href: api/Unity.Lifetime.LifetimeManager.html#Unity_Lifetime_LifetimeManager_LifetimeType
+  commentId: P:Unity.Lifetime.LifetimeManager.LifetimeType
+  fullName: Unity.Lifetime.LifetimeManager.LifetimeType
+  nameWithType: LifetimeManager.LifetimeType
+- uid: Unity.Lifetime.LifetimeManager.LifetimeType*
+  name: LifetimeType
+  href: api/Unity.Lifetime.LifetimeManager.html#Unity_Lifetime_LifetimeManager_LifetimeType_
+  commentId: Overload:Unity.Lifetime.LifetimeManager.LifetimeType
+  fullName: Unity.Lifetime.LifetimeManager.LifetimeType
+  nameWithType: LifetimeManager.LifetimeType
+- uid: Unity.Lifetime.LifetimeManager.OnCreateLifetimeManager
+  name: OnCreateLifetimeManager()
+  href: api/Unity.Lifetime.LifetimeManager.html#Unity_Lifetime_LifetimeManager_OnCreateLifetimeManager
+  commentId: M:Unity.Lifetime.LifetimeManager.OnCreateLifetimeManager
+  fullName: Unity.Lifetime.LifetimeManager.OnCreateLifetimeManager()
+  nameWithType: LifetimeManager.OnCreateLifetimeManager()
+- uid: Unity.Lifetime.LifetimeManager.OnCreateLifetimeManager*
+  name: OnCreateLifetimeManager
+  href: api/Unity.Lifetime.LifetimeManager.html#Unity_Lifetime_LifetimeManager_OnCreateLifetimeManager_
+  commentId: Overload:Unity.Lifetime.LifetimeManager.OnCreateLifetimeManager
+  fullName: Unity.Lifetime.LifetimeManager.OnCreateLifetimeManager
+  nameWithType: LifetimeManager.OnCreateLifetimeManager
 - uid: Unity.Lifetime.LifetimeManager.RemoveValue(Unity.Lifetime.ILifetimeContainer)
   name: RemoveValue(ILifetimeContainer)
   href: api/Unity.Lifetime.LifetimeManager.html#Unity_Lifetime_LifetimeManager_RemoveValue_Unity_Lifetime_ILifetimeContainer_
@@ -3872,6 +3995,18 @@ references:
   commentId: Overload:Unity.Lifetime.PerResolveLifetimeManager.GetValue
   fullName: Unity.Lifetime.PerResolveLifetimeManager.GetValue
   nameWithType: PerResolveLifetimeManager.GetValue
+- uid: Unity.Lifetime.PerResolveLifetimeManager.OnCreateLifetimeManager
+  name: OnCreateLifetimeManager()
+  href: api/Unity.Lifetime.PerResolveLifetimeManager.html#Unity_Lifetime_PerResolveLifetimeManager_OnCreateLifetimeManager
+  commentId: M:Unity.Lifetime.PerResolveLifetimeManager.OnCreateLifetimeManager
+  fullName: Unity.Lifetime.PerResolveLifetimeManager.OnCreateLifetimeManager()
+  nameWithType: PerResolveLifetimeManager.OnCreateLifetimeManager()
+- uid: Unity.Lifetime.PerResolveLifetimeManager.OnCreateLifetimeManager*
+  name: OnCreateLifetimeManager
+  href: api/Unity.Lifetime.PerResolveLifetimeManager.html#Unity_Lifetime_PerResolveLifetimeManager_OnCreateLifetimeManager_
+  commentId: Overload:Unity.Lifetime.PerResolveLifetimeManager.OnCreateLifetimeManager
+  fullName: Unity.Lifetime.PerResolveLifetimeManager.OnCreateLifetimeManager
+  nameWithType: PerResolveLifetimeManager.OnCreateLifetimeManager
 - uid: Unity.Lifetime.PerResolveLifetimeManager.RemoveValue(Unity.Lifetime.ILifetimeContainer)
   name: RemoveValue(ILifetimeContainer)
   href: api/Unity.Lifetime.PerResolveLifetimeManager.html#Unity_Lifetime_PerResolveLifetimeManager_RemoveValue_Unity_Lifetime_ILifetimeContainer_
@@ -3932,6 +4067,18 @@ references:
   commentId: Overload:Unity.Lifetime.PerThreadLifetimeManager.GetValue
   fullName: Unity.Lifetime.PerThreadLifetimeManager.GetValue
   nameWithType: PerThreadLifetimeManager.GetValue
+- uid: Unity.Lifetime.PerThreadLifetimeManager.OnCreateLifetimeManager
+  name: OnCreateLifetimeManager()
+  href: api/Unity.Lifetime.PerThreadLifetimeManager.html#Unity_Lifetime_PerThreadLifetimeManager_OnCreateLifetimeManager
+  commentId: M:Unity.Lifetime.PerThreadLifetimeManager.OnCreateLifetimeManager
+  fullName: Unity.Lifetime.PerThreadLifetimeManager.OnCreateLifetimeManager()
+  nameWithType: PerThreadLifetimeManager.OnCreateLifetimeManager()
+- uid: Unity.Lifetime.PerThreadLifetimeManager.OnCreateLifetimeManager*
+  name: OnCreateLifetimeManager
+  href: api/Unity.Lifetime.PerThreadLifetimeManager.html#Unity_Lifetime_PerThreadLifetimeManager_OnCreateLifetimeManager_
+  commentId: Overload:Unity.Lifetime.PerThreadLifetimeManager.OnCreateLifetimeManager
+  fullName: Unity.Lifetime.PerThreadLifetimeManager.OnCreateLifetimeManager
+  nameWithType: PerThreadLifetimeManager.OnCreateLifetimeManager
 - uid: Unity.Lifetime.PerThreadLifetimeManager.RemoveValue(Unity.Lifetime.ILifetimeContainer)
   name: RemoveValue(ILifetimeContainer)
   href: api/Unity.Lifetime.PerThreadLifetimeManager.html#Unity_Lifetime_PerThreadLifetimeManager_RemoveValue_Unity_Lifetime_ILifetimeContainer_
@@ -3974,6 +4121,18 @@ references:
   commentId: Overload:Unity.Lifetime.SingletonLifetimeManager.Dispose
   fullName: Unity.Lifetime.SingletonLifetimeManager.Dispose
   nameWithType: SingletonLifetimeManager.Dispose
+- uid: Unity.Lifetime.SingletonLifetimeManager.OnCreateLifetimeManager
+  name: OnCreateLifetimeManager()
+  href: api/Unity.Lifetime.SingletonLifetimeManager.html#Unity_Lifetime_SingletonLifetimeManager_OnCreateLifetimeManager
+  commentId: M:Unity.Lifetime.SingletonLifetimeManager.OnCreateLifetimeManager
+  fullName: Unity.Lifetime.SingletonLifetimeManager.OnCreateLifetimeManager()
+  nameWithType: SingletonLifetimeManager.OnCreateLifetimeManager()
+- uid: Unity.Lifetime.SingletonLifetimeManager.OnCreateLifetimeManager*
+  name: OnCreateLifetimeManager
+  href: api/Unity.Lifetime.SingletonLifetimeManager.html#Unity_Lifetime_SingletonLifetimeManager_OnCreateLifetimeManager_
+  commentId: Overload:Unity.Lifetime.SingletonLifetimeManager.OnCreateLifetimeManager
+  fullName: Unity.Lifetime.SingletonLifetimeManager.OnCreateLifetimeManager
+  nameWithType: SingletonLifetimeManager.OnCreateLifetimeManager
 - uid: Unity.Lifetime.SingletonLifetimeManager.RemoveValue(Unity.Lifetime.ILifetimeContainer)
   name: RemoveValue(ILifetimeContainer)
   href: api/Unity.Lifetime.SingletonLifetimeManager.html#Unity_Lifetime_SingletonLifetimeManager_RemoveValue_Unity_Lifetime_ILifetimeContainer_
@@ -4130,6 +4289,12 @@ references:
   commentId: Overload:Unity.Lifetime.TransientLifetimeManager.GetValue
   fullName: Unity.Lifetime.TransientLifetimeManager.GetValue
   nameWithType: TransientLifetimeManager.GetValue
+- uid: Unity.Lifetime.TransientLifetimeManager.Instance
+  name: Instance
+  href: api/Unity.Lifetime.TransientLifetimeManager.html#Unity_Lifetime_TransientLifetimeManager_Instance
+  commentId: F:Unity.Lifetime.TransientLifetimeManager.Instance
+  fullName: Unity.Lifetime.TransientLifetimeManager.Instance
+  nameWithType: TransientLifetimeManager.Instance
 - uid: Unity.Lifetime.TransientLifetimeManager.InUse
   name: InUse
   href: api/Unity.Lifetime.TransientLifetimeManager.html#Unity_Lifetime_TransientLifetimeManager_InUse
@@ -4142,6 +4307,18 @@ references:
   commentId: Overload:Unity.Lifetime.TransientLifetimeManager.InUse
   fullName: Unity.Lifetime.TransientLifetimeManager.InUse
   nameWithType: TransientLifetimeManager.InUse
+- uid: Unity.Lifetime.TransientLifetimeManager.OnCreateLifetimeManager
+  name: OnCreateLifetimeManager()
+  href: api/Unity.Lifetime.TransientLifetimeManager.html#Unity_Lifetime_TransientLifetimeManager_OnCreateLifetimeManager
+  commentId: M:Unity.Lifetime.TransientLifetimeManager.OnCreateLifetimeManager
+  fullName: Unity.Lifetime.TransientLifetimeManager.OnCreateLifetimeManager()
+  nameWithType: TransientLifetimeManager.OnCreateLifetimeManager()
+- uid: Unity.Lifetime.TransientLifetimeManager.OnCreateLifetimeManager*
+  name: OnCreateLifetimeManager
+  href: api/Unity.Lifetime.TransientLifetimeManager.html#Unity_Lifetime_TransientLifetimeManager_OnCreateLifetimeManager_
+  commentId: Overload:Unity.Lifetime.TransientLifetimeManager.OnCreateLifetimeManager
+  fullName: Unity.Lifetime.TransientLifetimeManager.OnCreateLifetimeManager
+  nameWithType: TransientLifetimeManager.OnCreateLifetimeManager
 - uid: Unity.Lifetime.TransientLifetimeManager.RemoveValue(Unity.Lifetime.ILifetimeContainer)
   name: RemoveValue(ILifetimeContainer)
   href: api/Unity.Lifetime.TransientLifetimeManager.html#Unity_Lifetime_TransientLifetimeManager_RemoveValue_Unity_Lifetime_ILifetimeContainer_
@@ -4178,24 +4355,30 @@ references:
   commentId: T:Unity.ObjectBuilder.BuilderContext
   fullName: Unity.ObjectBuilder.BuilderContext
   nameWithType: BuilderContext
-- uid: Unity.ObjectBuilder.BuilderContext.#ctor(Unity.IUnityContainer,Unity.Strategy.IStrategyChain,Unity.Lifetime.ILifetimeContainer,Unity.Policy.IPolicyList,Unity.Builder.NamedTypeBuildKey,System.Object)
-  name: BuilderContext(IUnityContainer, IStrategyChain, ILifetimeContainer, IPolicyList, NamedTypeBuildKey, Object)
-  href: api/Unity.ObjectBuilder.BuilderContext.html#Unity_ObjectBuilder_BuilderContext__ctor_Unity_IUnityContainer_Unity_Strategy_IStrategyChain_Unity_Lifetime_ILifetimeContainer_Unity_Policy_IPolicyList_Unity_Builder_NamedTypeBuildKey_System_Object_
-  commentId: M:Unity.ObjectBuilder.BuilderContext.#ctor(Unity.IUnityContainer,Unity.Strategy.IStrategyChain,Unity.Lifetime.ILifetimeContainer,Unity.Policy.IPolicyList,Unity.Builder.NamedTypeBuildKey,System.Object)
-  fullName: Unity.ObjectBuilder.BuilderContext.BuilderContext(Unity.IUnityContainer, Unity.Strategy.IStrategyChain, Unity.Lifetime.ILifetimeContainer, Unity.Policy.IPolicyList, Unity.Builder.NamedTypeBuildKey, System.Object)
-  nameWithType: BuilderContext.BuilderContext(IUnityContainer, IStrategyChain, ILifetimeContainer, IPolicyList, NamedTypeBuildKey, Object)
-- uid: Unity.ObjectBuilder.BuilderContext.#ctor(Unity.IUnityContainer,Unity.Strategy.IStrategyChain,Unity.Lifetime.ILifetimeContainer,Unity.Policy.IPolicyList,Unity.Policy.IPolicyList,Unity.Builder.NamedTypeBuildKey,System.Object)
-  name: BuilderContext(IUnityContainer, IStrategyChain, ILifetimeContainer, IPolicyList, IPolicyList, NamedTypeBuildKey, Object)
-  href: api/Unity.ObjectBuilder.BuilderContext.html#Unity_ObjectBuilder_BuilderContext__ctor_Unity_IUnityContainer_Unity_Strategy_IStrategyChain_Unity_Lifetime_ILifetimeContainer_Unity_Policy_IPolicyList_Unity_Policy_IPolicyList_Unity_Builder_NamedTypeBuildKey_System_Object_
-  commentId: M:Unity.ObjectBuilder.BuilderContext.#ctor(Unity.IUnityContainer,Unity.Strategy.IStrategyChain,Unity.Lifetime.ILifetimeContainer,Unity.Policy.IPolicyList,Unity.Policy.IPolicyList,Unity.Builder.NamedTypeBuildKey,System.Object)
-  fullName: Unity.ObjectBuilder.BuilderContext.BuilderContext(Unity.IUnityContainer, Unity.Strategy.IStrategyChain, Unity.Lifetime.ILifetimeContainer, Unity.Policy.IPolicyList, Unity.Policy.IPolicyList, Unity.Builder.NamedTypeBuildKey, System.Object)
-  nameWithType: BuilderContext.BuilderContext(IUnityContainer, IStrategyChain, ILifetimeContainer, IPolicyList, IPolicyList, NamedTypeBuildKey, Object)
-- uid: Unity.ObjectBuilder.BuilderContext.#ctor(Unity.IUnityContainer,Unity.Strategy.IStrategyChain,Unity.Lifetime.ILifetimeContainer,Unity.Policy.IPolicyList,Unity.Policy.IPolicyList,Unity.Builder.NamedTypeBuildKey,Unity.Resolution.CompositeResolverOverride)
-  name: BuilderContext(IUnityContainer, IStrategyChain, ILifetimeContainer, IPolicyList, IPolicyList, NamedTypeBuildKey, CompositeResolverOverride)
-  href: api/Unity.ObjectBuilder.BuilderContext.html#Unity_ObjectBuilder_BuilderContext__ctor_Unity_IUnityContainer_Unity_Strategy_IStrategyChain_Unity_Lifetime_ILifetimeContainer_Unity_Policy_IPolicyList_Unity_Policy_IPolicyList_Unity_Builder_NamedTypeBuildKey_Unity_Resolution_CompositeResolverOverride_
-  commentId: M:Unity.ObjectBuilder.BuilderContext.#ctor(Unity.IUnityContainer,Unity.Strategy.IStrategyChain,Unity.Lifetime.ILifetimeContainer,Unity.Policy.IPolicyList,Unity.Policy.IPolicyList,Unity.Builder.NamedTypeBuildKey,Unity.Resolution.CompositeResolverOverride)
-  fullName: Unity.ObjectBuilder.BuilderContext.BuilderContext(Unity.IUnityContainer, Unity.Strategy.IStrategyChain, Unity.Lifetime.ILifetimeContainer, Unity.Policy.IPolicyList, Unity.Policy.IPolicyList, Unity.Builder.NamedTypeBuildKey, Unity.Resolution.CompositeResolverOverride)
-  nameWithType: BuilderContext.BuilderContext(IUnityContainer, IStrategyChain, ILifetimeContainer, IPolicyList, IPolicyList, NamedTypeBuildKey, CompositeResolverOverride)
+- uid: Unity.ObjectBuilder.BuilderContext.#ctor(Unity.Builder.IBuilderContext,Unity.Strategy.IStrategyChain,System.Object)
+  name: BuilderContext(IBuilderContext, IStrategyChain, Object)
+  href: api/Unity.ObjectBuilder.BuilderContext.html#Unity_ObjectBuilder_BuilderContext__ctor_Unity_Builder_IBuilderContext_Unity_Strategy_IStrategyChain_System_Object_
+  commentId: M:Unity.ObjectBuilder.BuilderContext.#ctor(Unity.Builder.IBuilderContext,Unity.Strategy.IStrategyChain,System.Object)
+  fullName: Unity.ObjectBuilder.BuilderContext.BuilderContext(Unity.Builder.IBuilderContext, Unity.Strategy.IStrategyChain, System.Object)
+  nameWithType: BuilderContext.BuilderContext(IBuilderContext, IStrategyChain, Object)
+- uid: Unity.ObjectBuilder.BuilderContext.#ctor(Unity.IUnityContainer,Unity.Strategy.IStrategyChain,Unity.Lifetime.ILifetimeContainer,Unity.Policy.IPolicyList,Unity.Builder.INamedType,System.Object)
+  name: BuilderContext(IUnityContainer, IStrategyChain, ILifetimeContainer, IPolicyList, INamedType, Object)
+  href: api/Unity.ObjectBuilder.BuilderContext.html#Unity_ObjectBuilder_BuilderContext__ctor_Unity_IUnityContainer_Unity_Strategy_IStrategyChain_Unity_Lifetime_ILifetimeContainer_Unity_Policy_IPolicyList_Unity_Builder_INamedType_System_Object_
+  commentId: M:Unity.ObjectBuilder.BuilderContext.#ctor(Unity.IUnityContainer,Unity.Strategy.IStrategyChain,Unity.Lifetime.ILifetimeContainer,Unity.Policy.IPolicyList,Unity.Builder.INamedType,System.Object)
+  fullName: Unity.ObjectBuilder.BuilderContext.BuilderContext(Unity.IUnityContainer, Unity.Strategy.IStrategyChain, Unity.Lifetime.ILifetimeContainer, Unity.Policy.IPolicyList, Unity.Builder.INamedType, System.Object)
+  nameWithType: BuilderContext.BuilderContext(IUnityContainer, IStrategyChain, ILifetimeContainer, IPolicyList, INamedType, Object)
+- uid: Unity.ObjectBuilder.BuilderContext.#ctor(Unity.IUnityContainer,Unity.Strategy.IStrategyChain,Unity.Lifetime.ILifetimeContainer,Unity.Policy.IPolicyList,Unity.Policy.IPolicyList,Unity.Builder.INamedType,System.Object)
+  name: BuilderContext(IUnityContainer, IStrategyChain, ILifetimeContainer, IPolicyList, IPolicyList, INamedType, Object)
+  href: api/Unity.ObjectBuilder.BuilderContext.html#Unity_ObjectBuilder_BuilderContext__ctor_Unity_IUnityContainer_Unity_Strategy_IStrategyChain_Unity_Lifetime_ILifetimeContainer_Unity_Policy_IPolicyList_Unity_Policy_IPolicyList_Unity_Builder_INamedType_System_Object_
+  commentId: M:Unity.ObjectBuilder.BuilderContext.#ctor(Unity.IUnityContainer,Unity.Strategy.IStrategyChain,Unity.Lifetime.ILifetimeContainer,Unity.Policy.IPolicyList,Unity.Policy.IPolicyList,Unity.Builder.INamedType,System.Object)
+  fullName: Unity.ObjectBuilder.BuilderContext.BuilderContext(Unity.IUnityContainer, Unity.Strategy.IStrategyChain, Unity.Lifetime.ILifetimeContainer, Unity.Policy.IPolicyList, Unity.Policy.IPolicyList, Unity.Builder.INamedType, System.Object)
+  nameWithType: BuilderContext.BuilderContext(IUnityContainer, IStrategyChain, ILifetimeContainer, IPolicyList, IPolicyList, INamedType, Object)
+- uid: Unity.ObjectBuilder.BuilderContext.#ctor(Unity.IUnityContainer,Unity.Strategy.IStrategyChain,Unity.Lifetime.ILifetimeContainer,Unity.Policy.IPolicyList,Unity.Policy.IPolicyList,Unity.Builder.INamedType,Unity.Resolution.CompositeResolverOverride)
+  name: BuilderContext(IUnityContainer, IStrategyChain, ILifetimeContainer, IPolicyList, IPolicyList, INamedType, CompositeResolverOverride)
+  href: api/Unity.ObjectBuilder.BuilderContext.html#Unity_ObjectBuilder_BuilderContext__ctor_Unity_IUnityContainer_Unity_Strategy_IStrategyChain_Unity_Lifetime_ILifetimeContainer_Unity_Policy_IPolicyList_Unity_Policy_IPolicyList_Unity_Builder_INamedType_Unity_Resolution_CompositeResolverOverride_
+  commentId: M:Unity.ObjectBuilder.BuilderContext.#ctor(Unity.IUnityContainer,Unity.Strategy.IStrategyChain,Unity.Lifetime.ILifetimeContainer,Unity.Policy.IPolicyList,Unity.Policy.IPolicyList,Unity.Builder.INamedType,Unity.Resolution.CompositeResolverOverride)
+  fullName: Unity.ObjectBuilder.BuilderContext.BuilderContext(Unity.IUnityContainer, Unity.Strategy.IStrategyChain, Unity.Lifetime.ILifetimeContainer, Unity.Policy.IPolicyList, Unity.Policy.IPolicyList, Unity.Builder.INamedType, Unity.Resolution.CompositeResolverOverride)
+  nameWithType: BuilderContext.BuilderContext(IUnityContainer, IStrategyChain, ILifetimeContainer, IPolicyList, IPolicyList, INamedType, CompositeResolverOverride)
 - uid: Unity.ObjectBuilder.BuilderContext.#ctor*
   name: BuilderContext
   href: api/Unity.ObjectBuilder.BuilderContext.html#Unity_ObjectBuilder_BuilderContext__ctor_
@@ -4313,15 +4496,15 @@ references:
   commentId: Overload:Unity.ObjectBuilder.BuilderContext.Lifetime
   fullName: Unity.ObjectBuilder.BuilderContext.Lifetime
   nameWithType: BuilderContext.Lifetime
-- uid: Unity.ObjectBuilder.BuilderContext.NewBuildUp(Unity.Builder.NamedTypeBuildKey,System.Action{Unity.Builder.IBuilderContext})
-  name: NewBuildUp(NamedTypeBuildKey, Action<IBuilderContext>)
-  href: api/Unity.ObjectBuilder.BuilderContext.html#Unity_ObjectBuilder_BuilderContext_NewBuildUp_Unity_Builder_NamedTypeBuildKey_System_Action_Unity_Builder_IBuilderContext__
-  commentId: M:Unity.ObjectBuilder.BuilderContext.NewBuildUp(Unity.Builder.NamedTypeBuildKey,System.Action{Unity.Builder.IBuilderContext})
-  name.vb: NewBuildUp(NamedTypeBuildKey, Action(Of IBuilderContext))
-  fullName: Unity.ObjectBuilder.BuilderContext.NewBuildUp(Unity.Builder.NamedTypeBuildKey, System.Action<Unity.Builder.IBuilderContext>)
-  fullName.vb: Unity.ObjectBuilder.BuilderContext.NewBuildUp(Unity.Builder.NamedTypeBuildKey, System.Action(Of Unity.Builder.IBuilderContext))
-  nameWithType: BuilderContext.NewBuildUp(NamedTypeBuildKey, Action<IBuilderContext>)
-  nameWithType.vb: BuilderContext.NewBuildUp(NamedTypeBuildKey, Action(Of IBuilderContext))
+- uid: Unity.ObjectBuilder.BuilderContext.NewBuildUp(System.Type,System.String,System.Action{Unity.Builder.IBuilderContext})
+  name: NewBuildUp(Type, String, Action<IBuilderContext>)
+  href: api/Unity.ObjectBuilder.BuilderContext.html#Unity_ObjectBuilder_BuilderContext_NewBuildUp_System_Type_System_String_System_Action_Unity_Builder_IBuilderContext__
+  commentId: M:Unity.ObjectBuilder.BuilderContext.NewBuildUp(System.Type,System.String,System.Action{Unity.Builder.IBuilderContext})
+  name.vb: NewBuildUp(Type, String, Action(Of IBuilderContext))
+  fullName: Unity.ObjectBuilder.BuilderContext.NewBuildUp(System.Type, System.String, System.Action<Unity.Builder.IBuilderContext>)
+  fullName.vb: Unity.ObjectBuilder.BuilderContext.NewBuildUp(System.Type, System.String, System.Action(Of Unity.Builder.IBuilderContext))
+  nameWithType: BuilderContext.NewBuildUp(Type, String, Action<IBuilderContext>)
+  nameWithType.vb: BuilderContext.NewBuildUp(Type, String, Action(Of IBuilderContext))
 - uid: Unity.ObjectBuilder.BuilderContext.NewBuildUp*
   name: NewBuildUp
   href: api/Unity.ObjectBuilder.BuilderContext.html#Unity_ObjectBuilder_BuilderContext_NewBuildUp_
@@ -4340,6 +4523,18 @@ references:
   commentId: Overload:Unity.ObjectBuilder.BuilderContext.OriginalBuildKey
   fullName: Unity.ObjectBuilder.BuilderContext.OriginalBuildKey
   nameWithType: BuilderContext.OriginalBuildKey
+- uid: Unity.ObjectBuilder.BuilderContext.ParentContext
+  name: ParentContext
+  href: api/Unity.ObjectBuilder.BuilderContext.html#Unity_ObjectBuilder_BuilderContext_ParentContext
+  commentId: P:Unity.ObjectBuilder.BuilderContext.ParentContext
+  fullName: Unity.ObjectBuilder.BuilderContext.ParentContext
+  nameWithType: BuilderContext.ParentContext
+- uid: Unity.ObjectBuilder.BuilderContext.ParentContext*
+  name: ParentContext
+  href: api/Unity.ObjectBuilder.BuilderContext.html#Unity_ObjectBuilder_BuilderContext_ParentContext_
+  commentId: Overload:Unity.ObjectBuilder.BuilderContext.ParentContext
+  fullName: Unity.ObjectBuilder.BuilderContext.ParentContext
+  nameWithType: BuilderContext.ParentContext
 - uid: Unity.ObjectBuilder.BuilderContext.PersistentPolicies
   name: PersistentPolicies
   href: api/Unity.ObjectBuilder.BuilderContext.html#Unity_ObjectBuilder_BuilderContext_PersistentPolicies
@@ -4442,24 +4637,24 @@ references:
   commentId: Overload:Unity.ObjectBuilder.BuildPlan.DynamicMethod.DynamicBuildPlanGenerationContext.ContextParameter
   fullName: Unity.ObjectBuilder.BuildPlan.DynamicMethod.DynamicBuildPlanGenerationContext.ContextParameter
   nameWithType: DynamicBuildPlanGenerationContext.ContextParameter
-- uid: Unity.ObjectBuilder.BuildPlan.DynamicMethod.DynamicBuildPlanGenerationContext.CreateParameterExpression(Unity.Policy.IDependencyResolverPolicy,System.Type,System.Linq.Expressions.Expression)
-  name: CreateParameterExpression(IDependencyResolverPolicy, Type, Expression)
-  href: api/Unity.ObjectBuilder.BuildPlan.DynamicMethod.DynamicBuildPlanGenerationContext.html#Unity_ObjectBuilder_BuildPlan_DynamicMethod_DynamicBuildPlanGenerationContext_CreateParameterExpression_Unity_Policy_IDependencyResolverPolicy_System_Type_System_Linq_Expressions_Expression_
-  commentId: M:Unity.ObjectBuilder.BuildPlan.DynamicMethod.DynamicBuildPlanGenerationContext.CreateParameterExpression(Unity.Policy.IDependencyResolverPolicy,System.Type,System.Linq.Expressions.Expression)
-  fullName: Unity.ObjectBuilder.BuildPlan.DynamicMethod.DynamicBuildPlanGenerationContext.CreateParameterExpression(Unity.Policy.IDependencyResolverPolicy, System.Type, System.Linq.Expressions.Expression)
-  nameWithType: DynamicBuildPlanGenerationContext.CreateParameterExpression(IDependencyResolverPolicy, Type, Expression)
+- uid: Unity.ObjectBuilder.BuildPlan.DynamicMethod.DynamicBuildPlanGenerationContext.CreateParameterExpression(Unity.Policy.IResolverPolicy,System.Type,System.Linq.Expressions.Expression)
+  name: CreateParameterExpression(IResolverPolicy, Type, Expression)
+  href: api/Unity.ObjectBuilder.BuildPlan.DynamicMethod.DynamicBuildPlanGenerationContext.html#Unity_ObjectBuilder_BuildPlan_DynamicMethod_DynamicBuildPlanGenerationContext_CreateParameterExpression_Unity_Policy_IResolverPolicy_System_Type_System_Linq_Expressions_Expression_
+  commentId: M:Unity.ObjectBuilder.BuildPlan.DynamicMethod.DynamicBuildPlanGenerationContext.CreateParameterExpression(Unity.Policy.IResolverPolicy,System.Type,System.Linq.Expressions.Expression)
+  fullName: Unity.ObjectBuilder.BuildPlan.DynamicMethod.DynamicBuildPlanGenerationContext.CreateParameterExpression(Unity.Policy.IResolverPolicy, System.Type, System.Linq.Expressions.Expression)
+  nameWithType: DynamicBuildPlanGenerationContext.CreateParameterExpression(IResolverPolicy, Type, Expression)
 - uid: Unity.ObjectBuilder.BuildPlan.DynamicMethod.DynamicBuildPlanGenerationContext.CreateParameterExpression*
   name: CreateParameterExpression
   href: api/Unity.ObjectBuilder.BuildPlan.DynamicMethod.DynamicBuildPlanGenerationContext.html#Unity_ObjectBuilder_BuildPlan_DynamicMethod_DynamicBuildPlanGenerationContext_CreateParameterExpression_
   commentId: Overload:Unity.ObjectBuilder.BuildPlan.DynamicMethod.DynamicBuildPlanGenerationContext.CreateParameterExpression
   fullName: Unity.ObjectBuilder.BuildPlan.DynamicMethod.DynamicBuildPlanGenerationContext.CreateParameterExpression
   nameWithType: DynamicBuildPlanGenerationContext.CreateParameterExpression
-- uid: Unity.ObjectBuilder.BuildPlan.DynamicMethod.DynamicBuildPlanGenerationContext.GetResolver(Unity.Builder.IBuilderContext,System.Type,Unity.Policy.IDependencyResolverPolicy)
-  name: GetResolver(IBuilderContext, Type, IDependencyResolverPolicy)
-  href: api/Unity.ObjectBuilder.BuildPlan.DynamicMethod.DynamicBuildPlanGenerationContext.html#Unity_ObjectBuilder_BuildPlan_DynamicMethod_DynamicBuildPlanGenerationContext_GetResolver_Unity_Builder_IBuilderContext_System_Type_Unity_Policy_IDependencyResolverPolicy_
-  commentId: M:Unity.ObjectBuilder.BuildPlan.DynamicMethod.DynamicBuildPlanGenerationContext.GetResolver(Unity.Builder.IBuilderContext,System.Type,Unity.Policy.IDependencyResolverPolicy)
-  fullName: Unity.ObjectBuilder.BuildPlan.DynamicMethod.DynamicBuildPlanGenerationContext.GetResolver(Unity.Builder.IBuilderContext, System.Type, Unity.Policy.IDependencyResolverPolicy)
-  nameWithType: DynamicBuildPlanGenerationContext.GetResolver(IBuilderContext, Type, IDependencyResolverPolicy)
+- uid: Unity.ObjectBuilder.BuildPlan.DynamicMethod.DynamicBuildPlanGenerationContext.GetResolver(Unity.Builder.IBuilderContext,System.Type,Unity.Policy.IResolverPolicy)
+  name: GetResolver(IBuilderContext, Type, IResolverPolicy)
+  href: api/Unity.ObjectBuilder.BuildPlan.DynamicMethod.DynamicBuildPlanGenerationContext.html#Unity_ObjectBuilder_BuildPlan_DynamicMethod_DynamicBuildPlanGenerationContext_GetResolver_Unity_Builder_IBuilderContext_System_Type_Unity_Policy_IResolverPolicy_
+  commentId: M:Unity.ObjectBuilder.BuildPlan.DynamicMethod.DynamicBuildPlanGenerationContext.GetResolver(Unity.Builder.IBuilderContext,System.Type,Unity.Policy.IResolverPolicy)
+  fullName: Unity.ObjectBuilder.BuildPlan.DynamicMethod.DynamicBuildPlanGenerationContext.GetResolver(Unity.Builder.IBuilderContext, System.Type, Unity.Policy.IResolverPolicy)
+  nameWithType: DynamicBuildPlanGenerationContext.GetResolver(IBuilderContext, Type, IResolverPolicy)
 - uid: Unity.ObjectBuilder.BuildPlan.DynamicMethod.DynamicBuildPlanGenerationContext.GetResolver*
   name: GetResolver
   href: api/Unity.ObjectBuilder.BuildPlan.DynamicMethod.DynamicBuildPlanGenerationContext.html#Unity_ObjectBuilder_BuildPlan_DynamicMethod_DynamicBuildPlanGenerationContext_GetResolver_
@@ -4520,24 +4715,27 @@ references:
   commentId: T:Unity.ObjectBuilder.BuildPlan.DynamicMethod.DynamicMethodBuildPlanCreatorPolicy
   fullName: Unity.ObjectBuilder.BuildPlan.DynamicMethod.DynamicMethodBuildPlanCreatorPolicy
   nameWithType: DynamicMethodBuildPlanCreatorPolicy
-- uid: Unity.ObjectBuilder.BuildPlan.DynamicMethod.DynamicMethodBuildPlanCreatorPolicy.#ctor(Unity.Strategy.IStagedStrategyChain)
-  name: DynamicMethodBuildPlanCreatorPolicy(IStagedStrategyChain)
-  href: api/Unity.ObjectBuilder.BuildPlan.DynamicMethod.DynamicMethodBuildPlanCreatorPolicy.html#Unity_ObjectBuilder_BuildPlan_DynamicMethod_DynamicMethodBuildPlanCreatorPolicy__ctor_Unity_Strategy_IStagedStrategyChain_
-  commentId: M:Unity.ObjectBuilder.BuildPlan.DynamicMethod.DynamicMethodBuildPlanCreatorPolicy.#ctor(Unity.Strategy.IStagedStrategyChain)
-  fullName: Unity.ObjectBuilder.BuildPlan.DynamicMethod.DynamicMethodBuildPlanCreatorPolicy.DynamicMethodBuildPlanCreatorPolicy(Unity.Strategy.IStagedStrategyChain)
-  nameWithType: DynamicMethodBuildPlanCreatorPolicy.DynamicMethodBuildPlanCreatorPolicy(IStagedStrategyChain)
+- uid: Unity.ObjectBuilder.BuildPlan.DynamicMethod.DynamicMethodBuildPlanCreatorPolicy.#ctor(Unity.Strategy.IStagedStrategyChain{Unity.Builder.Strategy.IBuilderStrategy,Unity.Builder.BuilderStage})
+  name: DynamicMethodBuildPlanCreatorPolicy(IStagedStrategyChain<IBuilderStrategy, BuilderStage>)
+  href: api/Unity.ObjectBuilder.BuildPlan.DynamicMethod.DynamicMethodBuildPlanCreatorPolicy.html#Unity_ObjectBuilder_BuildPlan_DynamicMethod_DynamicMethodBuildPlanCreatorPolicy__ctor_Unity_Strategy_IStagedStrategyChain_Unity_Builder_Strategy_IBuilderStrategy_Unity_Builder_BuilderStage__
+  commentId: M:Unity.ObjectBuilder.BuildPlan.DynamicMethod.DynamicMethodBuildPlanCreatorPolicy.#ctor(Unity.Strategy.IStagedStrategyChain{Unity.Builder.Strategy.IBuilderStrategy,Unity.Builder.BuilderStage})
+  name.vb: DynamicMethodBuildPlanCreatorPolicy(IStagedStrategyChain(Of IBuilderStrategy, BuilderStage))
+  fullName: Unity.ObjectBuilder.BuildPlan.DynamicMethod.DynamicMethodBuildPlanCreatorPolicy.DynamicMethodBuildPlanCreatorPolicy(Unity.Strategy.IStagedStrategyChain<Unity.Builder.Strategy.IBuilderStrategy, Unity.Builder.BuilderStage>)
+  fullName.vb: Unity.ObjectBuilder.BuildPlan.DynamicMethod.DynamicMethodBuildPlanCreatorPolicy.DynamicMethodBuildPlanCreatorPolicy(Unity.Strategy.IStagedStrategyChain(Of Unity.Builder.Strategy.IBuilderStrategy, Unity.Builder.BuilderStage))
+  nameWithType: DynamicMethodBuildPlanCreatorPolicy.DynamicMethodBuildPlanCreatorPolicy(IStagedStrategyChain<IBuilderStrategy, BuilderStage>)
+  nameWithType.vb: DynamicMethodBuildPlanCreatorPolicy.DynamicMethodBuildPlanCreatorPolicy(IStagedStrategyChain(Of IBuilderStrategy, BuilderStage))
 - uid: Unity.ObjectBuilder.BuildPlan.DynamicMethod.DynamicMethodBuildPlanCreatorPolicy.#ctor*
   name: DynamicMethodBuildPlanCreatorPolicy
   href: api/Unity.ObjectBuilder.BuildPlan.DynamicMethod.DynamicMethodBuildPlanCreatorPolicy.html#Unity_ObjectBuilder_BuildPlan_DynamicMethod_DynamicMethodBuildPlanCreatorPolicy__ctor_
   commentId: Overload:Unity.ObjectBuilder.BuildPlan.DynamicMethod.DynamicMethodBuildPlanCreatorPolicy.#ctor
   fullName: Unity.ObjectBuilder.BuildPlan.DynamicMethod.DynamicMethodBuildPlanCreatorPolicy.DynamicMethodBuildPlanCreatorPolicy
   nameWithType: DynamicMethodBuildPlanCreatorPolicy.DynamicMethodBuildPlanCreatorPolicy
-- uid: Unity.ObjectBuilder.BuildPlan.DynamicMethod.DynamicMethodBuildPlanCreatorPolicy.CreatePlan(Unity.Builder.IBuilderContext,Unity.Builder.NamedTypeBuildKey)
-  name: CreatePlan(IBuilderContext, NamedTypeBuildKey)
-  href: api/Unity.ObjectBuilder.BuildPlan.DynamicMethod.DynamicMethodBuildPlanCreatorPolicy.html#Unity_ObjectBuilder_BuildPlan_DynamicMethod_DynamicMethodBuildPlanCreatorPolicy_CreatePlan_Unity_Builder_IBuilderContext_Unity_Builder_NamedTypeBuildKey_
-  commentId: M:Unity.ObjectBuilder.BuildPlan.DynamicMethod.DynamicMethodBuildPlanCreatorPolicy.CreatePlan(Unity.Builder.IBuilderContext,Unity.Builder.NamedTypeBuildKey)
-  fullName: Unity.ObjectBuilder.BuildPlan.DynamicMethod.DynamicMethodBuildPlanCreatorPolicy.CreatePlan(Unity.Builder.IBuilderContext, Unity.Builder.NamedTypeBuildKey)
-  nameWithType: DynamicMethodBuildPlanCreatorPolicy.CreatePlan(IBuilderContext, NamedTypeBuildKey)
+- uid: Unity.ObjectBuilder.BuildPlan.DynamicMethod.DynamicMethodBuildPlanCreatorPolicy.CreatePlan(Unity.Builder.IBuilderContext,Unity.Builder.INamedType)
+  name: CreatePlan(IBuilderContext, INamedType)
+  href: api/Unity.ObjectBuilder.BuildPlan.DynamicMethod.DynamicMethodBuildPlanCreatorPolicy.html#Unity_ObjectBuilder_BuildPlan_DynamicMethod_DynamicMethodBuildPlanCreatorPolicy_CreatePlan_Unity_Builder_IBuilderContext_Unity_Builder_INamedType_
+  commentId: M:Unity.ObjectBuilder.BuildPlan.DynamicMethod.DynamicMethodBuildPlanCreatorPolicy.CreatePlan(Unity.Builder.IBuilderContext,Unity.Builder.INamedType)
+  fullName: Unity.ObjectBuilder.BuildPlan.DynamicMethod.DynamicMethodBuildPlanCreatorPolicy.CreatePlan(Unity.Builder.IBuilderContext, Unity.Builder.INamedType)
+  nameWithType: DynamicMethodBuildPlanCreatorPolicy.CreatePlan(IBuilderContext, INamedType)
 - uid: Unity.ObjectBuilder.BuildPlan.DynamicMethod.DynamicMethodBuildPlanCreatorPolicy.CreatePlan*
   name: CreatePlan
   href: api/Unity.ObjectBuilder.BuildPlan.DynamicMethod.DynamicMethodBuildPlanCreatorPolicy.html#Unity_ObjectBuilder_BuildPlan_DynamicMethod_DynamicMethodBuildPlanCreatorPolicy_CreatePlan_
@@ -4760,12 +4958,12 @@ references:
   commentId: T:Unity.ObjectBuilder.BuildPlan.EnumerableDynamicMethodBuildPlanCreatorPolicy
   fullName: Unity.ObjectBuilder.BuildPlan.EnumerableDynamicMethodBuildPlanCreatorPolicy
   nameWithType: EnumerableDynamicMethodBuildPlanCreatorPolicy
-- uid: Unity.ObjectBuilder.BuildPlan.EnumerableDynamicMethodBuildPlanCreatorPolicy.CreatePlan(Unity.Builder.IBuilderContext,Unity.Builder.NamedTypeBuildKey)
-  name: CreatePlan(IBuilderContext, NamedTypeBuildKey)
-  href: api/Unity.ObjectBuilder.BuildPlan.EnumerableDynamicMethodBuildPlanCreatorPolicy.html#Unity_ObjectBuilder_BuildPlan_EnumerableDynamicMethodBuildPlanCreatorPolicy_CreatePlan_Unity_Builder_IBuilderContext_Unity_Builder_NamedTypeBuildKey_
-  commentId: M:Unity.ObjectBuilder.BuildPlan.EnumerableDynamicMethodBuildPlanCreatorPolicy.CreatePlan(Unity.Builder.IBuilderContext,Unity.Builder.NamedTypeBuildKey)
-  fullName: Unity.ObjectBuilder.BuildPlan.EnumerableDynamicMethodBuildPlanCreatorPolicy.CreatePlan(Unity.Builder.IBuilderContext, Unity.Builder.NamedTypeBuildKey)
-  nameWithType: EnumerableDynamicMethodBuildPlanCreatorPolicy.CreatePlan(IBuilderContext, NamedTypeBuildKey)
+- uid: Unity.ObjectBuilder.BuildPlan.EnumerableDynamicMethodBuildPlanCreatorPolicy.CreatePlan(Unity.Builder.IBuilderContext,Unity.Builder.INamedType)
+  name: CreatePlan(IBuilderContext, INamedType)
+  href: api/Unity.ObjectBuilder.BuildPlan.EnumerableDynamicMethodBuildPlanCreatorPolicy.html#Unity_ObjectBuilder_BuildPlan_EnumerableDynamicMethodBuildPlanCreatorPolicy_CreatePlan_Unity_Builder_IBuilderContext_Unity_Builder_INamedType_
+  commentId: M:Unity.ObjectBuilder.BuildPlan.EnumerableDynamicMethodBuildPlanCreatorPolicy.CreatePlan(Unity.Builder.IBuilderContext,Unity.Builder.INamedType)
+  fullName: Unity.ObjectBuilder.BuildPlan.EnumerableDynamicMethodBuildPlanCreatorPolicy.CreatePlan(Unity.Builder.IBuilderContext, Unity.Builder.INamedType)
+  nameWithType: EnumerableDynamicMethodBuildPlanCreatorPolicy.CreatePlan(IBuilderContext, INamedType)
 - uid: Unity.ObjectBuilder.BuildPlan.EnumerableDynamicMethodBuildPlanCreatorPolicy.CreatePlan*
   name: CreatePlan
   href: api/Unity.ObjectBuilder.BuildPlan.EnumerableDynamicMethodBuildPlanCreatorPolicy.html#Unity_ObjectBuilder_BuildPlan_EnumerableDynamicMethodBuildPlanCreatorPolicy_CreatePlan_
@@ -4778,12 +4976,12 @@ references:
   commentId: T:Unity.ObjectBuilder.BuildPlan.LazyDynamicMethodBuildPlanCreatorPolicy
   fullName: Unity.ObjectBuilder.BuildPlan.LazyDynamicMethodBuildPlanCreatorPolicy
   nameWithType: LazyDynamicMethodBuildPlanCreatorPolicy
-- uid: Unity.ObjectBuilder.BuildPlan.LazyDynamicMethodBuildPlanCreatorPolicy.CreatePlan(Unity.Builder.IBuilderContext,Unity.Builder.NamedTypeBuildKey)
-  name: CreatePlan(IBuilderContext, NamedTypeBuildKey)
-  href: api/Unity.ObjectBuilder.BuildPlan.LazyDynamicMethodBuildPlanCreatorPolicy.html#Unity_ObjectBuilder_BuildPlan_LazyDynamicMethodBuildPlanCreatorPolicy_CreatePlan_Unity_Builder_IBuilderContext_Unity_Builder_NamedTypeBuildKey_
-  commentId: M:Unity.ObjectBuilder.BuildPlan.LazyDynamicMethodBuildPlanCreatorPolicy.CreatePlan(Unity.Builder.IBuilderContext,Unity.Builder.NamedTypeBuildKey)
-  fullName: Unity.ObjectBuilder.BuildPlan.LazyDynamicMethodBuildPlanCreatorPolicy.CreatePlan(Unity.Builder.IBuilderContext, Unity.Builder.NamedTypeBuildKey)
-  nameWithType: LazyDynamicMethodBuildPlanCreatorPolicy.CreatePlan(IBuilderContext, NamedTypeBuildKey)
+- uid: Unity.ObjectBuilder.BuildPlan.LazyDynamicMethodBuildPlanCreatorPolicy.CreatePlan(Unity.Builder.IBuilderContext,Unity.Builder.INamedType)
+  name: CreatePlan(IBuilderContext, INamedType)
+  href: api/Unity.ObjectBuilder.BuildPlan.LazyDynamicMethodBuildPlanCreatorPolicy.html#Unity_ObjectBuilder_BuildPlan_LazyDynamicMethodBuildPlanCreatorPolicy_CreatePlan_Unity_Builder_IBuilderContext_Unity_Builder_INamedType_
+  commentId: M:Unity.ObjectBuilder.BuildPlan.LazyDynamicMethodBuildPlanCreatorPolicy.CreatePlan(Unity.Builder.IBuilderContext,Unity.Builder.INamedType)
+  fullName: Unity.ObjectBuilder.BuildPlan.LazyDynamicMethodBuildPlanCreatorPolicy.CreatePlan(Unity.Builder.IBuilderContext, Unity.Builder.INamedType)
+  nameWithType: LazyDynamicMethodBuildPlanCreatorPolicy.CreatePlan(IBuilderContext, INamedType)
 - uid: Unity.ObjectBuilder.BuildPlan.LazyDynamicMethodBuildPlanCreatorPolicy.CreatePlan*
   name: CreatePlan
   href: api/Unity.ObjectBuilder.BuildPlan.LazyDynamicMethodBuildPlanCreatorPolicy.html#Unity_ObjectBuilder_BuildPlan_LazyDynamicMethodBuildPlanCreatorPolicy_CreatePlan_
@@ -4995,12 +5193,12 @@ references:
   commentId: Overload:Unity.ObjectBuilder.Policies.BuildKeyMappingPolicy.#ctor
   fullName: Unity.ObjectBuilder.Policies.BuildKeyMappingPolicy.BuildKeyMappingPolicy
   nameWithType: BuildKeyMappingPolicy.BuildKeyMappingPolicy
-- uid: Unity.ObjectBuilder.Policies.BuildKeyMappingPolicy.Map(Unity.Builder.NamedTypeBuildKey,Unity.Builder.IBuilderContext)
-  name: Map(NamedTypeBuildKey, IBuilderContext)
-  href: api/Unity.ObjectBuilder.Policies.BuildKeyMappingPolicy.html#Unity_ObjectBuilder_Policies_BuildKeyMappingPolicy_Map_Unity_Builder_NamedTypeBuildKey_Unity_Builder_IBuilderContext_
-  commentId: M:Unity.ObjectBuilder.Policies.BuildKeyMappingPolicy.Map(Unity.Builder.NamedTypeBuildKey,Unity.Builder.IBuilderContext)
-  fullName: Unity.ObjectBuilder.Policies.BuildKeyMappingPolicy.Map(Unity.Builder.NamedTypeBuildKey, Unity.Builder.IBuilderContext)
-  nameWithType: BuildKeyMappingPolicy.Map(NamedTypeBuildKey, IBuilderContext)
+- uid: Unity.ObjectBuilder.Policies.BuildKeyMappingPolicy.Map(Unity.Builder.INamedType,Unity.Builder.IBuilderContext)
+  name: Map(INamedType, IBuilderContext)
+  href: api/Unity.ObjectBuilder.Policies.BuildKeyMappingPolicy.html#Unity_ObjectBuilder_Policies_BuildKeyMappingPolicy_Map_Unity_Builder_INamedType_Unity_Builder_IBuilderContext_
+  commentId: M:Unity.ObjectBuilder.Policies.BuildKeyMappingPolicy.Map(Unity.Builder.INamedType,Unity.Builder.IBuilderContext)
+  fullName: Unity.ObjectBuilder.Policies.BuildKeyMappingPolicy.Map(Unity.Builder.INamedType, Unity.Builder.IBuilderContext)
+  nameWithType: BuildKeyMappingPolicy.Map(INamedType, IBuilderContext)
 - uid: Unity.ObjectBuilder.Policies.BuildKeyMappingPolicy.Map*
   name: Map
   href: api/Unity.ObjectBuilder.Policies.BuildKeyMappingPolicy.html#Unity_ObjectBuilder_Policies_BuildKeyMappingPolicy_Map_
@@ -5061,12 +5259,12 @@ references:
   commentId: Overload:Unity.ObjectBuilder.Policies.GenericTypeBuildKeyMappingPolicy.#ctor
   fullName: Unity.ObjectBuilder.Policies.GenericTypeBuildKeyMappingPolicy.GenericTypeBuildKeyMappingPolicy
   nameWithType: GenericTypeBuildKeyMappingPolicy.GenericTypeBuildKeyMappingPolicy
-- uid: Unity.ObjectBuilder.Policies.GenericTypeBuildKeyMappingPolicy.Map(Unity.Builder.NamedTypeBuildKey,Unity.Builder.IBuilderContext)
-  name: Map(NamedTypeBuildKey, IBuilderContext)
-  href: api/Unity.ObjectBuilder.Policies.GenericTypeBuildKeyMappingPolicy.html#Unity_ObjectBuilder_Policies_GenericTypeBuildKeyMappingPolicy_Map_Unity_Builder_NamedTypeBuildKey_Unity_Builder_IBuilderContext_
-  commentId: M:Unity.ObjectBuilder.Policies.GenericTypeBuildKeyMappingPolicy.Map(Unity.Builder.NamedTypeBuildKey,Unity.Builder.IBuilderContext)
-  fullName: Unity.ObjectBuilder.Policies.GenericTypeBuildKeyMappingPolicy.Map(Unity.Builder.NamedTypeBuildKey, Unity.Builder.IBuilderContext)
-  nameWithType: GenericTypeBuildKeyMappingPolicy.Map(NamedTypeBuildKey, IBuilderContext)
+- uid: Unity.ObjectBuilder.Policies.GenericTypeBuildKeyMappingPolicy.Map(Unity.Builder.INamedType,Unity.Builder.IBuilderContext)
+  name: Map(INamedType, IBuilderContext)
+  href: api/Unity.ObjectBuilder.Policies.GenericTypeBuildKeyMappingPolicy.html#Unity_ObjectBuilder_Policies_GenericTypeBuildKeyMappingPolicy_Map_Unity_Builder_INamedType_Unity_Builder_IBuilderContext_
+  commentId: M:Unity.ObjectBuilder.Policies.GenericTypeBuildKeyMappingPolicy.Map(Unity.Builder.INamedType,Unity.Builder.IBuilderContext)
+  fullName: Unity.ObjectBuilder.Policies.GenericTypeBuildKeyMappingPolicy.Map(Unity.Builder.INamedType, Unity.Builder.IBuilderContext)
+  nameWithType: GenericTypeBuildKeyMappingPolicy.Map(INamedType, IBuilderContext)
 - uid: Unity.ObjectBuilder.Policies.GenericTypeBuildKeyMappingPolicy.Map*
   name: Map
   href: api/Unity.ObjectBuilder.Policies.GenericTypeBuildKeyMappingPolicy.html#Unity_ObjectBuilder_Policies_GenericTypeBuildKeyMappingPolicy_Map_
@@ -5091,36 +5289,24 @@ references:
   commentId: Overload:Unity.ObjectBuilder.Policies.IRegisteredNamesPolicy.GetRegisteredNames
   fullName: Unity.ObjectBuilder.Policies.IRegisteredNamesPolicy.GetRegisteredNames
   nameWithType: IRegisteredNamesPolicy.GetRegisteredNames
-- uid: Unity.ObjectBuilder.Policies.ResolveMappingPolicy
-  name: ResolveMappingPolicy
-  href: api/Unity.ObjectBuilder.Policies.ResolveMappingPolicy.html
-  commentId: T:Unity.ObjectBuilder.Policies.ResolveMappingPolicy
-  fullName: Unity.ObjectBuilder.Policies.ResolveMappingPolicy
-  nameWithType: ResolveMappingPolicy
-- uid: Unity.ObjectBuilder.Policies.ResolveMappingPolicy.#ctor(Unity.Builder.NamedTypeBuildKey)
-  name: ResolveMappingPolicy(NamedTypeBuildKey)
-  href: api/Unity.ObjectBuilder.Policies.ResolveMappingPolicy.html#Unity_ObjectBuilder_Policies_ResolveMappingPolicy__ctor_Unity_Builder_NamedTypeBuildKey_
-  commentId: M:Unity.ObjectBuilder.Policies.ResolveMappingPolicy.#ctor(Unity.Builder.NamedTypeBuildKey)
-  fullName: Unity.ObjectBuilder.Policies.ResolveMappingPolicy.ResolveMappingPolicy(Unity.Builder.NamedTypeBuildKey)
-  nameWithType: ResolveMappingPolicy.ResolveMappingPolicy(NamedTypeBuildKey)
-- uid: Unity.ObjectBuilder.Policies.ResolveMappingPolicy.#ctor*
-  name: ResolveMappingPolicy
-  href: api/Unity.ObjectBuilder.Policies.ResolveMappingPolicy.html#Unity_ObjectBuilder_Policies_ResolveMappingPolicy__ctor_
-  commentId: Overload:Unity.ObjectBuilder.Policies.ResolveMappingPolicy.#ctor
-  fullName: Unity.ObjectBuilder.Policies.ResolveMappingPolicy.ResolveMappingPolicy
-  nameWithType: ResolveMappingPolicy.ResolveMappingPolicy
-- uid: Unity.ObjectBuilder.Policies.ResolveMappingPolicy.Resolve(Unity.Builder.IBuilderContext)
-  name: Resolve(IBuilderContext)
-  href: api/Unity.ObjectBuilder.Policies.ResolveMappingPolicy.html#Unity_ObjectBuilder_Policies_ResolveMappingPolicy_Resolve_Unity_Builder_IBuilderContext_
-  commentId: M:Unity.ObjectBuilder.Policies.ResolveMappingPolicy.Resolve(Unity.Builder.IBuilderContext)
-  fullName: Unity.ObjectBuilder.Policies.ResolveMappingPolicy.Resolve(Unity.Builder.IBuilderContext)
-  nameWithType: ResolveMappingPolicy.Resolve(IBuilderContext)
-- uid: Unity.ObjectBuilder.Policies.ResolveMappingPolicy.Resolve*
-  name: Resolve
-  href: api/Unity.ObjectBuilder.Policies.ResolveMappingPolicy.html#Unity_ObjectBuilder_Policies_ResolveMappingPolicy_Resolve_
-  commentId: Overload:Unity.ObjectBuilder.Policies.ResolveMappingPolicy.Resolve
-  fullName: Unity.ObjectBuilder.Policies.ResolveMappingPolicy.Resolve
-  nameWithType: ResolveMappingPolicy.Resolve
+- uid: Unity.ObjectBuilder.Policies.ResolveBuildUpPolicy
+  name: ResolveBuildUpPolicy
+  href: api/Unity.ObjectBuilder.Policies.ResolveBuildUpPolicy.html
+  commentId: T:Unity.ObjectBuilder.Policies.ResolveBuildUpPolicy
+  fullName: Unity.ObjectBuilder.Policies.ResolveBuildUpPolicy
+  nameWithType: ResolveBuildUpPolicy
+- uid: Unity.ObjectBuilder.Policies.ResolveBuildUpPolicy.BuildUp(Unity.Builder.IBuilderContext)
+  name: BuildUp(IBuilderContext)
+  href: api/Unity.ObjectBuilder.Policies.ResolveBuildUpPolicy.html#Unity_ObjectBuilder_Policies_ResolveBuildUpPolicy_BuildUp_Unity_Builder_IBuilderContext_
+  commentId: M:Unity.ObjectBuilder.Policies.ResolveBuildUpPolicy.BuildUp(Unity.Builder.IBuilderContext)
+  fullName: Unity.ObjectBuilder.Policies.ResolveBuildUpPolicy.BuildUp(Unity.Builder.IBuilderContext)
+  nameWithType: ResolveBuildUpPolicy.BuildUp(IBuilderContext)
+- uid: Unity.ObjectBuilder.Policies.ResolveBuildUpPolicy.BuildUp*
+  name: BuildUp
+  href: api/Unity.ObjectBuilder.Policies.ResolveBuildUpPolicy.html#Unity_ObjectBuilder_Policies_ResolveBuildUpPolicy_BuildUp_
+  commentId: Overload:Unity.ObjectBuilder.Policies.ResolveBuildUpPolicy.BuildUp
+  fullName: Unity.ObjectBuilder.Policies.ResolveBuildUpPolicy.BuildUp
+  nameWithType: ResolveBuildUpPolicy.BuildUp
 - uid: Unity.ObjectBuilder.Strategies
   name: Unity.ObjectBuilder.Strategies
   href: api/Unity.ObjectBuilder.Strategies.html
@@ -5187,12 +5373,12 @@ references:
   commentId: T:Unity.ObjectBuilder.Strategies.LifetimeStrategy
   fullName: Unity.ObjectBuilder.Strategies.LifetimeStrategy
   nameWithType: LifetimeStrategy
-- uid: Unity.ObjectBuilder.Strategies.LifetimeStrategy.PostBuildUp(Unity.Builder.IBuilderContext)
-  name: PostBuildUp(IBuilderContext)
-  href: api/Unity.ObjectBuilder.Strategies.LifetimeStrategy.html#Unity_ObjectBuilder_Strategies_LifetimeStrategy_PostBuildUp_Unity_Builder_IBuilderContext_
-  commentId: M:Unity.ObjectBuilder.Strategies.LifetimeStrategy.PostBuildUp(Unity.Builder.IBuilderContext)
-  fullName: Unity.ObjectBuilder.Strategies.LifetimeStrategy.PostBuildUp(Unity.Builder.IBuilderContext)
-  nameWithType: LifetimeStrategy.PostBuildUp(IBuilderContext)
+- uid: Unity.ObjectBuilder.Strategies.LifetimeStrategy.PostBuildUp(Unity.Builder.IBuilderContext,System.Object)
+  name: PostBuildUp(IBuilderContext, Object)
+  href: api/Unity.ObjectBuilder.Strategies.LifetimeStrategy.html#Unity_ObjectBuilder_Strategies_LifetimeStrategy_PostBuildUp_Unity_Builder_IBuilderContext_System_Object_
+  commentId: M:Unity.ObjectBuilder.Strategies.LifetimeStrategy.PostBuildUp(Unity.Builder.IBuilderContext,System.Object)
+  fullName: Unity.ObjectBuilder.Strategies.LifetimeStrategy.PostBuildUp(Unity.Builder.IBuilderContext, System.Object)
+  nameWithType: LifetimeStrategy.PostBuildUp(IBuilderContext, Object)
 - uid: Unity.ObjectBuilder.Strategies.LifetimeStrategy.PostBuildUp*
   name: PostBuildUp
   href: api/Unity.ObjectBuilder.Strategies.LifetimeStrategy.html#Unity_ObjectBuilder_Strategies_LifetimeStrategy_PostBuildUp_
@@ -5247,12 +5433,12 @@ references:
   commentId: T:Unity.Policy.IBuildKeyMappingPolicy
   fullName: Unity.Policy.IBuildKeyMappingPolicy
   nameWithType: IBuildKeyMappingPolicy
-- uid: Unity.Policy.IBuildKeyMappingPolicy.Map(Unity.Builder.NamedTypeBuildKey,Unity.Builder.IBuilderContext)
-  name: Map(NamedTypeBuildKey, IBuilderContext)
-  href: api/Unity.Policy.IBuildKeyMappingPolicy.html#Unity_Policy_IBuildKeyMappingPolicy_Map_Unity_Builder_NamedTypeBuildKey_Unity_Builder_IBuilderContext_
-  commentId: M:Unity.Policy.IBuildKeyMappingPolicy.Map(Unity.Builder.NamedTypeBuildKey,Unity.Builder.IBuilderContext)
-  fullName: Unity.Policy.IBuildKeyMappingPolicy.Map(Unity.Builder.NamedTypeBuildKey, Unity.Builder.IBuilderContext)
-  nameWithType: IBuildKeyMappingPolicy.Map(NamedTypeBuildKey, IBuilderContext)
+- uid: Unity.Policy.IBuildKeyMappingPolicy.Map(Unity.Builder.INamedType,Unity.Builder.IBuilderContext)
+  name: Map(INamedType, IBuilderContext)
+  href: api/Unity.Policy.IBuildKeyMappingPolicy.html#Unity_Policy_IBuildKeyMappingPolicy_Map_Unity_Builder_INamedType_Unity_Builder_IBuilderContext_
+  commentId: M:Unity.Policy.IBuildKeyMappingPolicy.Map(Unity.Builder.INamedType,Unity.Builder.IBuilderContext)
+  fullName: Unity.Policy.IBuildKeyMappingPolicy.Map(Unity.Builder.INamedType, Unity.Builder.IBuilderContext)
+  nameWithType: IBuildKeyMappingPolicy.Map(INamedType, IBuilderContext)
 - uid: Unity.Policy.IBuildKeyMappingPolicy.Map*
   name: Map
   href: api/Unity.Policy.IBuildKeyMappingPolicy.html#Unity_Policy_IBuildKeyMappingPolicy_Map_
@@ -5265,12 +5451,12 @@ references:
   commentId: T:Unity.Policy.IBuildPlanCreatorPolicy
   fullName: Unity.Policy.IBuildPlanCreatorPolicy
   nameWithType: IBuildPlanCreatorPolicy
-- uid: Unity.Policy.IBuildPlanCreatorPolicy.CreatePlan(Unity.Builder.IBuilderContext,Unity.Builder.NamedTypeBuildKey)
-  name: CreatePlan(IBuilderContext, NamedTypeBuildKey)
-  href: api/Unity.Policy.IBuildPlanCreatorPolicy.html#Unity_Policy_IBuildPlanCreatorPolicy_CreatePlan_Unity_Builder_IBuilderContext_Unity_Builder_NamedTypeBuildKey_
-  commentId: M:Unity.Policy.IBuildPlanCreatorPolicy.CreatePlan(Unity.Builder.IBuilderContext,Unity.Builder.NamedTypeBuildKey)
-  fullName: Unity.Policy.IBuildPlanCreatorPolicy.CreatePlan(Unity.Builder.IBuilderContext, Unity.Builder.NamedTypeBuildKey)
-  nameWithType: IBuildPlanCreatorPolicy.CreatePlan(IBuilderContext, NamedTypeBuildKey)
+- uid: Unity.Policy.IBuildPlanCreatorPolicy.CreatePlan(Unity.Builder.IBuilderContext,Unity.Builder.INamedType)
+  name: CreatePlan(IBuilderContext, INamedType)
+  href: api/Unity.Policy.IBuildPlanCreatorPolicy.html#Unity_Policy_IBuildPlanCreatorPolicy_CreatePlan_Unity_Builder_IBuilderContext_Unity_Builder_INamedType_
+  commentId: M:Unity.Policy.IBuildPlanCreatorPolicy.CreatePlan(Unity.Builder.IBuilderContext,Unity.Builder.INamedType)
+  fullName: Unity.Policy.IBuildPlanCreatorPolicy.CreatePlan(Unity.Builder.IBuilderContext, Unity.Builder.INamedType)
+  nameWithType: IBuildPlanCreatorPolicy.CreatePlan(IBuilderContext, INamedType)
 - uid: Unity.Policy.IBuildPlanCreatorPolicy.CreatePlan*
   name: CreatePlan
   href: api/Unity.Policy.IBuildPlanCreatorPolicy.html#Unity_Policy_IBuildPlanCreatorPolicy_CreatePlan_
@@ -5313,24 +5499,6 @@ references:
   commentId: Overload:Unity.Policy.IConstructorSelectorPolicy.SelectConstructor
   fullName: Unity.Policy.IConstructorSelectorPolicy.SelectConstructor
   nameWithType: IConstructorSelectorPolicy.SelectConstructor
-- uid: Unity.Policy.IDependencyResolverPolicy
-  name: IDependencyResolverPolicy
-  href: api/Unity.Policy.IDependencyResolverPolicy.html
-  commentId: T:Unity.Policy.IDependencyResolverPolicy
-  fullName: Unity.Policy.IDependencyResolverPolicy
-  nameWithType: IDependencyResolverPolicy
-- uid: Unity.Policy.IDependencyResolverPolicy.Resolve(Unity.Builder.IBuilderContext)
-  name: Resolve(IBuilderContext)
-  href: api/Unity.Policy.IDependencyResolverPolicy.html#Unity_Policy_IDependencyResolverPolicy_Resolve_Unity_Builder_IBuilderContext_
-  commentId: M:Unity.Policy.IDependencyResolverPolicy.Resolve(Unity.Builder.IBuilderContext)
-  fullName: Unity.Policy.IDependencyResolverPolicy.Resolve(Unity.Builder.IBuilderContext)
-  nameWithType: IDependencyResolverPolicy.Resolve(IBuilderContext)
-- uid: Unity.Policy.IDependencyResolverPolicy.Resolve*
-  name: Resolve
-  href: api/Unity.Policy.IDependencyResolverPolicy.html#Unity_Policy_IDependencyResolverPolicy_Resolve_
-  commentId: Overload:Unity.Policy.IDependencyResolverPolicy.Resolve
-  fullName: Unity.Policy.IDependencyResolverPolicy.Resolve
-  nameWithType: IDependencyResolverPolicy.Resolve
 - uid: Unity.Policy.IMethodSelectorPolicy
   name: IMethodSelectorPolicy
   href: api/Unity.Policy.IMethodSelectorPolicy.html
@@ -5355,12 +5523,12 @@ references:
   commentId: T:Unity.Policy.IPolicyList
   fullName: Unity.Policy.IPolicyList
   nameWithType: IPolicyList
-- uid: Unity.Policy.IPolicyList.Clear(System.Type,System.Object)
-  name: Clear(Type, Object)
-  href: api/Unity.Policy.IPolicyList.html#Unity_Policy_IPolicyList_Clear_System_Type_System_Object_
-  commentId: M:Unity.Policy.IPolicyList.Clear(System.Type,System.Object)
-  fullName: Unity.Policy.IPolicyList.Clear(System.Type, System.Object)
-  nameWithType: IPolicyList.Clear(Type, Object)
+- uid: Unity.Policy.IPolicyList.Clear(System.Type,System.String,System.Type)
+  name: Clear(Type, String, Type)
+  href: api/Unity.Policy.IPolicyList.html#Unity_Policy_IPolicyList_Clear_System_Type_System_String_System_Type_
+  commentId: M:Unity.Policy.IPolicyList.Clear(System.Type,System.String,System.Type)
+  fullName: Unity.Policy.IPolicyList.Clear(System.Type, System.String, System.Type)
+  nameWithType: IPolicyList.Clear(Type, String, Type)
 - uid: Unity.Policy.IPolicyList.Clear*
   name: Clear
   href: api/Unity.Policy.IPolicyList.html#Unity_Policy_IPolicyList_Clear_
@@ -5379,27 +5547,27 @@ references:
   commentId: Overload:Unity.Policy.IPolicyList.ClearAll
   fullName: Unity.Policy.IPolicyList.ClearAll
   nameWithType: IPolicyList.ClearAll
-- uid: Unity.Policy.IPolicyList.Get(System.Type,System.Object,Unity.Policy.IPolicyList@)
-  name: Get(Type, Object, out IPolicyList)
-  href: api/Unity.Policy.IPolicyList.html#Unity_Policy_IPolicyList_Get_System_Type_System_Object_Unity_Policy_IPolicyList__
-  commentId: M:Unity.Policy.IPolicyList.Get(System.Type,System.Object,Unity.Policy.IPolicyList@)
-  name.vb: Get(Type, Object, ByRef IPolicyList)
-  fullName: Unity.Policy.IPolicyList.Get(System.Type, System.Object, out Unity.Policy.IPolicyList)
-  fullName.vb: Unity.Policy.IPolicyList.Get(System.Type, System.Object, ByRef Unity.Policy.IPolicyList)
-  nameWithType: IPolicyList.Get(Type, Object, out IPolicyList)
-  nameWithType.vb: IPolicyList.Get(Type, Object, ByRef IPolicyList)
+- uid: Unity.Policy.IPolicyList.Get(System.Type,System.String,System.Type,Unity.Policy.IPolicyList@)
+  name: Get(Type, String, Type, out IPolicyList)
+  href: api/Unity.Policy.IPolicyList.html#Unity_Policy_IPolicyList_Get_System_Type_System_String_System_Type_Unity_Policy_IPolicyList__
+  commentId: M:Unity.Policy.IPolicyList.Get(System.Type,System.String,System.Type,Unity.Policy.IPolicyList@)
+  name.vb: Get(Type, String, Type, ByRef IPolicyList)
+  fullName: Unity.Policy.IPolicyList.Get(System.Type, System.String, System.Type, out Unity.Policy.IPolicyList)
+  fullName.vb: Unity.Policy.IPolicyList.Get(System.Type, System.String, System.Type, ByRef Unity.Policy.IPolicyList)
+  nameWithType: IPolicyList.Get(Type, String, Type, out IPolicyList)
+  nameWithType.vb: IPolicyList.Get(Type, String, Type, ByRef IPolicyList)
 - uid: Unity.Policy.IPolicyList.Get*
   name: Get
   href: api/Unity.Policy.IPolicyList.html#Unity_Policy_IPolicyList_Get_
   commentId: Overload:Unity.Policy.IPolicyList.Get
   fullName: Unity.Policy.IPolicyList.Get
   nameWithType: IPolicyList.Get
-- uid: Unity.Policy.IPolicyList.Set(System.Type,Unity.Policy.IBuilderPolicy,System.Object)
-  name: Set(Type, IBuilderPolicy, Object)
-  href: api/Unity.Policy.IPolicyList.html#Unity_Policy_IPolicyList_Set_System_Type_Unity_Policy_IBuilderPolicy_System_Object_
-  commentId: M:Unity.Policy.IPolicyList.Set(System.Type,Unity.Policy.IBuilderPolicy,System.Object)
-  fullName: Unity.Policy.IPolicyList.Set(System.Type, Unity.Policy.IBuilderPolicy, System.Object)
-  nameWithType: IPolicyList.Set(Type, IBuilderPolicy, Object)
+- uid: Unity.Policy.IPolicyList.Set(System.Type,System.String,System.Type,Unity.Policy.IBuilderPolicy)
+  name: Set(Type, String, Type, IBuilderPolicy)
+  href: api/Unity.Policy.IPolicyList.html#Unity_Policy_IPolicyList_Set_System_Type_System_String_System_Type_Unity_Policy_IBuilderPolicy_
+  commentId: M:Unity.Policy.IPolicyList.Set(System.Type,System.String,System.Type,Unity.Policy.IBuilderPolicy)
+  fullName: Unity.Policy.IPolicyList.Set(System.Type, System.String, System.Type, Unity.Policy.IBuilderPolicy)
+  nameWithType: IPolicyList.Set(Type, String, Type, IBuilderPolicy)
 - uid: Unity.Policy.IPolicyList.Set*
   name: Set
   href: api/Unity.Policy.IPolicyList.html#Unity_Policy_IPolicyList_Set_
@@ -5436,15 +5604,12 @@ references:
   commentId: T:Unity.Policy.IResolverPolicy
   fullName: Unity.Policy.IResolverPolicy
   nameWithType: IResolverPolicy
-- uid: Unity.Policy.IResolverPolicy.Resolve(Unity.Resolution.ResolverOverride[])
-  name: Resolve(ResolverOverride[])
-  href: api/Unity.Policy.IResolverPolicy.html#Unity_Policy_IResolverPolicy_Resolve_Unity_Resolution_ResolverOverride___
-  commentId: M:Unity.Policy.IResolverPolicy.Resolve(Unity.Resolution.ResolverOverride[])
-  name.vb: Resolve(ResolverOverride())
-  fullName: Unity.Policy.IResolverPolicy.Resolve(Unity.Resolution.ResolverOverride[])
-  fullName.vb: Unity.Policy.IResolverPolicy.Resolve(Unity.Resolution.ResolverOverride())
-  nameWithType: IResolverPolicy.Resolve(ResolverOverride[])
-  nameWithType.vb: IResolverPolicy.Resolve(ResolverOverride())
+- uid: Unity.Policy.IResolverPolicy.Resolve(Unity.Builder.IBuilderContext)
+  name: Resolve(IBuilderContext)
+  href: api/Unity.Policy.IResolverPolicy.html#Unity_Policy_IResolverPolicy_Resolve_Unity_Builder_IBuilderContext_
+  commentId: M:Unity.Policy.IResolverPolicy.Resolve(Unity.Builder.IBuilderContext)
+  fullName: Unity.Policy.IResolverPolicy.Resolve(Unity.Builder.IBuilderContext)
+  nameWithType: IResolverPolicy.Resolve(IBuilderContext)
 - uid: Unity.Policy.IResolverPolicy.Resolve*
   name: Resolve
   href: api/Unity.Policy.IResolverPolicy.html#Unity_Policy_IResolverPolicy_Resolve_
@@ -5457,6 +5622,12 @@ references:
   commentId: T:Unity.Policy.PolicyListExtensions
   fullName: Unity.Policy.PolicyListExtensions
   nameWithType: PolicyListExtensions
+- uid: Unity.Policy.PolicyListExtensions.Clear(Unity.Policy.IPolicyList,System.Type,System.Object)
+  name: Clear(IPolicyList, Type, Object)
+  href: api/Unity.Policy.PolicyListExtensions.html#Unity_Policy_PolicyListExtensions_Clear_Unity_Policy_IPolicyList_System_Type_System_Object_
+  commentId: M:Unity.Policy.PolicyListExtensions.Clear(Unity.Policy.IPolicyList,System.Type,System.Object)
+  fullName: Unity.Policy.PolicyListExtensions.Clear(Unity.Policy.IPolicyList, System.Type, System.Object)
+  nameWithType: PolicyListExtensions.Clear(IPolicyList, Type, Object)
 - uid: Unity.Policy.PolicyListExtensions.Clear*
   name: Clear
   href: api/Unity.Policy.PolicyListExtensions.html#Unity_Policy_PolicyListExtensions_Clear_
@@ -5499,12 +5670,6 @@ references:
   commentId: M:Unity.Policy.PolicyListExtensions.Get(Unity.Policy.IPolicyList,System.Type,System.Object)
   fullName: Unity.Policy.PolicyListExtensions.Get(Unity.Policy.IPolicyList, System.Type, System.Object)
   nameWithType: PolicyListExtensions.Get(IPolicyList, Type, Object)
-- uid: Unity.Policy.PolicyListExtensions.Get(Unity.Policy.IPolicyList,System.Type,System.Object,System.Boolean)
-  name: Get(IPolicyList, Type, Object, Boolean)
-  href: api/Unity.Policy.PolicyListExtensions.html#Unity_Policy_PolicyListExtensions_Get_Unity_Policy_IPolicyList_System_Type_System_Object_System_Boolean_
-  commentId: M:Unity.Policy.PolicyListExtensions.Get(Unity.Policy.IPolicyList,System.Type,System.Object,System.Boolean)
-  fullName: Unity.Policy.PolicyListExtensions.Get(Unity.Policy.IPolicyList, System.Type, System.Object, System.Boolean)
-  nameWithType: PolicyListExtensions.Get(IPolicyList, Type, Object, Boolean)
 - uid: Unity.Policy.PolicyListExtensions.Get(Unity.Policy.IPolicyList,System.Type,System.Object,Unity.Policy.IPolicyList@)
   name: Get(IPolicyList, Type, Object, out IPolicyList)
   href: api/Unity.Policy.PolicyListExtensions.html#Unity_Policy_PolicyListExtensions_Get_Unity_Policy_IPolicyList_System_Type_System_Object_Unity_Policy_IPolicyList__
@@ -5589,15 +5754,21 @@ references:
   commentId: Overload:Unity.Policy.PolicyListExtensions.GetPolicy
   fullName: Unity.Policy.PolicyListExtensions.GetPolicy
   nameWithType: PolicyListExtensions.GetPolicy
-- uid: Unity.Policy.PolicyListExtensions.GetPolicy``1(Unity.Policy.IPolicyList,Unity.Builder.NamedTypeBuildKey,Unity.Policy.IPolicyList@)
-  name: GetPolicy<TPolicyInterface>(IPolicyList, NamedTypeBuildKey, out IPolicyList)
-  href: api/Unity.Policy.PolicyListExtensions.html#Unity_Policy_PolicyListExtensions_GetPolicy__1_Unity_Policy_IPolicyList_Unity_Builder_NamedTypeBuildKey_Unity_Policy_IPolicyList__
-  commentId: M:Unity.Policy.PolicyListExtensions.GetPolicy``1(Unity.Policy.IPolicyList,Unity.Builder.NamedTypeBuildKey,Unity.Policy.IPolicyList@)
-  name.vb: GetPolicy(Of TPolicyInterface)(IPolicyList, NamedTypeBuildKey, ByRef IPolicyList)
-  fullName: Unity.Policy.PolicyListExtensions.GetPolicy<TPolicyInterface>(Unity.Policy.IPolicyList, Unity.Builder.NamedTypeBuildKey, out Unity.Policy.IPolicyList)
-  fullName.vb: Unity.Policy.PolicyListExtensions.GetPolicy(Of TPolicyInterface)(Unity.Policy.IPolicyList, Unity.Builder.NamedTypeBuildKey, ByRef Unity.Policy.IPolicyList)
-  nameWithType: PolicyListExtensions.GetPolicy<TPolicyInterface>(IPolicyList, NamedTypeBuildKey, out IPolicyList)
-  nameWithType.vb: PolicyListExtensions.GetPolicy(Of TPolicyInterface)(IPolicyList, NamedTypeBuildKey, ByRef IPolicyList)
+- uid: Unity.Policy.PolicyListExtensions.GetPolicy``1(Unity.Policy.IPolicyList,Unity.Builder.INamedType,Unity.Policy.IPolicyList@)
+  name: GetPolicy<TPolicyInterface>(IPolicyList, INamedType, out IPolicyList)
+  href: api/Unity.Policy.PolicyListExtensions.html#Unity_Policy_PolicyListExtensions_GetPolicy__1_Unity_Policy_IPolicyList_Unity_Builder_INamedType_Unity_Policy_IPolicyList__
+  commentId: M:Unity.Policy.PolicyListExtensions.GetPolicy``1(Unity.Policy.IPolicyList,Unity.Builder.INamedType,Unity.Policy.IPolicyList@)
+  name.vb: GetPolicy(Of TPolicyInterface)(IPolicyList, INamedType, ByRef IPolicyList)
+  fullName: Unity.Policy.PolicyListExtensions.GetPolicy<TPolicyInterface>(Unity.Policy.IPolicyList, Unity.Builder.INamedType, out Unity.Policy.IPolicyList)
+  fullName.vb: Unity.Policy.PolicyListExtensions.GetPolicy(Of TPolicyInterface)(Unity.Policy.IPolicyList, Unity.Builder.INamedType, ByRef Unity.Policy.IPolicyList)
+  nameWithType: PolicyListExtensions.GetPolicy<TPolicyInterface>(IPolicyList, INamedType, out IPolicyList)
+  nameWithType.vb: PolicyListExtensions.GetPolicy(Of TPolicyInterface)(IPolicyList, INamedType, ByRef IPolicyList)
+- uid: Unity.Policy.PolicyListExtensions.Set(Unity.Policy.IPolicyList,System.Type,Unity.Policy.IBuilderPolicy,System.Object)
+  name: Set(IPolicyList, Type, IBuilderPolicy, Object)
+  href: api/Unity.Policy.PolicyListExtensions.html#Unity_Policy_PolicyListExtensions_Set_Unity_Policy_IPolicyList_System_Type_Unity_Policy_IBuilderPolicy_System_Object_
+  commentId: M:Unity.Policy.PolicyListExtensions.Set(Unity.Policy.IPolicyList,System.Type,Unity.Policy.IBuilderPolicy,System.Object)
+  fullName: Unity.Policy.PolicyListExtensions.Set(Unity.Policy.IPolicyList, System.Type, Unity.Policy.IBuilderPolicy, System.Object)
+  nameWithType: PolicyListExtensions.Set(IPolicyList, Type, IBuilderPolicy, Object)
 - uid: Unity.Policy.PolicyListExtensions.Set*
   name: Set
   href: api/Unity.Policy.PolicyListExtensions.html#Unity_Policy_PolicyListExtensions_Set_
@@ -6448,15 +6619,15 @@ references:
   commentId: T:Unity.ResolverPolicy.ResolvedArrayWithElementsResolverPolicy
   fullName: Unity.ResolverPolicy.ResolvedArrayWithElementsResolverPolicy
   nameWithType: ResolvedArrayWithElementsResolverPolicy
-- uid: Unity.ResolverPolicy.ResolvedArrayWithElementsResolverPolicy.#ctor(System.Type,Unity.Policy.IDependencyResolverPolicy[])
-  name: ResolvedArrayWithElementsResolverPolicy(Type, IDependencyResolverPolicy[])
-  href: api/Unity.ResolverPolicy.ResolvedArrayWithElementsResolverPolicy.html#Unity_ResolverPolicy_ResolvedArrayWithElementsResolverPolicy__ctor_System_Type_Unity_Policy_IDependencyResolverPolicy___
-  commentId: M:Unity.ResolverPolicy.ResolvedArrayWithElementsResolverPolicy.#ctor(System.Type,Unity.Policy.IDependencyResolverPolicy[])
-  name.vb: ResolvedArrayWithElementsResolverPolicy(Type, IDependencyResolverPolicy())
-  fullName: Unity.ResolverPolicy.ResolvedArrayWithElementsResolverPolicy.ResolvedArrayWithElementsResolverPolicy(System.Type, Unity.Policy.IDependencyResolverPolicy[])
-  fullName.vb: Unity.ResolverPolicy.ResolvedArrayWithElementsResolverPolicy.ResolvedArrayWithElementsResolverPolicy(System.Type, Unity.Policy.IDependencyResolverPolicy())
-  nameWithType: ResolvedArrayWithElementsResolverPolicy.ResolvedArrayWithElementsResolverPolicy(Type, IDependencyResolverPolicy[])
-  nameWithType.vb: ResolvedArrayWithElementsResolverPolicy.ResolvedArrayWithElementsResolverPolicy(Type, IDependencyResolverPolicy())
+- uid: Unity.ResolverPolicy.ResolvedArrayWithElementsResolverPolicy.#ctor(System.Type,Unity.Policy.IResolverPolicy[])
+  name: ResolvedArrayWithElementsResolverPolicy(Type, IResolverPolicy[])
+  href: api/Unity.ResolverPolicy.ResolvedArrayWithElementsResolverPolicy.html#Unity_ResolverPolicy_ResolvedArrayWithElementsResolverPolicy__ctor_System_Type_Unity_Policy_IResolverPolicy___
+  commentId: M:Unity.ResolverPolicy.ResolvedArrayWithElementsResolverPolicy.#ctor(System.Type,Unity.Policy.IResolverPolicy[])
+  name.vb: ResolvedArrayWithElementsResolverPolicy(Type, IResolverPolicy())
+  fullName: Unity.ResolverPolicy.ResolvedArrayWithElementsResolverPolicy.ResolvedArrayWithElementsResolverPolicy(System.Type, Unity.Policy.IResolverPolicy[])
+  fullName.vb: Unity.ResolverPolicy.ResolvedArrayWithElementsResolverPolicy.ResolvedArrayWithElementsResolverPolicy(System.Type, Unity.Policy.IResolverPolicy())
+  nameWithType: ResolvedArrayWithElementsResolverPolicy.ResolvedArrayWithElementsResolverPolicy(Type, IResolverPolicy[])
+  nameWithType.vb: ResolvedArrayWithElementsResolverPolicy.ResolvedArrayWithElementsResolverPolicy(Type, IResolverPolicy())
 - uid: Unity.ResolverPolicy.ResolvedArrayWithElementsResolverPolicy.#ctor*
   name: ResolvedArrayWithElementsResolverPolicy
   href: api/Unity.ResolverPolicy.ResolvedArrayWithElementsResolverPolicy.html#Unity_ResolverPolicy_ResolvedArrayWithElementsResolverPolicy__ctor_
@@ -6481,57 +6652,39 @@ references:
   commentId: N:Unity.Strategy
   fullName: Unity.Strategy
   nameWithType: Unity.Strategy
-- uid: Unity.Strategy.IStagedStrategyChain
-  name: IStagedStrategyChain
-  href: api/Unity.Strategy.IStagedStrategyChain.html
-  commentId: T:Unity.Strategy.IStagedStrategyChain
-  fullName: Unity.Strategy.IStagedStrategyChain
-  nameWithType: IStagedStrategyChain
-- uid: Unity.Strategy.IStagedStrategyChain.MakeStrategyChain
-  name: MakeStrategyChain()
-  href: api/Unity.Strategy.IStagedStrategyChain.html#Unity_Strategy_IStagedStrategyChain_MakeStrategyChain
-  commentId: M:Unity.Strategy.IStagedStrategyChain.MakeStrategyChain
-  fullName: Unity.Strategy.IStagedStrategyChain.MakeStrategyChain()
-  nameWithType: IStagedStrategyChain.MakeStrategyChain()
-- uid: Unity.Strategy.IStagedStrategyChain.MakeStrategyChain*
-  name: MakeStrategyChain
-  href: api/Unity.Strategy.IStagedStrategyChain.html#Unity_Strategy_IStagedStrategyChain_MakeStrategyChain_
-  commentId: Overload:Unity.Strategy.IStagedStrategyChain.MakeStrategyChain
-  fullName: Unity.Strategy.IStagedStrategyChain.MakeStrategyChain
-  nameWithType: IStagedStrategyChain.MakeStrategyChain
-- uid: Unity.Strategy.IStagedStrategyChain`1
-  name: IStagedStrategyChain<TStageEnum>
-  href: api/Unity.Strategy.IStagedStrategyChain-1.html
-  commentId: T:Unity.Strategy.IStagedStrategyChain`1
-  name.vb: IStagedStrategyChain(Of TStageEnum)
-  fullName: Unity.Strategy.IStagedStrategyChain<TStageEnum>
-  fullName.vb: Unity.Strategy.IStagedStrategyChain(Of TStageEnum)
-  nameWithType: IStagedStrategyChain<TStageEnum>
-  nameWithType.vb: IStagedStrategyChain(Of TStageEnum)
-- uid: Unity.Strategy.IStagedStrategyChain`1.Add(Unity.Builder.Strategy.IBuilderStrategy,`0)
-  name: Add(IBuilderStrategy, TStageEnum)
-  href: api/Unity.Strategy.IStagedStrategyChain-1.html#Unity_Strategy_IStagedStrategyChain_1_Add_Unity_Builder_Strategy_IBuilderStrategy__0_
-  commentId: M:Unity.Strategy.IStagedStrategyChain`1.Add(Unity.Builder.Strategy.IBuilderStrategy,`0)
-  fullName: Unity.Strategy.IStagedStrategyChain<TStageEnum>.Add(Unity.Builder.Strategy.IBuilderStrategy, TStageEnum)
-  fullName.vb: Unity.Strategy.IStagedStrategyChain(Of TStageEnum).Add(Unity.Builder.Strategy.IBuilderStrategy, TStageEnum)
-  nameWithType: IStagedStrategyChain<TStageEnum>.Add(IBuilderStrategy, TStageEnum)
-  nameWithType.vb: IStagedStrategyChain(Of TStageEnum).Add(IBuilderStrategy, TStageEnum)
-- uid: Unity.Strategy.IStagedStrategyChain`1.Add*
+- uid: Unity.Strategy.IStagedStrategyChain`2
+  name: IStagedStrategyChain<TStrategyType, TStageEnum>
+  href: api/Unity.Strategy.IStagedStrategyChain-2.html
+  commentId: T:Unity.Strategy.IStagedStrategyChain`2
+  name.vb: IStagedStrategyChain(Of TStrategyType, TStageEnum)
+  fullName: Unity.Strategy.IStagedStrategyChain<TStrategyType, TStageEnum>
+  fullName.vb: Unity.Strategy.IStagedStrategyChain(Of TStrategyType, TStageEnum)
+  nameWithType: IStagedStrategyChain<TStrategyType, TStageEnum>
+  nameWithType.vb: IStagedStrategyChain(Of TStrategyType, TStageEnum)
+- uid: Unity.Strategy.IStagedStrategyChain`2.Add(`0,`1)
+  name: Add(TStrategyType, TStageEnum)
+  href: api/Unity.Strategy.IStagedStrategyChain-2.html#Unity_Strategy_IStagedStrategyChain_2_Add__0__1_
+  commentId: M:Unity.Strategy.IStagedStrategyChain`2.Add(`0,`1)
+  fullName: Unity.Strategy.IStagedStrategyChain<TStrategyType, TStageEnum>.Add(TStrategyType, TStageEnum)
+  fullName.vb: Unity.Strategy.IStagedStrategyChain(Of TStrategyType, TStageEnum).Add(TStrategyType, TStageEnum)
+  nameWithType: IStagedStrategyChain<TStrategyType, TStageEnum>.Add(TStrategyType, TStageEnum)
+  nameWithType.vb: IStagedStrategyChain(Of TStrategyType, TStageEnum).Add(TStrategyType, TStageEnum)
+- uid: Unity.Strategy.IStagedStrategyChain`2.Add*
   name: Add
-  href: api/Unity.Strategy.IStagedStrategyChain-1.html#Unity_Strategy_IStagedStrategyChain_1_Add_
-  commentId: Overload:Unity.Strategy.IStagedStrategyChain`1.Add
-  fullName: Unity.Strategy.IStagedStrategyChain<TStageEnum>.Add
-  fullName.vb: Unity.Strategy.IStagedStrategyChain(Of TStageEnum).Add
-  nameWithType: IStagedStrategyChain<TStageEnum>.Add
-  nameWithType.vb: IStagedStrategyChain(Of TStageEnum).Add
-- uid: Unity.Strategy.IStagedStrategyChain`1.Invalidated
+  href: api/Unity.Strategy.IStagedStrategyChain-2.html#Unity_Strategy_IStagedStrategyChain_2_Add_
+  commentId: Overload:Unity.Strategy.IStagedStrategyChain`2.Add
+  fullName: Unity.Strategy.IStagedStrategyChain<TStrategyType, TStageEnum>.Add
+  fullName.vb: Unity.Strategy.IStagedStrategyChain(Of TStrategyType, TStageEnum).Add
+  nameWithType: IStagedStrategyChain<TStrategyType, TStageEnum>.Add
+  nameWithType.vb: IStagedStrategyChain(Of TStrategyType, TStageEnum).Add
+- uid: Unity.Strategy.IStagedStrategyChain`2.Invalidated
   name: Invalidated
-  href: api/Unity.Strategy.IStagedStrategyChain-1.html#Unity_Strategy_IStagedStrategyChain_1_Invalidated
-  commentId: E:Unity.Strategy.IStagedStrategyChain`1.Invalidated
-  fullName: Unity.Strategy.IStagedStrategyChain<TStageEnum>.Invalidated
-  fullName.vb: Unity.Strategy.IStagedStrategyChain(Of TStageEnum).Invalidated
-  nameWithType: IStagedStrategyChain<TStageEnum>.Invalidated
-  nameWithType.vb: IStagedStrategyChain(Of TStageEnum).Invalidated
+  href: api/Unity.Strategy.IStagedStrategyChain-2.html#Unity_Strategy_IStagedStrategyChain_2_Invalidated
+  commentId: E:Unity.Strategy.IStagedStrategyChain`2.Invalidated
+  fullName: Unity.Strategy.IStagedStrategyChain<TStrategyType, TStageEnum>.Invalidated
+  fullName.vb: Unity.Strategy.IStagedStrategyChain(Of TStrategyType, TStageEnum).Invalidated
+  nameWithType: IStagedStrategyChain<TStrategyType, TStageEnum>.Invalidated
+  nameWithType.vb: IStagedStrategyChain(Of TStrategyType, TStageEnum).Invalidated
 - uid: Unity.Strategy.IStrategyChain
   name: IStrategyChain
   href: api/Unity.Strategy.IStrategyChain.html
@@ -6550,15 +6703,15 @@ references:
   commentId: Overload:Unity.Strategy.StagedStrategyChainExtensions.AddNew
   fullName: Unity.Strategy.StagedStrategyChainExtensions.AddNew
   nameWithType: StagedStrategyChainExtensions.AddNew
-- uid: Unity.Strategy.StagedStrategyChainExtensions.AddNew``1(Unity.Strategy.IStagedStrategyChain{Unity.Builder.UnityBuildStage},Unity.Builder.UnityBuildStage)
-  name: AddNew<TStrategy>(IStagedStrategyChain<UnityBuildStage>, UnityBuildStage)
-  href: api/Unity.Strategy.StagedStrategyChainExtensions.html#Unity_Strategy_StagedStrategyChainExtensions_AddNew__1_Unity_Strategy_IStagedStrategyChain_Unity_Builder_UnityBuildStage__Unity_Builder_UnityBuildStage_
-  commentId: M:Unity.Strategy.StagedStrategyChainExtensions.AddNew``1(Unity.Strategy.IStagedStrategyChain{Unity.Builder.UnityBuildStage},Unity.Builder.UnityBuildStage)
-  name.vb: AddNew(Of TStrategy)(IStagedStrategyChain(Of UnityBuildStage), UnityBuildStage)
-  fullName: Unity.Strategy.StagedStrategyChainExtensions.AddNew<TStrategy>(Unity.Strategy.IStagedStrategyChain<Unity.Builder.UnityBuildStage>, Unity.Builder.UnityBuildStage)
-  fullName.vb: Unity.Strategy.StagedStrategyChainExtensions.AddNew(Of TStrategy)(Unity.Strategy.IStagedStrategyChain(Of Unity.Builder.UnityBuildStage), Unity.Builder.UnityBuildStage)
-  nameWithType: StagedStrategyChainExtensions.AddNew<TStrategy>(IStagedStrategyChain<UnityBuildStage>, UnityBuildStage)
-  nameWithType.vb: StagedStrategyChainExtensions.AddNew(Of TStrategy)(IStagedStrategyChain(Of UnityBuildStage), UnityBuildStage)
+- uid: Unity.Strategy.StagedStrategyChainExtensions.AddNew``2(Unity.Strategy.IStagedStrategyChain{``0,``1},``1)
+  name: AddNew<TStrategy, TStageEnum>(IStagedStrategyChain<TStrategy, TStageEnum>, TStageEnum)
+  href: api/Unity.Strategy.StagedStrategyChainExtensions.html#Unity_Strategy_StagedStrategyChainExtensions_AddNew__2_Unity_Strategy_IStagedStrategyChain___0___1____1_
+  commentId: M:Unity.Strategy.StagedStrategyChainExtensions.AddNew``2(Unity.Strategy.IStagedStrategyChain{``0,``1},``1)
+  name.vb: AddNew(Of TStrategy, TStageEnum)(IStagedStrategyChain(Of TStrategy, TStageEnum), TStageEnum)
+  fullName: Unity.Strategy.StagedStrategyChainExtensions.AddNew<TStrategy, TStageEnum>(Unity.Strategy.IStagedStrategyChain<TStrategy, TStageEnum>, TStageEnum)
+  fullName.vb: Unity.Strategy.StagedStrategyChainExtensions.AddNew(Of TStrategy, TStageEnum)(Unity.Strategy.IStagedStrategyChain(Of TStrategy, TStageEnum), TStageEnum)
+  nameWithType: StagedStrategyChainExtensions.AddNew<TStrategy, TStageEnum>(IStagedStrategyChain<TStrategy, TStageEnum>, TStageEnum)
+  nameWithType.vb: StagedStrategyChainExtensions.AddNew(Of TStrategy, TStageEnum)(IStagedStrategyChain(Of TStrategy, TStageEnum), TStageEnum)
 - uid: Unity.UnityContainer
   name: UnityContainer
   href: api/Unity.UnityContainer.html
@@ -6658,6 +6811,18 @@ references:
   commentId: Overload:Unity.UnityContainer.InitializeStrategies
   fullName: Unity.UnityContainer.InitializeStrategies
   nameWithType: UnityContainer.InitializeStrategies
+- uid: Unity.UnityContainer.IsRegistered(System.Type,System.String)
+  name: IsRegistered(Type, String)
+  href: api/Unity.UnityContainer.html#Unity_UnityContainer_IsRegistered_System_Type_System_String_
+  commentId: M:Unity.UnityContainer.IsRegistered(System.Type,System.String)
+  fullName: Unity.UnityContainer.IsRegistered(System.Type, System.String)
+  nameWithType: UnityContainer.IsRegistered(Type, String)
+- uid: Unity.UnityContainer.IsRegistered*
+  name: IsRegistered
+  href: api/Unity.UnityContainer.html#Unity_UnityContainer_IsRegistered_
+  commentId: Overload:Unity.UnityContainer.IsRegistered
+  fullName: Unity.UnityContainer.IsRegistered
+  nameWithType: UnityContainer.IsRegistered
 - uid: Unity.UnityContainer.Parent
   name: Parent
   href: api/Unity.UnityContainer.html#Unity_UnityContainer_Parent
@@ -6811,12 +6976,6 @@ references:
   commentId: M:Unity.UnityContainerExtensions.IsRegistered(Unity.IUnityContainer,System.Type)
   fullName: Unity.UnityContainerExtensions.IsRegistered(Unity.IUnityContainer, System.Type)
   nameWithType: UnityContainerExtensions.IsRegistered(IUnityContainer, Type)
-- uid: Unity.UnityContainerExtensions.IsRegistered(Unity.IUnityContainer,System.Type,System.String)
-  name: IsRegistered(IUnityContainer, Type, String)
-  href: api/Unity.UnityContainerExtensions.html#Unity_UnityContainerExtensions_IsRegistered_Unity_IUnityContainer_System_Type_System_String_
-  commentId: M:Unity.UnityContainerExtensions.IsRegistered(Unity.IUnityContainer,System.Type,System.String)
-  fullName: Unity.UnityContainerExtensions.IsRegistered(Unity.IUnityContainer, System.Type, System.String)
-  nameWithType: UnityContainerExtensions.IsRegistered(IUnityContainer, Type, String)
 - uid: Unity.UnityContainerExtensions.IsRegistered*
   name: IsRegistered
   href: api/Unity.UnityContainerExtensions.html#Unity_UnityContainerExtensions_IsRegistered_

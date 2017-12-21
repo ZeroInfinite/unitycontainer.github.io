@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Interface IUnityContainerExtensionConfigurator
+    <title>Interface INamedType
    </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Interface IUnityContainerExtensionConfigurator
+    <meta name="title" content="Interface INamedType
    ">
     <meta name="generator" content="docfx 2.28.3.0">
     
@@ -68,37 +68,37 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="Unity.Extension.IUnityContainerExtensionConfigurator">
+            <article class="content wrap" id="_content" data-uid="Unity.Builder.INamedType">
   
   
-  <h1 id="Unity_Extension_IUnityContainerExtensionConfigurator" data-uid="Unity.Extension.IUnityContainerExtensionConfigurator" class="text-break">Interface IUnityContainerExtensionConfigurator
+  <h1 id="Unity_Builder_INamedType" data-uid="Unity.Builder.INamedType" class="text-break">Interface INamedType
   </h1>
-  <div class="markdown level0 summary"><p>Base interface for all extension configuration interfaces.</p>
+  <div class="markdown level0 summary"><p>Basic information about registered type</p>
 </div>
   <div class="markdown level0 conceptual"></div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="Unity.Extension.html">Unity.Extension</a></h6>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Unity.Builder.html">Unity.Builder</a></h6>
   <h6><strong>Assembly</strong>: Unity.Abstractions.dll</h6>
-  <h5 id="Unity_Extension_IUnityContainerExtensionConfigurator_syntax">Syntax</h5>
+  <h5 id="Unity_Builder_INamedType_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public interface IUnityContainerExtensionConfigurator</code></pre>
+    <pre><code class="lang-csharp hljs">public interface INamedType</code></pre>
   </div>
   <h3 id="properties">Properties
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/unitycontainer/abstractions/new/master/apiSpec/new?filename=Unity_Extension_IUnityContainerExtensionConfigurator_Container.md&amp;value=---%0Auid%3A%20Unity.Extension.IUnityContainerExtensionConfigurator.Container%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/unitycontainer/abstractions/new/master/apiSpec/new?filename=Unity_Builder_INamedType_Name.md&amp;value=---%0Auid%3A%20Unity.Builder.INamedType.Name%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/unitycontainer/abstractions/blob/master/src/Extension/IUnityContainerExtensionConfigurator.cs/#L14">View Source</a>
+    <a href="https://github.com/unitycontainer/abstractions/blob/master/src/Builder/INamedType.cs/#L18">View Source</a>
   </span>
-  <a id="Unity_Extension_IUnityContainerExtensionConfigurator_Container_" data-uid="Unity.Extension.IUnityContainerExtensionConfigurator.Container*"></a>
-  <h4 id="Unity_Extension_IUnityContainerExtensionConfigurator_Container" data-uid="Unity.Extension.IUnityContainerExtensionConfigurator.Container">Container</h4>
-  <div class="markdown level1 summary"><p>Retrieve the container instance that we are currently configuring.</p>
+  <a id="Unity_Builder_INamedType_Name_" data-uid="Unity.Builder.INamedType.Name*"></a>
+  <h4 id="Unity_Builder_INamedType_Name" data-uid="Unity.Builder.INamedType.Name">Name</h4>
+  <div class="markdown level1 summary"><p>Name the registered type. Null for default registration.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">IUnityContainer Container { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">string Name { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -110,7 +110,38 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Unity.IUnityContainer.html">IUnityContainer</a></td>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/unitycontainer/abstractions/new/master/apiSpec/new?filename=Unity_Builder_INamedType_Type.md&amp;value=---%0Auid%3A%20Unity.Builder.INamedType.Type%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/unitycontainer/abstractions/blob/master/src/Builder/INamedType.cs/#L13">View Source</a>
+  </span>
+  <a id="Unity_Builder_INamedType_Type_" data-uid="Unity.Builder.INamedType.Type*"></a>
+  <h4 id="Unity_Builder_INamedType_Type" data-uid="Unity.Builder.INamedType.Type">Type</h4>
+  <div class="markdown level1 summary"><p>Type of the registration.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Type Type { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Type</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -123,10 +154,10 @@
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/unitycontainer/abstractions/new/master/apiSpec/new?filename=Unity_Extension_IUnityContainerExtensionConfigurator.md&amp;value=---%0Auid%3A%20Unity.Extension.IUnityContainerExtensionConfigurator%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/unitycontainer/abstractions/new/master/apiSpec/new?filename=Unity_Builder_INamedType.md&amp;value=---%0Auid%3A%20Unity.Builder.INamedType%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
                   </li>
                   <li>
-                    <a href="https://github.com/unitycontainer/abstractions/blob/master/src/Extension/IUnityContainerExtensionConfigurator.cs/#L9" class="contribution-link">View Source</a>
+                    <a href="https://github.com/unitycontainer/abstractions/blob/master/src/Builder/INamedType.cs/#L8" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>

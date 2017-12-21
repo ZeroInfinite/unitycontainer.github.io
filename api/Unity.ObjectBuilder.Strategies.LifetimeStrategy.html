@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Class LifetimeStrategy
    ">
-    <meta name="generator" content="docfx 2.28.1.0">
+    <meta name="generator" content="docfx 2.28.3.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -123,13 +123,13 @@ object from some backing store.</p>
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/unitycontainer/container/new/v5.x/apiSpec/new?filename=Unity_ObjectBuilder_Strategies_LifetimeStrategy_PostBuildUp_Unity_Builder_IBuilderContext_.md&amp;value=---%0Auid%3A%20Unity.ObjectBuilder.Strategies.LifetimeStrategy.PostBuildUp(Unity.Builder.IBuilderContext)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/unitycontainer/container/new/v5.x/apiSpec/new?filename=Unity_ObjectBuilder_Strategies_LifetimeStrategy_PostBuildUp_Unity_Builder_IBuilderContext_System_Object_.md&amp;value=---%0Auid%3A%20Unity.ObjectBuilder.Strategies.LifetimeStrategy.PostBuildUp(Unity.Builder.IBuilderContext%2CSystem.Object)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/unitycontainer/container/blob/v5.x/src/ObjectBuilder/Strategies/LifetimeStrategy.cs/#L54">View Source</a>
+    <a href="https://github.com/unitycontainer/container/blob/v5.x/src/ObjectBuilder/Strategies/LifetimeStrategy.cs/#L55">View Source</a>
   </span>
   <a id="Unity_ObjectBuilder_Strategies_LifetimeStrategy_PostBuildUp_" data-uid="Unity.ObjectBuilder.Strategies.LifetimeStrategy.PostBuildUp*"></a>
-  <h4 id="Unity_ObjectBuilder_Strategies_LifetimeStrategy_PostBuildUp_Unity_Builder_IBuilderContext_" data-uid="Unity.ObjectBuilder.Strategies.LifetimeStrategy.PostBuildUp(Unity.Builder.IBuilderContext)">PostBuildUp(IBuilderContext)</h4>
+  <h4 id="Unity_ObjectBuilder_Strategies_LifetimeStrategy_PostBuildUp_Unity_Builder_IBuilderContext_System_Object_" data-uid="Unity.ObjectBuilder.Strategies.LifetimeStrategy.PostBuildUp(Unity.Builder.IBuilderContext,System.Object)">PostBuildUp(IBuilderContext, Object)</h4>
   <div class="markdown level1 summary"><p>Called during the chain of responsibility for a build operation. The
 PostBuildUp method is called when the chain has finished the PreBuildUp
 phase and executes in reverse order from the PreBuildUp calls.</p>
@@ -137,7 +137,50 @@ phase and executes in reverse order from the PreBuildUp calls.</p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public override void PostBuildUp(IBuilderContext context)</code></pre>
+    <pre><code class="lang-csharp hljs">public override void PostBuildUp(IBuilderContext context, object pre = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Unity.Builder.IBuilderContext.html">IBuilderContext</a></td>
+        <td><span class="parametername">context</span></td>
+        <td><p>Context of the build operation.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Object</span></td>
+        <td><span class="parametername">pre</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="Unity.Builder.Strategy.BuilderStrategy.html#Unity_Builder_Strategy_BuilderStrategy_PostBuildUp_Unity_Builder_IBuilderContext_System_Object_">BuilderStrategy.PostBuildUp(IBuilderContext, Object)</a></div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/unitycontainer/container/new/v5.x/apiSpec/new?filename=Unity_ObjectBuilder_Strategies_LifetimeStrategy_PreBuildUp_Unity_Builder_IBuilderContext_.md&amp;value=---%0Auid%3A%20Unity.ObjectBuilder.Strategies.LifetimeStrategy.PreBuildUp(Unity.Builder.IBuilderContext)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/unitycontainer/container/blob/v5.x/src/ObjectBuilder/Strategies/LifetimeStrategy.cs/#L30">View Source</a>
+  </span>
+  <a id="Unity_ObjectBuilder_Strategies_LifetimeStrategy_PreBuildUp_" data-uid="Unity.ObjectBuilder.Strategies.LifetimeStrategy.PreBuildUp*"></a>
+  <h4 id="Unity_ObjectBuilder_Strategies_LifetimeStrategy_PreBuildUp_Unity_Builder_IBuilderContext_" data-uid="Unity.ObjectBuilder.Strategies.LifetimeStrategy.PreBuildUp(Unity.Builder.IBuilderContext)">PreBuildUp(IBuilderContext)</h4>
+  <div class="markdown level1 summary"><p>Called during the chain of responsibility for a build operation. The
+PreBuildUp method is called when the chain is being executed in the
+forward direction.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override object PreBuildUp(IBuilderContext context)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -157,41 +200,18 @@ phase and executes in reverse order from the PreBuildUp calls.</p>
       </tr>
     </tbody>
   </table>
-  <h5 class="overrides">Overrides</h5>
-  <div><a class="xref" href="Unity.Builder.Strategy.BuilderStrategy.html#Unity_Builder_Strategy_BuilderStrategy_PostBuildUp_Unity_Builder_IBuilderContext_">BuilderStrategy.PostBuildUp(IBuilderContext)</a></div>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/unitycontainer/container/new/v5.x/apiSpec/new?filename=Unity_ObjectBuilder_Strategies_LifetimeStrategy_PreBuildUp_Unity_Builder_IBuilderContext_.md&amp;value=---%0Auid%3A%20Unity.ObjectBuilder.Strategies.LifetimeStrategy.PreBuildUp(Unity.Builder.IBuilderContext)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/unitycontainer/container/blob/v5.x/src/ObjectBuilder/Strategies/LifetimeStrategy.cs/#L30">View Source</a>
-  </span>
-  <a id="Unity_ObjectBuilder_Strategies_LifetimeStrategy_PreBuildUp_" data-uid="Unity.ObjectBuilder.Strategies.LifetimeStrategy.PreBuildUp*"></a>
-  <h4 id="Unity_ObjectBuilder_Strategies_LifetimeStrategy_PreBuildUp_Unity_Builder_IBuilderContext_" data-uid="Unity.ObjectBuilder.Strategies.LifetimeStrategy.PreBuildUp(Unity.Builder.IBuilderContext)">PreBuildUp(IBuilderContext)</h4>
-  <div class="markdown level1 summary"><p>Called during the chain of responsibility for a build operation. The
-PreBuildUp method is called when the chain is being executed in the
-forward direction.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public override void PreBuildUp(IBuilderContext context)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
+  <h5 class="returns">Returns</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
         <th>Type</th>
-        <th>Name</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Unity.Builder.IBuilderContext.html">IBuilderContext</a></td>
-        <td><span class="parametername">context</span></td>
-        <td><p>Context of the build operation.</p>
-</td>
+        <td><span class="xref">System.Object</span></td>
+        <td></td>
       </tr>
     </tbody>
   </table>

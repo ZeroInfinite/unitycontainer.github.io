@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Namespace Unity.Policy
    ">
-    <meta name="generator" content="docfx 2.28.1.0">
+    <meta name="generator" content="docfx 2.28.3.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -106,10 +106,6 @@ gathered by the strategies to construct a particular object.</p>
       <section><p>A <a class="xref" href="Unity.Policy.IBuilderPolicy.html">IBuilderPolicy</a> that, when implemented,
 will determine which constructor to call from the build plan.</p>
 </section>
-      <h4><a class="xref" href="Unity.Policy.IDependencyResolverPolicy.html">IDependencyResolverPolicy</a></h4>
-      <section><p>A strategy that is used at build plan execution time
-to resolve a dependent value.</p>
-</section>
       <h4><a class="xref" href="Unity.Policy.IMethodSelectorPolicy.html">IMethodSelectorPolicy</a></h4>
       <section><p>An <a class="xref" href="Unity.Policy.IBuilderPolicy.html">IBuilderPolicy</a> that will examine the given
 types and return a sequence of <span class="xref">System.Reflection.MethodInfo</span> objects
@@ -125,7 +121,8 @@ of properties that should be injected for the given type.</p>
       <h4><a class="xref" href="Unity.Policy.IRequireBuildUpPolicy.html">IRequireBuildUpPolicy</a></h4>
       <section></section>
       <h4><a class="xref" href="Unity.Policy.IResolverPolicy.html">IResolverPolicy</a></h4>
-      <section><p>A strategy that resolves a value.</p>
+      <section><p>A strategy that is used at build plan execution time
+to resolve a dependent value.</p>
 </section>
 </article>
           </div>

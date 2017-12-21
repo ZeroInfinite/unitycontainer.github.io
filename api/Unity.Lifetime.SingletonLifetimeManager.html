@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Class SingletonLifetimeManager
    ">
-    <meta name="generator" content="docfx 2.28.1.0">
+    <meta name="generator" content="docfx 2.28.3.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -87,6 +87,7 @@ the instance is disposed with it.</p>
   </div>
   <div classs="implements">
     <h5>Implements</h5>
+    <div><a class="xref" href="Unity.Lifetime.ILifetimeFactoryPolicy.html">ILifetimeFactoryPolicy</a></div>
     <div><a class="xref" href="Unity.Exceptions.IRequiresRecovery.html">IRequiresRecovery</a></div>
     <div><span class="xref">System.IDisposable</span></div>
     <div><a class="xref" href="Unity.Lifetime.ISingletonLifetimePolicy.html">ISingletonLifetimePolicy</a></div>
@@ -114,6 +115,12 @@ the instance is disposed with it.</p>
       <a class="xref" href="Unity.Lifetime.LifetimeManager.html#Unity_Lifetime_LifetimeManager_InUse">LifetimeManager.InUse</a>
     </div>
     <div>
+      <a class="xref" href="Unity.Lifetime.LifetimeManager.html#Unity_Lifetime_LifetimeManager_CreateLifetimePolicy">LifetimeManager.CreateLifetimePolicy()</a>
+    </div>
+    <div>
+      <a class="xref" href="Unity.Lifetime.LifetimeManager.html#Unity_Lifetime_LifetimeManager_LifetimeType">LifetimeManager.LifetimeType</a>
+    </div>
+    <div>
       <span class="xref">System.Object.Equals(System.Object)</span>
     </div>
     <div>
@@ -139,7 +146,7 @@ the instance is disposed with it.</p>
   <h6><strong>Assembly</strong>: Unity.Abstractions.dll</h6>
   <h5 id="Unity_Lifetime_SingletonLifetimeManager_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class SingletonLifetimeManager : SynchronizedLifetimeManager, IRequiresRecovery, IDisposable, ISingletonLifetimePolicy, ILifetimePolicy, IBuilderPolicy</code></pre>
+    <pre><code class="lang-csharp hljs">public class SingletonLifetimeManager : SynchronizedLifetimeManager, ILifetimeFactoryPolicy, IRequiresRecovery, IDisposable, ISingletonLifetimePolicy, ILifetimePolicy, IBuilderPolicy</code></pre>
   </div>
   <h3 id="fields">Fields
   </h3>
@@ -179,7 +186,7 @@ the instance is disposed with it.</p>
     <a href="https://github.com/unitycontainer/abstractions/new/master/apiSpec/new?filename=Unity_Lifetime_SingletonLifetimeManager_Dispose_System_Boolean_.md&amp;value=---%0Auid%3A%20Unity.Lifetime.SingletonLifetimeManager.Dispose(System.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/unitycontainer/abstractions/blob/master/src/Lifetime/SingletonLifetimeManager.cs/#L59">View Source</a>
+    <a href="https://github.com/unitycontainer/abstractions/blob/master/src/Lifetime/SingletonLifetimeManager.cs/#L64">View Source</a>
   </span>
   <a id="Unity_Lifetime_SingletonLifetimeManager_Dispose_" data-uid="Unity.Lifetime.SingletonLifetimeManager.Dispose*"></a>
   <h4 id="Unity_Lifetime_SingletonLifetimeManager_Dispose_System_Boolean_" data-uid="Unity.Lifetime.SingletonLifetimeManager.Dispose(System.Boolean)">Dispose(Boolean)</h4>
@@ -210,6 +217,38 @@ the instance is disposed with it.</p>
   </table>
   <h5 class="overrides">Overrides</h5>
   <div><a class="xref" href="Unity.Lifetime.SynchronizedLifetimeManager.html#Unity_Lifetime_SynchronizedLifetimeManager_Dispose_System_Boolean_">SynchronizedLifetimeManager.Dispose(Boolean)</a></div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/unitycontainer/abstractions/new/master/apiSpec/new?filename=Unity_Lifetime_SingletonLifetimeManager_OnCreateLifetimeManager.md&amp;value=---%0Auid%3A%20Unity.Lifetime.SingletonLifetimeManager.OnCreateLifetimeManager%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/unitycontainer/abstractions/blob/master/src/Lifetime/SingletonLifetimeManager.cs/#L53">View Source</a>
+  </span>
+  <a id="Unity_Lifetime_SingletonLifetimeManager_OnCreateLifetimeManager_" data-uid="Unity.Lifetime.SingletonLifetimeManager.OnCreateLifetimeManager*"></a>
+  <h4 id="Unity_Lifetime_SingletonLifetimeManager_OnCreateLifetimeManager" data-uid="Unity.Lifetime.SingletonLifetimeManager.OnCreateLifetimeManager">OnCreateLifetimeManager()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override LifetimeManager OnCreateLifetimeManager()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Unity.Lifetime.LifetimeManager.html">LifetimeManager</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="Unity.Lifetime.LifetimeManager.html#Unity_Lifetime_LifetimeManager_OnCreateLifetimeManager">LifetimeManager.OnCreateLifetimeManager()</a></div>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
     <a href="https://github.com/unitycontainer/abstractions/new/master/apiSpec/new?filename=Unity_Lifetime_SingletonLifetimeManager_RemoveValue_Unity_Lifetime_ILifetimeContainer_.md&amp;value=---%0Auid%3A%20Unity.Lifetime.SingletonLifetimeManager.RemoveValue(Unity.Lifetime.ILifetimeContainer)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
@@ -348,6 +387,9 @@ after it has acquired its lock.</p>
 before releasing its lock.</p>
 </div>
   <h3 id="implements">Implements</h3>
+  <div>
+      <a class="xref" href="Unity.Lifetime.ILifetimeFactoryPolicy.html">ILifetimeFactoryPolicy</a>
+  </div>
   <div>
       <a class="xref" href="Unity.Exceptions.IRequiresRecovery.html">IRequiresRecovery</a>
   </div>

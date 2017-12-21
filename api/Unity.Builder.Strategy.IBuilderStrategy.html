@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Interface IBuilderStrategy
    ">
-    <meta name="generator" content="docfx 2.28.1.0">
+    <meta name="generator" content="docfx 2.28.3.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -87,13 +87,13 @@ Strategies are required to support both BuildUp and TearDown.</p>
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/unitycontainer/abstractions/new/master/apiSpec/new?filename=Unity_Builder_Strategy_IBuilderStrategy_PostBuildUp_Unity_Builder_IBuilderContext_.md&amp;value=---%0Auid%3A%20Unity.Builder.Strategy.IBuilderStrategy.PostBuildUp(Unity.Builder.IBuilderContext)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/unitycontainer/abstractions/new/master/apiSpec/new?filename=Unity_Builder_Strategy_IBuilderStrategy_PostBuildUp_Unity_Builder_IBuilderContext_System_Object_.md&amp;value=---%0Auid%3A%20Unity.Builder.Strategy.IBuilderStrategy.PostBuildUp(Unity.Builder.IBuilderContext%2CSystem.Object)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
     <a href="https://github.com/unitycontainer/abstractions/blob/master/src/Builder/Strategy/IBuilderStrategy.cs/#L26">View Source</a>
   </span>
   <a id="Unity_Builder_Strategy_IBuilderStrategy_PostBuildUp_" data-uid="Unity.Builder.Strategy.IBuilderStrategy.PostBuildUp*"></a>
-  <h4 id="Unity_Builder_Strategy_IBuilderStrategy_PostBuildUp_Unity_Builder_IBuilderContext_" data-uid="Unity.Builder.Strategy.IBuilderStrategy.PostBuildUp(Unity.Builder.IBuilderContext)">PostBuildUp(IBuilderContext)</h4>
+  <h4 id="Unity_Builder_Strategy_IBuilderStrategy_PostBuildUp_Unity_Builder_IBuilderContext_System_Object_" data-uid="Unity.Builder.Strategy.IBuilderStrategy.PostBuildUp(Unity.Builder.IBuilderContext,System.Object)">PostBuildUp(IBuilderContext, Object)</h4>
   <div class="markdown level1 summary"><p>Called during the chain of responsibility for a build operation. The
 PostBuildUp method is called when the chain has finished the PreBuildUp
 phase and executes in reverse order from the PreBuildUp calls.</p>
@@ -101,7 +101,7 @@ phase and executes in reverse order from the PreBuildUp calls.</p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">void PostBuildUp(IBuilderContext context)</code></pre>
+    <pre><code class="lang-csharp hljs">void PostBuildUp(IBuilderContext context, object pre = null)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -118,6 +118,11 @@ phase and executes in reverse order from the PreBuildUp calls.</p>
         <td><span class="parametername">context</span></td>
         <td><p>Context of the build operation.</p>
 </td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Object</span></td>
+        <td><span class="parametername">pre</span></td>
+        <td></td>
       </tr>
     </tbody>
   </table>
@@ -137,7 +142,7 @@ forward direction.</p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">void PreBuildUp(IBuilderContext context)</code></pre>
+    <pre><code class="lang-csharp hljs">object PreBuildUp(IBuilderContext context)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -154,6 +159,21 @@ forward direction.</p>
         <td><span class="parametername">context</span></td>
         <td><p>Context of the build operation.</p>
 </td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Object</span></td>
+        <td></td>
       </tr>
     </tbody>
   </table>
