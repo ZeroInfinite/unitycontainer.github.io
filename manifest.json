@@ -2299,7 +2299,7 @@
       "output": {
         ".html": {
           "relative_path": "tutorials/register-type-injection.html",
-          "hash": "xUKP5RVYHG/Ibjo097kYMw=="
+          "hash": "kK4YZDhgFwashZVje7v/iw=="
         }
       },
       "is_incremental": false,
@@ -2311,7 +2311,7 @@
       "output": {
         ".html": {
           "relative_path": "tutorials/register-type.html",
-          "hash": "tO1khdKTyV9E1kLsMXZtAQ=="
+          "hash": "MRrgtjUK1vJS0fbv1wRoOw=="
         }
       },
       "is_incremental": false,
@@ -2338,11 +2338,6 @@
         "incrementalPhase": "build"
       },
       "processors": {
-        "TocDocumentProcessor": {
-          "can_incremental": false,
-          "details": "Processor TocDocumentProcessor cannot suppport incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
-          "incrementalPhase": "build"
-        },
         "ConceptualDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build"
@@ -2354,6 +2349,11 @@
         "ResourceDocumentProcessor": {
           "can_incremental": false,
           "details": "Processor ResourceDocumentProcessor cannot suppport incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build"
+        },
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot suppport incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
           "incrementalPhase": "build"
         }
       }
