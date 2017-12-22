@@ -2251,7 +2251,79 @@
       "output": {
         ".html": {
           "relative_path": "toc.html",
-          "hash": "6+2RHKsLO6XWnIL/D5ZyWQ=="
+          "hash": "Z4BCSc3gqSnva9TtK6lO5A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "tutorials/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "tutorials/index.html",
+          "hash": "mH16Ut0kqlo1/b+KqclPjg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "tutorials/register-type-injection-constructor.md",
+      "output": {
+        ".html": {
+          "relative_path": "tutorials/register-type-injection-constructor.html",
+          "hash": "cSshHzRjrhgBVTklP87Hiw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "tutorials/register-type-injection-property.md",
+      "output": {
+        ".html": {
+          "relative_path": "tutorials/register-type-injection-property.html",
+          "hash": "WJehMj350sX+o9tWT7P0mQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "tutorials/register-type-injection.md",
+      "output": {
+        ".html": {
+          "relative_path": "tutorials/register-type-injection.html",
+          "hash": "xUKP5RVYHG/Ibjo097kYMw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "tutorials/register-type.md",
+      "output": {
+        ".html": {
+          "relative_path": "tutorials/register-type.html",
+          "hash": "tO1khdKTyV9E1kLsMXZtAQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "tutorials/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "tutorials/toc.html",
+          "hash": "4rUEHgudaMjgkua4efUDfA=="
         }
       },
       "is_incremental": false,
@@ -2266,6 +2338,11 @@
         "incrementalPhase": "build"
       },
       "processors": {
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot suppport incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build"
+        },
         "ConceptualDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build"
@@ -2277,11 +2354,6 @@
         "ResourceDocumentProcessor": {
           "can_incremental": false,
           "details": "Processor ResourceDocumentProcessor cannot suppport incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
-          "incrementalPhase": "build"
-        },
-        "TocDocumentProcessor": {
-          "can_incremental": false,
-          "details": "Processor TocDocumentProcessor cannot suppport incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
           "incrementalPhase": "build"
         }
       }
