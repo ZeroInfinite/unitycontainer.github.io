@@ -2271,6 +2271,18 @@
     },
     {
       "type": "Conceptual",
+      "source_relative_path": "tutorials/register-instance.md",
+      "output": {
+        ".html": {
+          "relative_path": "tutorials/register-instance.html",
+          "hash": "YGexIzr+RbII1jylIa/D3A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
       "source_relative_path": "tutorials/register-type-injection-constructor.md",
       "output": {
         ".html": {
@@ -2312,6 +2324,18 @@
         ".html": {
           "relative_path": "tutorials/register-type.html",
           "hash": "MRrgtjUK1vJS0fbv1wRoOw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "tutorials/registration.md",
+      "output": {
+        ".html": {
+          "relative_path": "tutorials/registration.html",
+          "hash": "O9Rtv0hy2VBTo9uTylUNjw=="
         }
       },
       "is_incremental": false,
